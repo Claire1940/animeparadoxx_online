@@ -1,1 +1,1923 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki Anime Paradox X - Codes, Tier List, Équipes & Traits",
+      "description": "Wiki Anime Paradox X avec codes actifs, tier lists des unités, meilleures équipes, traits, évolutions, modes de jeu, routes de farm et conseils de progression pour débutants pour le jeu de tower defense d'anime à IA intelligente à 360 degrés sur Roblox.",
+      "keywords": "Anime Paradox X, codes Anime Paradox X, wiki Anime Paradox X, tier list des unités, meilleures équipes, traits, évolution, modes de jeu, tower defense Roblox",
+      "ogTitle": "Wiki Anime Paradox X - Codes, Tier List, Équipes & Traits",
+      "ogDescription": "Wiki Anime Paradox X avec codes actifs, tier lists des unités, meilleures équipes, traits, évolutions, modes de jeu et routes de farm pour le jeu de tower defense d'anime Roblox.",
+      "twitterTitle": "Wiki Anime Paradox X - Codes, Tier List, Équipes & Traits",
+      "twitterDescription": "Le Wiki Anime Paradox X couvre les codes actifs, les tier lists des unités, les équipes, les traits, les évolutions, les modes de jeu et les notes de mise à jour pour le jeu de tower defense d'anime Roblox."
+    }
+  },
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "units": "Unités",
+    "rankings": "Classements",
+    "systems": "Systèmes",
+    "evolution": "Évolution",
+    "updates": "Mises à jour"
+  },
+  "common": {
+    "home": "Accueil",
+    "more": "Plus",
+    "playNow": "Jouer sur Steam",
+    "switchLanguage": "Changer de langue",
+    "switchTheme": "Changer de thème",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre",
+    "notFound": "Page non trouvée",
+    "notFoundDescription": "La page que vous recherchez n'existe pas.",
+    "backToHome": "Retour à l'accueil",
+    "relatedArticles": "Articles similaires",
+    "readMore": "Lire la suite",
+    "articlesComingSoon": "Articles à venir"
+  },
+  "hero": {
+    "badge": "Tower Defense d'Anime à IA Intelligente à 360°",
+    "title": "Wiki Anime Paradox X",
+    "description": "Constituez une puissante équipe d'unités d'anime, défendez un champ de bataille à 360 degrés avec un combat à IA intelligente, et maîtrisez les traits, l'évolution, les modes et la progression de l'équipe.",
+    "getFreeCodesCTA": "Obtenir des codes gratuits",
+    "playOnRobloxCTA": "Jouer sur Roblox",
+    "stats": {
+      "stat1": {
+        "value": "27M+",
+        "label": "Visites totales"
+      },
+      "stat2": {
+        "value": "22,7K",
+        "label": "Pic de CCU"
+      },
+      "stat3": {
+        "value": "96%",
+        "label": "Évaluation des utilisateurs"
+      },
+      "stat4": {
+        "value": "7",
+        "label": "Codes actifs"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay d'Anime Paradox X",
+    "description": "Invoquez des unités dotées d'une IA intelligente, composez des équipes à six emplacements, tirez des traits, faites évoluer vos carries et défendez une base centrale contre des vagues à 360 degrés dans ce jeu de tower defense d'anime sur Roblox."
+  },
+  "tools": {
+    "title": "Anime Paradox X",
+    "titleHighlight": "Wiki",
+    "subtitle": "Codes actifs, tier lists des unités, meilleures équipes, traits, évolutions, modes de jeu et notes de mise à jour pour Anime Paradox X",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Codes Anime Paradox X",
+        "description": "Codes de récompense actifs et comment les utiliser"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guide du débutant pour Anime Paradox X",
+        "description": "Itinéraire de la première session, effectif et ordre d'amélioration"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier list des unités d'Anime Paradox X",
+        "description": "Unités de rang S+, S, A et B, ainsi que les rôles clés"
+      },
+      {
+        "icon": "Users",
+        "title": "Meilleures équipes d'Anime Paradox X",
+        "description": "Équipes de début, milieu, fin de partie et par mode"
+      },
+      {
+        "icon": "Dna",
+        "title": "Traits et rerolls d'Anime Paradox X",
+        "description": "Meilleurs traits et priorités de reroll des statistiques"
+      },
+      {
+        "icon": "FlaskConical",
+        "title": "Guide d'évolution d'Anime Paradox X",
+        "description": "Éthéréalisation et itinéraires prioritaires d'évolution"
+      },
+      {
+        "icon": "Map",
+        "title": "Modes de jeu d'Anime Paradox X",
+        "description": "Histoire, Raids, Siège, Portails, Infini et AFK"
+      },
+      {
+        "icon": "Clock",
+        "title": "Mises à jour d'Anime Paradox X",
+        "description": "Chronologie de la ressortie, correctifs et notes de mise à jour"
+      }
+    ]
+  },
+  "modules": {
+    "animeParadoxCodes": {
+      "title": "Codes Anime Paradox X",
+      "intro": "Copiez chaque code exactement comme indiqué et utilisez-le dans le menu Codes sur le côté droit de l'écran de jeu. La liste active a été vérifiée le 16 juillet 2026, et l'archive conserve au même endroit les anciens codes de lancement, de mise à jour, de palier, d'événement et de compensation.",
+      "workingLabel": "Codes actifs",
+      "expiredLabel": "Codes expirés",
+      "redeemLabel": "Comment utiliser les codes",
+      "troubleLabel": "Pourquoi un code peut ne pas fonctionner",
+      "verifiedDate": "2026-07-16",
+      "copyLabel": "Copier",
+      "workingCodes": [
+        {
+          "code": "BIGTHINGSSOON",
+          "rewards": "Récompenses gratuites"
+        },
+        {
+          "code": "OOPSIES!!",
+          "rewards": "Récompenses gratuites"
+        },
+        {
+          "code": "Re-Release!",
+          "rewards": "50 Relances de trait, 2 000 Gemmes, 7 500 Or, 9 Essences vertes, 3 Autres essences et 1 Essence arc-en-ciel"
+        },
+        {
+          "code": "PARADOX!!",
+          "rewards": "50 Relances de trait, 2 500 Gemmes et 2 000 Pièces APX"
+        },
+        {
+          "code": "HolyMoly",
+          "rewards": "75 Relances de trait, 5 000 Gemmes, 35 Puces de stats et 25 Super puces de stats"
+        },
+        {
+          "code": "NoctisBoctis",
+          "rewards": "1 Relance de trait, 1 Gemme et 1 Or"
+        },
+        {
+          "code": "SORRYFORDELAY!!",
+          "rewards": "50 Relances de trait, 1 000 Gemmes et 1 512 Or"
+        }
+      ],
+      "expiredCodes": [
+        {
+          "code": "NyoHo",
+          "rewards": "135 Relances de trait, 75 Trophées de race, 5 Essences arc-en-ciel, 15 Puces de stats et 10 Super puces de stats"
+        },
+        {
+          "code": "SBR!",
+          "rewards": "135 Relances de trait, 75 Trophées de race, 5 Essences arc-en-ciel, 15 Puces de stats et 10 Super puces de stats"
+        },
+        {
+          "code": "UPDATE3.5!",
+          "rewards": "135 Relances de trait, 75 Trophées de race, 5 Essences arc-en-ciel, 15 Puces de stats et 10 Super puces de stats"
+        },
+        {
+          "code": "FreeTrophies",
+          "rewards": "135 Relances de trait, 75 Trophées de race, 5 Essences arc-en-ciel, 15 Puces de stats et 10 Super puces de stats"
+        },
+        {
+          "code": "SORRYFORBUGS",
+          "rewards": "Récompenses gratuites"
+        },
+        {
+          "code": "RESTOCK",
+          "rewards": "Récompenses gratuites"
+        },
+        {
+          "code": "Update3Fumble",
+          "rewards": "150 Relances de trait"
+        },
+        {
+          "code": "FreeStats",
+          "rewards": "30 Puces de stats et 20 Super puces de stats"
+        },
+        {
+          "code": "UPDATE3!",
+          "rewards": "35 Puces de stats et 5 000 Dabloons"
+        },
+        {
+          "code": "FATE!",
+          "rewards": "25 Relances de trait, 3 Essences arc-en-ciel et 5 000 Dabloons"
+        },
+        {
+          "code": "KANEKIRISES",
+          "rewards": "30 Relances de trait et 3 000 Gemmes"
+        },
+        {
+          "code": "ONEEYEAWAKENING",
+          "rewards": "10 Relances de trait et 1 500 Gemmes"
+        },
+        {
+          "code": "GHOULPOWER",
+          "rewards": "25 Relances de trait et 2 000 Gemmes"
+        },
+        {
+          "code": "Sorry4Delay",
+          "rewards": "15 Super puces de stats et 30 Puces de stats"
+        },
+        {
+          "code": "DUNGEONINCIDENT",
+          "rewards": "Récompenses gratuites"
+        },
+        {
+          "code": "SHUTDOWN_FIX",
+          "rewards": "Récompenses gratuites"
+        },
+        {
+          "code": "RAGNAR",
+          "rewards": "Monnaie Ragnar"
+        },
+        {
+          "code": "400KMEMBERS",
+          "rewards": "25 relances de trait, 25 puces de stats et 10 000 Ragnar"
+        },
+        {
+          "code": "BUGFIXES",
+          "rewards": "50 relances de trait et 10 000 Ragnar"
+        },
+        {
+          "code": "ANIMEPARADOX2026",
+          "rewards": "50 relances de trait et 5 super puces de stats"
+        },
+        {
+          "code": "RECORDOFRAGNAROK",
+          "rewards": "50 relances de trait et 15 000 Ragnar"
+        },
+        {
+          "code": "5MINUTEDELAY",
+          "rewards": "10 relances de trait, 5 super puces de stats et 10 puces de stats"
+        },
+        {
+          "code": "20KCCU",
+          "rewards": "20 000 énergie occulte, 2 500 gemmes et 40 relances de trait"
+        },
+        {
+          "code": "MELOINTERACTIVE!",
+          "rewards": "3 500 gemmes et 20 relances de trait"
+        },
+        {
+          "code": "UPDATE1.5",
+          "rewards": "30 relances de trait et 30 puces de stats"
+        },
+        {
+          "code": "YUTAGOAT",
+          "rewards": "10 000 énergie occulte et 50 relances de trait"
+        },
+        {
+          "code": "HERESTHECODE",
+          "rewards": "100 000 énergie occulte, 45 relances de trait, 30 puces de stats et 5 super puces de stats"
+        },
+        {
+          "code": "VALENTINESDAY!",
+          "rewards": "500 cœurs, 1 500 gemmes et 20 relances de trait"
+        },
+        {
+          "code": "UPDATE1",
+          "rewards": "5 000 énergie occulte, 3 500 gemmes et 25 relances de trait"
+        },
+        {
+          "code": "SORRYBUNDLE",
+          "rewards": "40 000 énergie occulte et 50 relances de trait"
+        },
+        {
+          "code": "SORRYFORLATE",
+          "rewards": "500 cœurs, 1 500 gemmes et 20 relances de trait"
+        },
+        {
+          "code": "SORRYFORDELAY",
+          "rewards": "2 500 gemmes et 25 relances de trait"
+        },
+        {
+          "code": "10MILVISITS",
+          "rewards": "3 000 gemmes et 45 relances de trait"
+        },
+        {
+          "code": "UPDATE1MAINTENCEDELAY",
+          "rewards": "20 000 énergie occulte, 20 relances de trait et 3 500 cœurs"
+        },
+        {
+          "code": "40KLIKES!",
+          "rewards": "3 500 gemmes et 20 relances de traits"
+        },
+        {
+          "code": "NAILONG!",
+          "rewards": "7 500 gemmes et 50 relances de traits"
+        },
+        {
+          "code": "30KLIKES!",
+          "rewards": "5 000 gemmes et 15 relances de traits"
+        },
+        {
+          "code": "ThankYou!",
+          "rewards": "1 500 gemmes et 5 relances de traits"
+        },
+        {
+          "code": "100KMEMBERS",
+          "rewards": "7 500 gemmes, 50 relances de traits, 35 puces de stats et 15 super puces de stats"
+        },
+        {
+          "code": "15KLIKES!",
+          "rewards": "5 000 gemmes, 20 puces de stats et 10 super puces de stats"
+        },
+        {
+          "code": "1MVISITS!",
+          "rewards": "3 500 gemmes et 20 relances de traits"
+        },
+        {
+          "code": "SORRYCODE",
+          "rewards": "15 000 gemmes et 35 relances de traits"
+        },
+        {
+          "code": "RELEASE!",
+          "rewards": "500 gemmes"
+        },
+        {
+          "code": "1KLIKES!",
+          "rewards": "250 gemmes"
+        },
+        {
+          "code": "2.5KLIKES",
+          "rewards": "250 gemmes"
+        },
+        {
+          "code": "5KLIKES",
+          "rewards": "500 gemmes"
+        },
+        {
+          "code": "10KCCU",
+          "rewards": "500 gemmes et 5 relances de traits"
+        },
+        {
+          "code": "SORRYIGRIS",
+          "rewards": "5 000 gemmes et 25 relances de traits"
+        },
+        {
+          "code": "GEMSBUFFED!",
+          "rewards": "5 000 gemmes et 25 relances de traits"
+        },
+        {
+          "code": "GIVEGEMSPLEASE",
+          "rewards": "7 000 gemmes"
+        }
+      ],
+      "redeemSteps": [
+        "Lancez Anime Paradox X sur Roblox.",
+        "Sélectionnez Codes dans le menu sur le côté droit de l'écran.",
+        "Collez un code valide dans le champ Entrer le code.",
+        "Appuyez sur Échanger et récupérez les récompenses."
+      ],
+      "troubleshooting": [
+        "Le code a été saisi avec une mauvaise casse, ponctuation ou un mauvais nombre de points d'exclamation.",
+        "Le code a expiré après une mise à jour, un événement, un palier ou une courte période de compensation.",
+        "Le serveur actuel n'a pas redémarré depuis la sortie du code ; rejoignez un serveur plus récent.",
+        "Le code a déjà été utilisé sur ce compte Roblox.",
+        "Le compte n'a pas atteint les conditions requises en jeu pour l'utilisation des codes."
+      ]
+    },
+    "animeParadoxBeginnerGuide": {
+      "title": "Guide du débutant pour Anime Paradox X",
+      "intro": "Anime Paradox X utilise des unités dotées d'une IA intelligente qui combattent autour d'une base centrale alors que les ennemis approchent de toutes les directions. Une progression rapide s'obtient en formant une équipe équilibrée de six emplacements, en terminant le mode Story jusqu'au prochain obstacle majeur, et en améliorant l'unité capable de surmonter ce blocage plutôt qu'en dispersant les ressources sur toute la collection.",
+      "stepsLabel": "Parcours de la première session",
+      "checklistLabel": "Liste de contrôle de la première session",
+      "steps": [
+        {
+          "title": "Utiliser les codes actuels",
+          "goal": "Commencez avec les Gems, Trait Rerolls, Gold, Stat Chips, Essences et APX Coins gratuits.",
+          "actions": [
+            "Ouvrez le menu Codes sur la droite et utilisez tous les codes valides avant d'invoquer.",
+            "Utilisez vos Gems pour constituer une équipe jouable.",
+            "Gardez les Trait Rerolls, Stat Chips, Super Stat Chips et les Essences rares pour les unités qui resteront dans l'équipe."
+          ],
+          "avoid": "Ne dépensez pas vos ressources d'amélioration premium sur la première unité que vous obtenez."
+        },
+        {
+          "title": "Définissez les rôles avant de chercher la rareté",
+          "goal": "Créez une équipe capable de survivre à une pression venant de toutes parts.",
+          "actions": [
+            "Choisissez un carry DPS principal.",
+            "Ajoutez une unité AoE ou un DPS secondaire pour nettoyer les vagues d'ennemis.",
+            "Utilisez Bulla pour l'économie dès que possible.",
+            "Réservez un emplacement pour le soin ou les buffs, et un autre pour le contrôle de foule, le tanking ou les debuffs.",
+            "Utilisez le dernier emplacement comme choix flexible selon le mode de jeu."
+          ],
+          "avoid": "Ne remplissez pas tous les emplacements avec du pur DPS ; les niveaux difficiles récompensent le soin, les buffs, les ralentissements, les étourdissements et le farming."
+        },
+        {
+          "title": "Utilisez un noyau de départ pratique",
+          "goal": "Terminez le début du mode Story sans attendre les unités Secret ou Paradox.",
+          "actions": [
+            "Ciel (Super) est un carry de début de jeu pratique car elle est facile à faire évoluer et possède une large zone d'effet (AoE).",
+            "Brolu (Super) offre des dégâts progressifs et une bonne résistance en première ligne.",
+            "Kirrua (Godspeed) apporte des dégâts ainsi qu'un contrôle de foule fiable.",
+            "Bulla gère l'économie, tandis que Sakura peut s'occuper du soutien au début.",
+            "Shadow Vampire est une cible accessible dans l'AFK Chamber avec un puissant Time Stop global."
+          ],
+          "avoid": "Considérez les unités de départ et de soutien temporaires comme des tremplins, et non comme des cibles permanentes pour vos Stat Chips ou matériaux d'évolution."
+        },
+        {
+          "title": "Avancez dans le mode Story jusqu'au prochain véritable blocage",
+          "goal": "Débloquez la progression et identifiez la faiblesse exacte de votre équipe.",
+          "actions": [
+            "Terminez les actes du mode Story dans l'ordre et recommencez le niveau le plus récent que vous maîtrisez lorsque vous avez besoin de niveaux ou de Gold.",
+            "En cas d'échec, déterminez si le problème vient des dégâts sur le boss, du nettoyage des vagues, de la survie, du contrôle de foule ou de la lenteur des améliorations.",
+            "Corrigez ce rôle spécifique avant de retenter le niveau."
+          ],
+          "avoid": "N'abandonnez pas le mode Story pour farmer tous les modes secondaires en même temps."
+        },
+        {
+          "title": "Améliorez dans un ordre précis",
+          "goal": "Faites d'une unité un carry fiable avant de développer le reste de l'équipe.",
+          "actions": [
+            "Montez d'abord le niveau du carry principal.",
+            "Faites évoluer le carry lorsque sa forme évoluée ajoute un passif majeur, une capacité active, une amélioration d'AoE ou une mécanique de scaling.",
+            "Améliorez Bulla et le support principal suffisamment pour qu'ils remplissent leur rôle.",
+            "Développez le DPS secondaire une fois que les trois unités de base sont stables.",
+            "Utilisez les Stat Chips et Super Stat Chips sur les unités Mythic, Secret ou Paradox à long terme."
+          ],
+          "avoid": "Ne répartissez pas équitablement les niveaux, les chips et les objets d'évolution sur six unités inachevées."
+        },
+        {
+          "title": "---",
+          "goal": "Gardez les relances de traits pour les unités à long terme",
+          "actions": [
+            "Évitez de gaspiller vos relances sur des unités de transition.",
+            "Utilisez Eternal sur de nombreuses unités DPS de haut niveau.",
+            "Utilisez Vampiric sur les unités nécessitant du sustain ou combattant en première ligne.",
+            "Utilisez Angelic ou Blessing sur les unités de soutien et de soin dédiées.",
+            "Utilisez Greed sur Bulla et les autres unités d'économie."
+          ],
+          "avoid": "Relancez après avoir choisi le rôle permanent de l'unité et terminé sa voie d'évolution principale."
+        },
+        {
+          "title": "Ne cherchez pas un trait Mythic parfait sur une unité que vous prévoyez de remplacer bientôt.",
+          "goal": "Farmez les déblocages ciblés de milieu de jeu",
+          "actions": [
+            "Remplacez les unités de départ par des unités liées à des modes spécifiques.",
+            "Farmez Ichuga dans le Legend Stage Hollow Act 3 pour obtenir un carry Secret tôt.",
+            "Farmez Sun Jin Wu dans le Raid Act 3 pour le scaling en mode long.",
+            "Achetez Igrus dans le Siege Shop et associez-le à Sun Jin Wu.",
+            "Farmez les Portails JJK pour Sakuno et Brojo quand l'équipe peut les terminer régulièrement."
+          ],
+          "avoid": "Utilisez la monnaie Ragnar pour Wukong, Buddha et Poseidon quand ces unités répondent à un vrai besoin de l'équipe."
+        },
+        {
+          "title": "Ne farmez pas une unité de fin de jeu avant que votre équipe actuelle puisse réussir son mode de manière fiable.",
+          "goal": "Établissez une boucle de progression stable",
+          "actions": [
+            "Quittez la première session avec une prochaine étape claire.",
+            "Confirmez que le carry principal, l'unité d'économie et une unité de soutien ou de contrôle sont équipés.",
+            "Assurez-vous que les relances de traits et les puces rares sont économisées plutôt que dépensées sur des unités de transition."
+          ],
+          "avoid": "Choisissez le prochain farm d'unité ou de matériau avant de quitter le lobby."
+        }
+      ],
+      "checklist": [
+        "Ne vous déconnectez pas sans avoir choisi une cible d'amélioration pour la prochaine session.",
+        "Tous les codes valides ont été utilisés",
+        "Un carry principal sélectionné",
+        "Un DPS de zone ou secondaire sélectionné",
+        "Bulla ou une autre option d'économie équipée",
+        "Un soigneur, buffer ou unité de contrôle équipé",
+        "Histoire avancée jusqu'à un mur de progression clair",
+        "Relances de traits et puces rares économisées"
+      ]
+    },
+    "animeParadoxUnitTierList": {
+      "title": "Prochain farm d'unité ou de matériau choisi avant de quitter le lobby",
+      "intro": "Tier List des unités de Anime Paradox X",
+      "tiers": [
+        {
+          "tier": "La composition la plus efficace combine un carry DPS à scaling ou global avec de l'économie, du soin ou des buffs, et du contrôle de foule. Les équipes de fin de jeu privilégient les unités Secret et Paradox, tandis que plusieurs unités Mythic, Exclusive, Legendary et Epic restent importantes car elles couvrent le farm, le soin, le ralentissement, l'étourdissement, le bouclier ou la progression de départ.",
+          "label": "S+",
+          "units": [
+            {
+              "name": "Carrys meta et noyaux de fin de jeu",
+              "rarity": "Super Vegito (Transforming)",
+              "role": "Quête de fin de jeu",
+              "bestUse": "DPS principal",
+              "recommendedTrait": "Équipes de fin de jeu et modes les plus difficiles",
+              "evolutionPriority": "Eternal",
+              "acquisition": "Terminez la quête d'Elder Kai Vegeto après avoir progressé dans la Tower of DBZ"
+            },
+            {
+              "name": "Storrk (Resurreccion)",
+              "rarity": "Paradox",
+              "role": "DPS global et burst de boss",
+              "bestUse": "Vagues infinies, de siège et de boss",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Priorité absolue",
+              "acquisition": "Bannière Paradox"
+            },
+            {
+              "name": "Megumo (Ten Shadows)",
+              "rarity": "Paradox",
+              "role": "DPS invocateur",
+              "bestUse": "Combats infinis et de boss via le Général Moharoga",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Priorité absolue",
+              "acquisition": "Bannière Paradox"
+            },
+            {
+              "name": "Zid (Atomic)",
+              "rarity": "Secret",
+              "role": "DPS de zone global",
+              "bestUse": "Vagues infinies, de siège et burst d'urgence sur toute la carte",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Priorité absolue",
+              "acquisition": "Bannière Secrète"
+            },
+            {
+              "name": "Death Reaper (Souls) / Hades",
+              "rarity": "Secret",
+              "role": "DPS soutenu et bruiser",
+              "bestUse": "Combats longs, boss et étapes difficiles",
+              "recommendedTrait": "Vampirique ou Éternel",
+              "evolutionPriority": "Priorité absolue",
+              "acquisition": "Portail Secret"
+            },
+            {
+              "name": "Bumta (True Love) / Yuta",
+              "rarity": "Secret",
+              "role": "DPS pur et carry anti-boss",
+              "bestUse": "Boss, raids et dégâts généraux de fin de partie",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Priorité absolue",
+              "acquisition": "Déblocage secret de la mise à jour 1.5"
+            },
+            {
+              "name": "Sakuno (Curse King) / Sukuna",
+              "rarity": "Secret",
+              "role": "DPS et debuffer d'équipe",
+              "bestUse": "Boss, raids et farm de portails",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Priorité absolue",
+              "acquisition": "Secret du Portail JJK"
+            },
+            {
+              "name": "Roi Singe (Couronné) / Wukong",
+              "rarity": "Secret",
+              "role": "DPS soutenu",
+              "bestUse": "Infini et combats de boss",
+              "recommendedTrait": "Vampirique ou Éternel",
+              "evolutionPriority": "Priorité absolue",
+              "acquisition": "Déblocage de monnaie Ragnar"
+            },
+            {
+              "name": "Qun Sha Buang (Éveillé) / Qin Shi Huang",
+              "rarity": "Secret",
+              "role": "DPS, ralentissement et burst anti-boss",
+              "bestUse": "Vagues de boss et équipes orientées contrôle",
+              "recommendedTrait": "Vampirique ou Éternel",
+              "evolutionPriority": "Priorité absolue",
+              "acquisition": "Portail Secret"
+            },
+            {
+              "name": "Brojo (Six Eyes)",
+              "rarity": "Secret",
+              "role": "Soutien offensif et DPS",
+              "bestUse": "Étourdissements, ralentissements, amplification de dégâts, raids et portails",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Priorité absolue",
+              "acquisition": "Secret du Portail JJK"
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "label": "Excellents carries et spécialistes de haute valeur",
+          "units": [
+            {
+              "name": "Sun Jin Wu (Monarque)",
+              "rarity": "Secret",
+              "role": "DPS évolutif et exécution",
+              "bestUse": "Infini et niveaux longs",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Très élevée",
+              "acquisition": "Secret du Raid Acte 3"
+            },
+            {
+              "name": "Igrus (Chevalier d'Élite)",
+              "rarity": "Secret",
+              "role": "DPS de saignement et bruiser évolutif",
+              "bestUse": "Infini avec Sun Jin Wu",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Très élevée en duo avec Sun Jin Wu",
+              "acquisition": "Secret de la Boutique de Siège"
+            },
+            {
+              "name": "Ichuga (Vasto Lorde)",
+              "rarity": "Secret",
+              "role": "DPS saignement et auto-soin",
+              "bestUse": "Raids et dégâts contre les boss",
+              "recommendedTrait": "Éternel ou Vampirique",
+              "evolutionPriority": "Très élevé pour la progression de début à milieu de partie",
+              "acquisition": "Stage Légende Hollow Acte 3 Secret"
+            },
+            {
+              "name": "Maeto (Forme véritable) / Mahito",
+              "rarity": "Secret",
+              "role": "DPS boss et debuffeur",
+              "bestUse": "Boss et élimination des vagues affaiblies",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Élevé",
+              "acquisition": "Faire évoluer la forme Mythique de la bannière en sa forme Secrète"
+            },
+            {
+              "name": "Amun",
+              "rarity": "Mythique",
+              "role": "Tank anti-boss et support",
+              "bestUse": "Niveaux de boss et équipes axées sur la survie",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Élevé pour la progression contre les boss",
+              "acquisition": "Mythique de la bannière"
+            },
+            {
+              "name": "Dieu de la mer (Tempête) / Poséidon",
+              "rarity": "Mythique",
+              "role": "DPS",
+              "bestUse": "Vagues régulières et dégâts continus",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Élevé",
+              "acquisition": "Déverrouillage avec la monnaie Ragnar"
+            },
+            {
+              "name": "Le Hollow (Flammes) / Buddha",
+              "rarity": "Mythique",
+              "role": "DPS continu et auto-soin",
+              "bestUse": "Combats longs et niveaux difficiles",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Élevé",
+              "acquisition": "Déverrouillage avec la monnaie Ragnar"
+            },
+            {
+              "name": "Getu (Parade) / Geto",
+              "rarity": "Mythique",
+              "role": "DPS, soin et debuff",
+              "bestUse": "Progression générale et équipes de contenu mixte",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Élevé",
+              "acquisition": "Mythique de bannière"
+            },
+            {
+              "name": "Brolu (Super)",
+              "rarity": "Mythique",
+              "role": "DPS évolutif et tank de première ligne",
+              "bestUse": "Infini, Siège et niveaux longs",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Élevé",
+              "acquisition": "Mythique de bannière"
+            },
+            {
+              "name": "Kirrua (Godspeed)",
+              "rarity": "Mythique",
+              "role": "DPS et contrôle de foule",
+              "bestUse": "Progression générale, portails et soutien d'étourdissement",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Élevé",
+              "acquisition": "Mythique de bannière"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Choix de rôle forts et unités de progression fiables",
+          "units": [
+            {
+              "name": "Panther Grimjaw (Resurreccion)",
+              "rarity": "Mythique",
+              "role": "DPS pur",
+              "bestUse": "Dégâts généraux et pression sur les boss",
+              "recommendedTrait": "Vampirique",
+              "evolutionPriority": "Élevé si c'est votre meilleur carry",
+              "acquisition": "Mythique de bannière"
+            },
+            {
+              "name": "Eryu (Antithèse)",
+              "rarity": "Mythique",
+              "role": "DPS de backline et de boss",
+              "bestUse": "Combats de boss",
+              "recommendedTrait": "Éternel ou Vampirique",
+              "evolutionPriority": "Moyen-élevé",
+              "acquisition": "Mythique de bannière"
+            },
+            {
+              "name": "Ciel (Super)",
+              "rarity": "Mythique",
+              "role": "DPS de départ et zone complète",
+              "bestUse": "Début du mode Histoire et nettoyage de vagues",
+              "recommendedTrait": "Vampirique",
+              "evolutionPriority": "Élevé au début, à remplacer plus tard",
+              "acquisition": "Mythique de bannière"
+            },
+            {
+              "name": "Ulquiarro (Murcielago)",
+              "rarity": "Mythique",
+              "role": "Support ralentisseur et DPS robuste",
+              "bestUse": "Contrôle de foule et défense du cœur",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Moyen-élevé",
+              "acquisition": "Mythique de bannière"
+            },
+            {
+              "name": "Acier",
+              "rarity": "Mythique",
+              "role": "Tank, bouclier et buffer d'équipe",
+              "bestUse": "Niveaux où les ennemis submergent les carries fragiles",
+              "recommendedTrait": "Vampirique",
+              "evolutionPriority": "Moyen et dépendant du mode",
+              "acquisition": "Mythique de bannière"
+            },
+            {
+              "name": "Exécuteur (Éveillé)",
+              "rarity": "Mythique",
+              "role": "Soin et contrôle de foule",
+              "bestUse": "Niveaux difficiles et équipes de survie",
+              "recommendedTrait": "Vampirique",
+              "evolutionPriority": "Élevé en l'absence de soin",
+              "acquisition": "Unité du Pass de combat"
+            },
+            {
+              "name": "Vampire de l'ombre",
+              "rarity": "Exclusif",
+              "role": "Contrôle de foule global",
+              "bestUse": "Utilité d'arrêt du temps en Infini, Siège et portails",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Moyen-élevé pour sa valeur de support",
+              "acquisition": "Salle AFK"
+            },
+            {
+              "name": "Joegu (Volcanique)",
+              "rarity": "Mythique",
+              "role": "DPS de zone et de brûlure",
+              "bestUse": "Nettoyage de vagues et progression de début à milieu de partie",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Moyen",
+              "acquisition": "Mythique de bannière"
+            },
+            {
+              "name": "Kasheemu (Électrique)",
+              "rarity": "Mythique",
+              "acquisition": "Mythique de bannière",
+              "role": "DPS à montée en puissance",
+              "bestUse": "Combats longs avec un contact ennemi constant",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Moyen"
+            },
+            {
+              "name": "Tuji (Pacte céleste)",
+              "rarity": "Mythique",
+              "acquisition": "Mythique de bannière",
+              "role": "DPS Burst",
+              "bestUse": "Ennemis renforcés et contenu général de milieu de jeu",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Moyen"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Unités situationnelles et carries temporaires",
+          "units": [
+            {
+              "name": "Melio (Colère)",
+              "rarity": "Mythique",
+              "role": "DPS de dégâts sur la durée",
+              "bestUse": "Équipes axées sur la brûlure et les dégâts sur la durée",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Moyen-bas",
+              "acquisition": "Mythique de bannière"
+            },
+            {
+              "name": "Freezo (Puissance maximale)",
+              "rarity": "Mythique",
+              "role": "DPS de zone",
+              "bestUse": "Nettoyage temporaire des vagues",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Bas",
+              "acquisition": "Mythique de bannière"
+            },
+            {
+              "name": "Asto (Démon)",
+              "rarity": "Mythique",
+              "role": "Support anti-bouclier et debuff",
+              "bestUse": "Ennemis spécifiques avec bouclier et équipes de contre réactives",
+              "recommendedTrait": "Vampirique",
+              "evolutionPriority": "Bas sauf si le mode nécessite de l'anti-bouclier",
+              "acquisition": "Mythique de bannière"
+            },
+            {
+              "name": "Megomun (Explosion)",
+              "rarity": "Exclusif",
+              "role": "DPS de zone et de brûlure de départ",
+              "bestUse": "Nettoyage des premières vagues",
+              "recommendedTrait": "Éternel ou Vampirique",
+              "evolutionPriority": "Moyen au début, bas plus tard",
+              "acquisition": "Accès anticipé+ ou Chambre AFK"
+            },
+            {
+              "name": "Chae-In (Lumière)",
+              "rarity": "Mythique",
+              "role": "DPS de début de vague",
+              "bestUse": "Progression temporaire de début de partie",
+              "recommendedTrait": "Vampirique",
+              "evolutionPriority": "Faible",
+              "acquisition": "Mythique de bannière"
+            },
+            {
+              "name": "Sky (Amélioré)",
+              "rarity": "Exclusif",
+              "role": "DPS à montée en puissance",
+              "bestUse": "Infini avec une préparation importante",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Faible et spécifique au mode",
+              "acquisition": "Niveau 25 du Pass de combat"
+            },
+            {
+              "name": "Seth (À une aile)",
+              "rarity": "Exclusif",
+              "role": "DPS de burst",
+              "bestUse": "Compositions à PV faibles avec soutien de soigneur",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Faible et dépendant de la préparation",
+              "acquisition": "Niveau 50 du Pass de combat"
+            },
+            {
+              "name": "Itochi (Flamme éternelle)",
+              "rarity": "Mythique",
+              "acquisition": "Mythique de bannière",
+              "role": "DPS monocible",
+              "bestUse": "Combat prolongé où l'élimination des vagues est assurée par ailleurs",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Moyen-faible"
+            }
+          ]
+        },
+        {
+          "tier": "Rôles",
+          "label": "Meilleures options de soutien, de soin, d'économie et de départ",
+          "units": [
+            {
+              "name": "Idol (Pop)",
+              "rarity": "Mythique",
+              "role": "Buffer et soigneur",
+              "bestUse": "Bonus permanent de dégâts et de vitesse d'attaque après évolution",
+              "recommendedTrait": "Angélique",
+              "evolutionPriority": "Priorité de soutien maximale",
+              "acquisition": "Mythique de bannière"
+            },
+            {
+              "name": "Oreheme (Sacré)",
+              "rarity": "Mythique",
+              "role": "Pur soigneur et soutien défensif",
+              "bestUse": "Niveaux à dégâts élevés et maintien en vie des unités de première ligne",
+              "recommendedTrait": "Bénédiction",
+              "evolutionPriority": "Priorité de soin maximale",
+              "acquisition": "Mythique de bannière"
+            },
+            {
+              "name": "Executioner (Éveillé)",
+              "rarity": "Mythique",
+              "role": "Soigneur et contrôle de foule",
+              "bestUse": "Soutien fiable et étourdissements fréquents",
+              "recommendedTrait": "Vampirique",
+              "evolutionPriority": "Priorité de soutien maximale si disponible",
+              "acquisition": "Unité du Battle Pass"
+            },
+            {
+              "name": "Brojo (Six Eyes)",
+              "rarity": "Secret",
+              "role": "Soutien offensif, ralentissement et étourdissement",
+              "bestUse": "Boss difficiles, raids, portails et contrôle d'urgence",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Priorité maximale",
+              "acquisition": "Secret du Portail JJK"
+            },
+            {
+              "name": "Bulla",
+              "rarity": "Légendaire",
+              "role": "Économie et farming",
+              "bestUse": "Presque toutes les équipes nécessitant des améliorations rapides",
+              "recommendedTrait": "Avarice",
+              "evolutionPriority": "À placer tôt ; ne pas trop investir dans les statistiques de dégâts",
+              "acquisition": "Pool d'unités légendaires"
+            },
+            {
+              "name": "Sakura",
+              "rarity": "Épique",
+              "role": "Soutien de départ",
+              "bestUse": "Début du mode Histoire avant les unités de soutien Mythiques ou Secrètes",
+              "recommendedTrait": "Angélique",
+              "evolutionPriority": "Faible ; utiliser comme soutien temporaire",
+              "acquisition": "Pool d'unités épiques"
+            },
+            {
+              "name": "Shadow Vampire",
+              "rarity": "Exclusif",
+              "role": "Contrôle de foule global",
+              "bestUse": "Arrêter toute la carte pendant les vagues dangereuses",
+              "recommendedTrait": "Éternel",
+              "evolutionPriority": "Élevée pour l'utilité",
+              "acquisition": "Chambre AFK"
+            },
+            {
+              "name": "Ciel (Super)",
+              "rarity": "Mythique",
+              "role": "Carry de départ",
+              "bestUse": "Début de l'histoire, évolution facile et nettoyage complet des vagues en zone (AoE)",
+              "recommendedTrait": "Vampirique",
+              "evolutionPriority": "Élevé uniquement s'il s'agit de votre carry principal",
+              "acquisition": "Mythique de bannière"
+            }
+          ]
+        }
+      ]
+    },
+    "animeParadoxBestTeams": {
+      "title": "Meilleures équipes d'Anime Paradox X",
+      "intro": "Une équipe complète a normalement besoin d'un carry principal, d'une unité DPS secondaire ou globale, d'une unité d'économie, et d'assez de soins, de buffs, de debuffs, d'étourdissements, de ralentissements ou de tanking pour maintenir le noyau en vie. Remplacez un emplacement de dégâts par un support chaque fois que l'équipe meurt avant que ses dégâts ne puissent augmenter.",
+      "whyLabel": "Pourquoi ça fonctionne",
+      "traitsLabel": "Notes sur les traits",
+      "orderLabel": "Ordre d'amélioration",
+      "teams": [
+        {
+          "name": "Équipe pour l'histoire en début de jeu",
+          "stage": "Début de jeu",
+          "bestFor": [
+            "Histoire",
+            "Montée en niveau du compte",
+            "Premières évolutions"
+          ],
+          "slots": [
+            {
+              "slot": "DPS principal",
+              "unit": "Ciel (Super)",
+              "alternatives": [
+                "Brolu (Super)",
+                "Kirrua (Godspeed)",
+                "Votre Mythique de bannière le plus fort"
+              ]
+            },
+            {
+              "slot": "DPS secondaire",
+              "unit": "Brolu (Super)",
+              "alternatives": [
+                "Joegu (Volcanique)",
+                "Megomun (Explosion)",
+                "Panther Grimjaw"
+              ]
+            },
+            {
+              "slot": "Économie",
+              "unit": "Bulla",
+              "alternatives": [
+                "Toute unité de farm disponible"
+              ]
+            },
+            {
+              "slot": "Support",
+              "unit": "Sakura",
+              "alternatives": [
+                "Executioner (Éveillé)",
+                "Idol (Pop)"
+              ]
+            },
+            {
+              "slot": "Contrôle",
+              "unit": "Shadow Vampire",
+              "alternatives": [
+                "Kirrua (Godspeed)",
+                "Ulquiarro (Murcielago)"
+              ]
+            },
+            {
+              "slot": "Flex",
+              "unit": "Meilleure unité de boss ou AoE disponible",
+              "alternatives": [
+                "Eryu (Antithèse)",
+                "Steel",
+                "Asto (Démon)"
+              ]
+            }
+          ],
+          "whyItWorks": "Ciel ou un autre carry Mythique élimine les premières vagues, Bulla accélère les améliorations, et le support ainsi que le contrôle de foule empêchent la base centrale d'être submergée.",
+          "traitNotes": [
+            "Vampirique sur le carry de première ligne",
+            "Cupidité sur Bulla",
+            "Angélique sur Sakura ou Idol"
+          ],
+          "upgradeOrder": [
+            "DPS principal",
+            "Bulla",
+            "Support ou contrôle",
+            "DPS secondaire",
+            "Unité flex"
+          ]
+        },
+        {
+          "name": "Équipe de progression secrète de milieu de partie",
+          "stage": "Milieu de partie",
+          "bestFor": [
+            "Niveaux Légende",
+            "Raids",
+            "Portails JJK",
+            "Farming d'évolution"
+          ],
+          "slots": [
+            {
+              "slot": "DPS principal",
+              "unit": "Ichuga (Vasto Lorde)",
+              "alternatives": [
+                "Maeto (Forme véritable)",
+                "Sakuno (Roi des fléaux)"
+              ]
+            },
+            {
+              "slot": "DPS secondaire",
+              "unit": "Sakuno (Roi des fléaux)",
+              "alternatives": [
+                "Brolu (Super)",
+                "Panther Grimjaw",
+                "Getu (Parade)"
+              ]
+            },
+            {
+              "slot": "Support offensif",
+              "unit": "Brojo (Six Yeux)",
+              "alternatives": [
+                "Kirrua (Vitesse divine)",
+                "Ulquiarro (Murcielago)"
+              ]
+            },
+            {
+              "slot": "Soins ou buffs",
+              "unit": "Idol (Pop)",
+              "alternatives": [
+                "Oreheme (Sacré)",
+                "Exécuteur (Éveillé)"
+              ]
+            },
+            {
+              "slot": "Économie",
+              "unit": "Bulla",
+              "alternatives": [
+                "N'importe quelle unité de farm"
+              ]
+            },
+            {
+              "slot": "Flex",
+              "unit": "Kirrua (Vitesse divine)",
+              "alternatives": [
+                "Vampire de l'ombre",
+                "Steel",
+                "Amun"
+              ]
+            }
+          ],
+          "whyItWorks": "Ichuga et Sakuno fournissent d'importants dégâts monocibles et de saignement, Brojo contrôle les vagues dangereuses, et Idol ou Oreheme stabilise l'équipe tandis que Bulla finance les améliorations.",
+          "traitNotes": [
+            "Éternel sur Ichuga, Sakuno et Brojo",
+            "Angélique sur Idol",
+            "Cupidité sur Bulla"
+          ],
+          "upgradeOrder": [
+            "Ichuga",
+            "Bulla",
+            "Sakuno",
+            "Idol ou Oreheme",
+            "Brojo",
+            "Flex"
+          ]
+        },
+        {
+          "name": "Équipe Meta Endgame",
+          "stage": "Endgame",
+          "bestFor": [
+            "Défis les plus difficiles",
+            "Boss",
+            "Contenu de longue durée"
+          ],
+          "slots": [
+            {
+              "slot": "Carry à progression",
+              "unit": "Sun Jin Wu (Monarque)",
+              "alternatives": [
+                "Storrk (Resurreccion)",
+                "Zid (Atomique)"
+              ]
+            },
+            {
+              "slot": "DPS Bruiser",
+              "unit": "Death Reaper (Âmes) / Hades",
+              "alternatives": [
+                "Bumta (Véritable Amour)",
+                "Super Vegito (Transformable)"
+              ]
+            },
+            {
+              "slot": "DPS de Soutien",
+              "unit": "Monkey King (Couronné) / Wukong",
+              "alternatives": [
+                "Megumo (Dix Ombres)",
+                "Storrk (Resurreccion)"
+              ]
+            },
+            {
+              "slot": "Contrôle de Boss",
+              "unit": "Qun Sha Buang (Éveillé) / Qin Shi Huang",
+              "alternatives": [
+                "Amun",
+                "Brojo (Six Yeux)"
+              ]
+            },
+            {
+              "slot": "DPS Flex",
+              "unit": "Storrk (Resurreccion)",
+              "alternatives": [
+                "Sakuno (Roi des Fléaux)",
+                "Megumo (Dix Ombres)",
+                "Zid (Atomique)",
+                "Bumta (Véritable Amour)"
+              ]
+            },
+            {
+              "slot": "Économie",
+              "unit": "Bulla",
+              "alternatives": [
+                "Remplacez le DPS flex par Idol, Oreheme ou Executioner lorsque la survie est un problème."
+              ]
+            }
+          ],
+          "whyItWorks": "L'équipe combine progression à long terme, dégâts continus élevés, outils anti-boss, contrôle, pression globale et économie. Le cinquième emplacement de dégâts devient un emplacement de soigneur ou de soutien lorsque la survie limite la progression.",
+          "traitNotes": [
+            "Éternel sur Sun Jin Wu",
+            "Vampirique ou Éternel sur Hades et Wukong",
+            "Vampirique ou Éternel sur Qin",
+            "Cupidité sur Bulla"
+          ],
+          "upgradeOrder": [
+            "Bulla jusqu'au palier d'économie requis",
+            "Carry principal",
+            "Hades ou Wukong",
+            "Qin",
+            "DPS flexible"
+          ]
+        },
+        {
+          "name": "Équipe Infini",
+          "stage": "Spécialisé",
+          "bestFor": [
+            "Infini",
+            "Runs à longue progression"
+          ],
+          "slots": [
+            {
+              "slot": "Carry évolutif",
+              "unit": "Sun Jin Wu (Monarque)",
+              "alternatives": [
+                "Megumo (Dix Ombres)",
+                "Storrk (Resurreccion)"
+              ]
+            },
+            {
+              "slot": "DPS de synergie",
+              "unit": "Igrus (Chevalier d'élite)",
+              "alternatives": [
+                "Brolu (Super)",
+                "Hades"
+              ]
+            },
+            {
+              "slot": "DPS global",
+              "unit": "Storrk (Resurreccion)",
+              "alternatives": [
+                "Zid (Atomic)"
+              ]
+            },
+            {
+              "slot": "Contrôle de carte",
+              "unit": "Brojo (Six Yeux)",
+              "alternatives": [
+                "Vampire des ombres",
+                "Kirrua (Vitesse divine)"
+              ]
+            },
+            {
+              "slot": "Sustain",
+              "unit": "Idol (Pop)",
+              "alternatives": [
+                "Oreheme (Sacré)",
+                "Bourreau (Éveillé)"
+              ]
+            },
+            {
+              "slot": "Économie",
+              "unit": "Bulla",
+              "alternatives": [
+                "N'importe quelle unité de farm"
+              ]
+            }
+          ],
+          "whyItWorks": "Sun Jin Wu et Igrus progressent ensemble grâce aux éliminations, Storrk ou Zid couvre la carte, Brojo ou le Vampire des ombres arrête les vagues dangereuses, et un soigneur ou un buffer maintient le noyau de progression en vie.",
+          "traitNotes": [
+            "Éternel sur Sun Jin Wu, Igrus et le DPS global",
+            "Angélique sur Idol",
+            "Cupidité sur Bulla"
+          ],
+          "upgradeOrder": [
+            "Bulla",
+            "Sun Jin Wu",
+            "Igrus",
+            "DPS global",
+            "Support",
+            "Contrôle"
+          ]
+        },
+        {
+          "name": "Équipe de siège",
+          "stage": "Spécialisé",
+          "bestFor": [
+            "Siège",
+            "Farming de la boutique de siège"
+          ],
+          "slots": [
+            {
+              "slot": "DPS principal",
+              "unit": "Storrk (Resurreccion)",
+              "alternatives": [
+                "Zid (Atomic)",
+                "Megumo (Dix Ombres)"
+              ]
+            },
+            {
+              "slot": "Paire évolutive",
+              "unit": "Sun Jin Wu (Monarque)",
+              "alternatives": [
+                "Hades",
+                "Brolu (Super)"
+              ]
+            },
+            {
+              "slot": "DPS de synergie",
+              "unit": "Igrus (Chevalier d'élite)",
+              "alternatives": [
+                "Kirrua (Vitesse divine)",
+                "Getu (Parade)"
+              ]
+            },
+            {
+              "slot": "Contrôle des foules",
+              "unit": "Kirrua (Vitesse divine)",
+              "alternatives": [
+                "Brojo (Six Yeux)",
+                "Vampire de l'ombre",
+                "Ulquiarro (Murcielago)"
+              ]
+            },
+            {
+              "slot": "Soin",
+              "unit": "Oreheme (Sacré)",
+              "alternatives": [
+                "Idole (Pop)",
+                "Bourreau (Éveillé)"
+              ]
+            },
+            {
+              "slot": "Économie",
+              "unit": "Bulla",
+              "alternatives": [
+                "N'importe quelle unité de farming"
+              ]
+            }
+          ],
+          "whyItWorks": "Les dégâts globaux gèrent les ennemis approchant de toutes les directions, Sun Jin Wu et Igrus gagnent en puissance lors des vagues plus longues, et le soin ainsi que le contrôle des foules protègent le noyau.",
+          "traitNotes": [
+            "Eternal sur les trois emplacements de DPS",
+            "Blessing sur Oreheme",
+            "Greed sur Bulla"
+          ],
+          "upgradeOrder": [
+            "Bulla",
+            "Storrk ou Zid",
+            "Sun Jin Wu",
+            "Igrus",
+            "Soigneur",
+            "Contrôle"
+          ]
+        },
+        {
+          "name": "Équipe de Boss et de Raid",
+          "stage": "Spécialisé",
+          "bestFor": [
+            "Boss",
+            "Raids",
+            "Cibles à PV élevés"
+          ],
+          "slots": [
+            {
+              "slot": "Carry de boss",
+              "unit": "Megumo (Dix Ombres)",
+              "alternatives": [
+                "Bumta (Véritable Amour)",
+                "Sakuno (Roi des Fléaux)"
+              ]
+            },
+            {
+              "slot": "DPS soutenu",
+              "unit": "Faucheur de Mort (Âmes) / Hades",
+              "alternatives": [
+                "Ichuga (Vasto Lorde)",
+                "Panther Grimjaw"
+              ]
+            },
+            {
+              "slot": "Tech anti-boss",
+              "unit": "Amun",
+              "alternatives": [
+                "Qin Shi Huang",
+                "Maeto (Forme Véritable)",
+                "Eryu (Antithèse)"
+              ]
+            },
+            {
+              "slot": "Support de dégâts",
+              "unit": "Brojo (Six Yeux)",
+              "alternatives": [
+                "Idol (Pop)",
+                "Kirrua (Vitesse Divine)"
+              ]
+            },
+            {
+              "slot": "Soins",
+              "unit": "Oreheme (Sacré)",
+              "alternatives": [
+                "Exécuteur (Éveillé)",
+                "Idol (Pop)"
+              ]
+            },
+            {
+              "slot": "Économie",
+              "unit": "Bulla",
+              "alternatives": [
+                "Remplacez l'unité d'économie par une sixième unité de combat lors des affrontements courts"
+              ]
+            }
+          ],
+          "whyItWorks": "Megumo, Hades, Bumta, Sakuno et Ichuga infligent d'importants dégâts aux boss, tandis qu'Amun ou Qin apporte une valeur anti-boss et Brojo, Idol ou Oreheme améliore la disponibilité et la survie.",
+          "traitNotes": [
+            "Éternel sur les purs carries de boss",
+            "Vampirique ou Éternel sur Hades",
+            "Bénédiction sur Oreheme",
+            "Cupidité sur Bulla"
+          ],
+          "upgradeOrder": [
+            "Carry de boss",
+            "Bulla quand le combat est long",
+            "Hades",
+            "Tech anti-boss",
+            "Support",
+            "Soigneur"
+          ]
+        },
+        {
+          "name": "Équipe de farm de portails",
+          "stage": "Spécialisé",
+          "bestFor": [
+            "Portails JJK",
+            "Portails secrets",
+            "Complétions répétées"
+          ],
+          "slots": [
+            {
+              "slot": "Nettoyage de vagues",
+              "unit": "Zid (Atomic)",
+              "alternatives": [
+                "Storrk (Resurreccion)",
+                "Joegu (Volcanic)"
+              ]
+            },
+            {
+              "slot": "DPS Boss",
+              "unit": "Ichuga (Vasto Lorde)",
+              "alternatives": [
+                "Sakuno (Roi des Fléaux)",
+                "Bumta (Amour Pur)"
+              ]
+            },
+            {
+              "slot": "Contrôle de foule",
+              "unit": "Brojo (Six Yeux)",
+              "alternatives": [
+                "Vampire de l'ombre",
+                "Kirrua (Vitesse Divine)",
+                "Ulquiarro (Murcielago)"
+              ]
+            },
+            {
+              "slot": "Soins ou Buffs",
+              "unit": "Idole (Pop)",
+              "alternatives": [
+                "Oreheme (Sacré)",
+                "Exécuteur (Éveillé)"
+              ]
+            },
+            {
+              "slot": "Économie",
+              "unit": "Bulla",
+              "alternatives": [
+                "N'importe quelle unité de farm"
+              ]
+            },
+            {
+              "slot": "Flex",
+              "unit": "Amun",
+              "alternatives": [
+                "Steel",
+                "Qin Shi Huang",
+                "Getu (Parade)"
+              ]
+            }
+          ],
+          "whyItWorks": "Un nettoyage de zone global ou large termine rapidement les vagues de portails répétées, un carry boss dédié achève la cible finale, et le contrôle plus les soins réduisent les échecs.",
+          "traitNotes": [
+            "Eternal sur Zid et le carry boss",
+            "Angelic sur Idol",
+            "Greed sur Bulla"
+          ],
+          "upgradeOrder": [
+            "Bulla",
+            "Nettoyage de vagues",
+            "Boss DPS",
+            "Contrôle",
+            "Soutien",
+            "Flex"
+          ]
+        }
+      ]
+    },
+    "animeParadoxTraitsStatRerolls": {
+      "title": "Traits et relances de stats de Anime Paradox X",
+      "intro": "Éternel offre la plus grande augmentation de combat globale, tandis que Vampirique combine dégâts, réduction de temps de recharge et soin pour les unités combattant en première ligne. Angélique renforce les buffers, Bénédiction améliore les soigneurs dédiés, Cupidité est destiné aux unités d'économie, et Zéphyr est une option de vitesse d'attaque solide en attendant un trait Mythique.",
+      "subtitle": "Adaptez chaque trait au rôle réel de l'unité au lieu de chercher le résultat le plus rare sur chaque personnage. Économisez les relances premium et les Super Stat Chips pour les unités évoluées qui restent utiles dans les Raids, le Siège, l'Infini et les Tours.",
+      "traitsLabel": "Trait",
+      "rarityLabel": "Rareté",
+      "rollRateLabel": "Taux d'obtention",
+      "effectLabel": "Effet",
+      "bestForLabel": "Idéal pour",
+      "verdictLabel": "Garder ou relancer",
+      "traits": [
+        {
+          "name": "Éternel",
+          "rarity": "Mythique",
+          "rollRate": "0,10 % · Pity à 1 500",
+          "effect": "+300 % Dégâts, +100 % PV, +50 % Réduction de recharge et Vitesse",
+          "bestFor": "Carrys DPS permanents, unités à montée en puissance, unités AoE globales, équipes Infini et Siège",
+          "keepOrReroll": "À garder absolument. Priorisez ce trait sur des unités telles que Zid, Storrk, Megumo, Sun Jin Wu, Brolu et d'autres carrys à long terme."
+        },
+        {
+          "name": "Vampirique",
+          "rarity": "Mythique",
+          "rollRate": "0,15 % · Pity à 1 000",
+          "effect": "+100 % Dégâts, +40 % Réduction de recharge, 5 % de Soin par élimination",
+          "bestFor": "DPS de première ligne, unités de saignement ou de brûlure, attaquants rapides et unités nécessitant de l'auto-maintien",
+          "keepOrReroll": "À garder sur les unités de combat comme Ichuga, Igrus, Kirrua, Grimjaw, Natzo et d'autres carrys qui réalisent régulièrement des éliminations."
+        },
+        {
+          "name": "Angélique",
+          "rarity": "Mythique",
+          "rollRate": "0,20 % · Pity à 750",
+          "effect": "+30 % à toutes les stats et +25 % de puissance de buff",
+          "bestFor": "Buffers de dégâts, supports de recharge et unités de soutien hybrides",
+          "keepOrReroll": "À garder sur Idol, Gorhan et d'autres unités dont la valeur principale vient du renforcement des coéquipiers."
+        },
+        {
+          "name": "Bénédiction",
+          "rarity": "Mythique",
+          "rollRate": "0,50 % · Pity à 300",
+          "effect": "+30 % Soin global et +15 % Vitesse",
+          "bestFor": "Soigneurs dédiés et unités de soutien défensif",
+          "keepOrReroll": "À garder sur Oreheme et d'autres unités axées sur le soin. Relancez si le rôle principal de l'unité est les dégâts ou le farm."
+        },
+        {
+          "name": "Cupidité",
+          "rarity": "Légendaire",
+          "rollRate": "2,00 %",
+          "effect": "+20% de revenus",
+          "bestFor": "Bulla, Sprintcart et autres unités économiques",
+          "keepOrReroll": "Gardez sur les unités de farm car des revenus plus rapides permettent de déployer les carries coûteux plus tôt. Relancez-le sur les unités de dégâts, de soin et de contrôle."
+        },
+        {
+          "name": "Zephyr",
+          "rarity": "Légendaire",
+          "rollRate": "1,00%",
+          "effect": "+10% de réduction de temps de recharge et +20% de vitesse",
+          "bestFor": "Unités à vitesse d'attaque élevée, passifs à l'impact, unités d'étourdissement et attaquants à cumul",
+          "keepOrReroll": "Gardez comme un trait de progression fort sur des unités comme Kirrua ou Kasheemu jusqu'à ce que Éternel ou Vampirique soit disponible."
+        },
+        {
+          "name": "Slayer",
+          "rarity": "Légendaire",
+          "rollRate": "2,50%",
+          "effect": "+20% de dégâts, +10% de PV, +15% de dégâts aux boss",
+          "bestFor": "Boss de raid, Boss Rush, boss de la Tour et spécialistes cible unique",
+          "keepOrReroll": "Gardez sur une équipe de boss en développement. Remplacez-le plus tard lorsque la même unité obtient Éternel ou Vampirique."
+        },
+        {
+          "name": "Puces de stats et Super puces de stats",
+          "rarity": "Ressource d'amélioration",
+          "rollRate": "Obtenu via les codes, les récompenses de progression, les boutiques et les récompenses de mise à jour",
+          "effect": "Relance les rangs de statistiques individuelles d'une unité pour améliorer ses performances au combat",
+          "bestFor": "Le carry principal évolué en premier, puis l'hybride de fin de partie, le soigneur, le support et l'unité économique",
+          "keepOrReroll": "Utilisez des Puces de stats normales pour obtenir des tirages acceptables. Réservez les Super puces de stats pour les unités Secrètes, Paradoxe, Exclusives ou Mythiques de premier plan terminées."
+        }
+      ]
+    },
+    "animeParadoxEvolutionEtherealization": {
+      "title": "Évolution et Éthérisation d'Anime Paradox X",
+      "intro": "Les voies d'évolution sont liées à des modes et devises spécifiques. Les unités de JJK utilisent les ressources de Sorcier et de Portail, Igrus utilise les récompenses de Siège, Sun Jin Wu utilise la progression de Raid, et Ichuga provient des étapes de Légende Hollow. Construisez un carry complet avant de répartir les Essences rares, les Puces de stats et les relances sur des unités inachevées.",
+      "subtitle": "Terminez une unité de valeur à la fois : montez son niveau, améliorez ses statistiques, terminez l'Éthérisation, collectez ses matériaux d'évolution, puis investissez des traits premium. Les formes évoluées débloquent les passifs et les capacités actives utilisés par les équipes actuelles de fin de partie.",
+      "targetLabel": "Cible",
+      "baseFormLabel": "Forme de base",
+      "requirementsLabel": "Prérequis",
+      "materialSourceLabel": "Source des matériaux",
+      "upgradeGainLabel": "Gain d'amélioration",
+      "priorityLabel": "Priorité",
+      "items": [
+        {
+          "target": "Étape d'éthérisation",
+          "baseForm": "Toute unité éligible à long terme",
+          "requirements": "Montez le niveau de l'unité et soumettez les matériaux affichés dans son menu d'Éthérisation",
+          "materialSource": "Histoire, étapes de Légende, Raids, Siège, Portails, boutiques, codes et récompenses de mise à jour",
+          "upgradeGain": "Croissance permanente de l'unité qui prépare le personnage pour son évolution finale et des modes plus difficiles",
+          "priority": "À compléter avant un investissement important dans les Super puces de stats ou les traits Mythiques"
+        },
+        {
+          "target": "Megumo (Ten Shadows)",
+          "baseForm": "Megumo",
+          "requirements": "25 Heavenly Wheels plus les matériaux d'Essence indiqués",
+          "materialSource": "Voies du Marchand d'or et de la Boutique de Sorcier ; la voie de l'Or coûte 75 000 pièces d'or par Heavenly Wheel",
+          "upgradeGain": "---",
+          "priority": "Débloque l'invocation du Général Moharoga, un meilleur scaling des dégâts, des effets de cooldown et une performance accrue contre les boss"
+        },
+        {
+          "target": "Très élevé · L'un des meilleurs investissements pour les modes longs et les boss",
+          "baseForm": "Sukuno (Roi des Fléaux)",
+          "requirements": "Unité de progression JJK",
+          "materialSource": "5 Doigts Maudits",
+          "upgradeGain": "Boutique des Sorciers ou Portails JJK ; chaque Doigt en boutique coûte 20 000 Énergie Occulte",
+          "priority": "Ajoute de puissants dégâts de boss, une amplification des dégâts ennemis, des debuffs de réduction de dégâts et une attaque de Domaine sur toute la carte"
+        },
+        {
+          "target": "Très élevé · Puissant pour les Portails, Raids, Boss Rush et Tours",
+          "baseForm": "Sun Jin Wu (Monarque)",
+          "requirements": "Sun Jin Wu",
+          "materialSource": "Objet d'évolution de la Boutique de Raid",
+          "upgradeGain": "Acte 3 du Raid et Boutique de Raid ; le chemin d'évolution nécessite 1 450 Pièces de Raid",
+          "priority": "Améliore le scaling par élimination, la réduction de cooldown, le sustain, les effets d'exécution et la synergie avec Igrus"
+        },
+        {
+          "target": "Très élevé · Carry essentiel pour le mode Infini et les autres modes prolongés",
+          "baseForm": "Igrus (Chevalier d'Élite)",
+          "requirements": "Igrus",
+          "materialSource": "5 Casques d'Igrus brisés",
+          "upgradeGain": "Boutique de Siège ; chaque Casque d'Igrus brisé coûte 1 000 Pièces de Siège",
+          "priority": "Ajoute d'importants dégâts de saignement, du soin personnel, une croissance des dégâts basée sur les éliminations et une synergie directe avec Sun Jin Wu"
+        },
+        {
+          "target": "Élevé · À construire après avoir débloqué une équipe de farm de Siège fiable",
+          "baseForm": "Ichuga (Vasto Lorde)",
+          "requirements": "Ichuga",
+          "materialSource": "Terminez 30 parties en Étapes Légendaires pour le chemin d'évolution",
+          "upgradeGain": "Étapes Légendaires Hollow, incluant le chemin de l'unité secrète de l'Acte 3",
+          "priority": "Fournit d'importants dégâts de saignement, des auto-buffs, du soin et une performance fiable contre les boss du début à la fin du jeu"
+        }
+      ]
+    },
+    "animeParadoxGameModesFarming": {
+      "title": "Élevé · L'un des meilleurs carrys de progression accessibles",
+      "intro": "Modes de jeu et Farm de Anime Paradox X",
+      "subtitle": "Un itinéraire de farm fiable commence par les premières victoires en Story, puis passe au mode lié à la prochaine évolution du joueur. Utilisez les Raids pour progresser avec Sun Jin Wu, le Siège pour Igrus, les Portails JJK pour Sukuno et Brojo, les Étapes Légendaires Hollow pour Ichuga, et les modes longs pour les Gemmes, l'expérience et la valeur des unités à scaling.",
+      "modeLabel": "Choisissez le mode qui rapporte la ressource exacte bloquant votre prochaine amélioration. Le mode Story ouvre la progression, les Étapes Légendaires fournissent des unités et matériaux spécialisés, tandis que les Raids, le Siège, les Portails, l'Infini, les Tours et la Chambre AFK soutiennent la croissance ultérieure du compte.",
+      "rewardsLabel": "Mode",
+      "teamLabel": "Récompenses principales",
+      "targetsLabel": "Équipe recommandée",
+      "strategyLabel": "Cibles de farm",
+      "modes": [
+        {
+          "mode": "Stratégie",
+          "mainRewards": "Story",
+          "recommendedTeam": "Expérience de compte, expérience d'unité, Gemmes, Or, progression dans le monde et accès aux modes avancés",
+          "farmingTargets": "Débutant · Un DPS fiable, une unité d'économie et un support ou soigneur",
+          "strategy": "Récompenses de première victoire, niveaux de compte, premières invocations et les paliers de progression de l'Acte 6"
+        },
+        {
+          "mode": "Améliorez d'abord le carry principal, maintenez l'économie active et terminez chaque monde disponible avant de farmer à plusieurs reprises une étape précoce.",
+          "mainRewards": "---",
+          "recommendedTeam": "Routes d'unités secrètes, matériaux d'évolution spécifiques aux unités, Essences et progression par répétition de niveaux",
+          "farmingTargets": "Milieu de jeu · Carry Mythique évolué, soigneur, unité d'économie et dégâts de boss",
+          "strategy": "Hollow Acte 3 pour Ichuga, matériaux d'évolution JJK, matériaux de Broly et autres exigences spécifiques aux unités"
+        },
+        {
+          "mode": "Farmez uniquement le monde Legend lié à l'unité en cours d'évolution. Utilisez du soin et du contrôle de foule lorsque le niveau contient des dégâts continus.",
+          "mainRewards": "Raids",
+          "recommendedTeam": "Pièces ou Jetons de Raid, objets du Magasin de Raid, ressources d'évolution, Rerolls de Traits et la route secrète de Sun Jin Wu Acte 3",
+          "farmingTargets": "Milieu à fin de jeu · DPS de boss évolué, soigneur, buffer, unité d'économie et ligne de front durable",
+          "strategy": "Sun Jin Wu, son objet d'évolution Monarch, stock du Magasin de Raid et achats hebdomadaires de rerolls"
+        },
+        {
+          "mode": "Construisez votre équipe autour des dégâts monocibles et de la survie. Le Magasin de Raid échange 15 Jetons de Raid contre un Reroll de Trait avec un stock hebdomadaire de 150.",
+          "mainRewards": "Siège",
+          "recommendedTeam": "Pièces ou Jetons de Siège, Igrus, Casques d'Igrus brisés, objets du magasin et Rerolls de Traits",
+          "farmingTargets": "Fin de jeu · DPS de zone, contrôle de foule, soin, économie et au moins un carry à scaling",
+          "strategy": "Igrus, matériaux d'évolution Elite Knight, stock du Magasin de Siège et rerolls mensuels"
+        },
+        {
+          "mode": "Priorisez les unités qui couvrent plusieurs directions et restent efficaces lors des vagues longues. Le Magasin de Siège échange 250 Jetons de Siège contre un Reroll de Trait avec un stock mensuel de 150.",
+          "mainRewards": "Infini",
+          "recommendedTeam": "Gemmes de longue durée, expérience de compte et d'unité, paliers et progression répétable",
+          "farmingTargets": "Fin de jeu · Carry à scaling par élimination, Bulla, soigneur, unité de contrôle et dégâts de zone",
+          "strategy": "Gemmes, expérience, progression des succès et test des équipes de fin de jeu complètes"
+        },
+        {
+          "mode": "Utilisez Sun Jin Wu avec Igrus pour le scaling par élimination, puis ajoutez Bulla pour l'économie et Idol, Oreheme, Brojo ou un autre support pour le sustain et le contrôle.",
+          "mainRewards": "Portails",
+          "recommendedTeam": "Devises de portail, matériaux d'évolution, unités secrètes, récompenses d'événement et ressources Sorcerer ou Ragnarok",
+          "farmingTargets": "Milieu à fin de jeu · DPS évolué, contrôle de foule, soigneur et rôles de coopération coordonnés pour les paliers élevés",
+          "strategy": "Sukuno et Brojo des routes JJK ; Soji Okita, Qin Shi Huang et Hades des Portails Secrets ; Wukong, Buddha et Poseidon via la progression Ragnarok"
+        },
+        {
+          "mode": "Répétez le palier de portail le plus élevé réussi de manière constante. Dépensez les devises Sorcerer et Ragnarok pour les objets d'évolution requis avant d'acheter des ressources optionnelles.",
+          "mainRewards": "Tours",
+          "recommendedTeam": "Paliers d'étages, éliminations de boss difficiles, unités exclusives et progression des quêtes de fin de jeu",
+          "farmingTargets": "Fin de jeu · Plusieurs unités de haut niveau évoluées, soigneur, buffer, unité d'économie et fort contrôle de boss",
+          "strategy": "Progression de la Tour DBZ, Brotenks et la route de quête de Super Vegito"
+        },
+        {
+          "mode": "Considérez les Tours comme le test final de votre équipe. Terminez les évolutions Secrètes et Mythiques plus faciles avant de vous investir massivement dans la route de Super Vegito.",
+          "mainRewards": "Chambre AFK",
+          "recommendedTeam": "Gemmes passives, expérience, progression au repos et opportunités d'unités exclusives",
+          "farmingTargets": "Toute équipe stable · Privilégiez des réussites rapides et constantes plutôt que des dégâts de boss maximaux",
+          "strategy": "Croissance de compte au repos, Shadow Vampire et accès à Megomun"
+        }
+      ]
+    },
+    "animeParadoxUpdatesPatchNotes": {
+      "title": "Entrez-y avant de laisser le jeu tourner au repos et récupérez les récompenses entre les sessions de farm actif. Utilisez le jeu actif pour les matériaux spécifiques aux unités que la chambre ne fournit pas.",
+      "intro": "Mises à jour et Notes de correctif d'Anime Paradox X",
+      "subtitle": "Anime Paradox X poursuit la progression de l'original Anime Paradox avec une version rafraîchie, des packs de récompenses actifs, de nouvelles routes de contenu et un équilibrage des unités révisé. Les nouvelles unités, passifs, formes d'évolution et récompenses de mode peuvent immédiatement changer quels carries, supports et cibles de farm méritent des ressources en priorité.",
+      "dateLabel": "Suivez la ressortie, les nouveaux codes de récompense, les corrections de portails, les unités de mise à jour, les ajouts de modes et les refontes majeures d'équilibrage. Chaque entrée met en avant les changements qui affectent directement la construction d'équipe, les priorités d'évolution et les routes de farm.",
+      "versionLabel": "Date",
+      "changesLabel": "Version",
+      "metaImpactLabel": "---",
+      "entries": [
+        {
+          "date": "Impact sur la Méta",
+          "version": "16 juillet 2026",
+          "changes": [
+            "Dernière distribution de récompenses",
+            "Ajout du code de récompense BIGTHINGSSOON.",
+            "Poursuite du cycle de récompenses de ressortie aux côtés de OOPSIES!!, Re-Release!, PARADOX!!, HolyMoly et NoctisBoctis."
+          ],
+          "metaImpact": "Distribution de ressources de progression supplémentaires via les récompenses de codes actifs."
+        },
+        {
+          "date": "Les Rerolls de Traits supplémentaires, Stat Chips, Gemmes, Or et Essences permettent de reconstruire plus rapidement un carry terminé et de commencer le farm d'évolution avancée.",
+          "version": "15 juillet 2026",
+          "changes": [
+            "Correctif de Portail",
+            "Application d'un correctif lié aux portails via le redémarrage des serveurs de jeu.",
+            "Redémarrage des serveurs actifs pour que les changements des portails puissent prendre effet."
+          ],
+          "metaImpact": "Rétablissement de la progression des portails et du flux de farm prévus."
+        },
+        {
+          "date": "Les équipes de Portail ont repris les routes de farm normales pour JJK, Ragnarok, les unités secrètes, les devises et les matériaux d'évolution.",
+          "version": "13–14 juillet 2026",
+          "changes": [
+            "Ressortie de Anime Paradox X",
+            "Ressortie et changement de nom de l'expérience en Anime Paradox X.",
+            "Réinitialisation de la course à la progression autour des bannières actuelles, des modes de jeu, des traits, de l'Éthéréalisation et des systèmes d'évolution."
+          ],
+          "metaImpact": "Sortie de packs de récompenses contenant des Rerolls de Traits, Gemmes, Or, Pièces APX, Essences, Stat Chips et Super Stat Chips."
+        },
+        {
+          "date": "Les joueurs devraient terminer un carry évolué, obtenir une unité d'économie et ajouter du soin ou du contrôle de foule avant de dépenser massivement pour des traits parfaits.",
+          "version": "Mise à jour 3.5",
+          "changes": [
+            "Extension SBR",
+            "Ajout de la progression, des unités et des récompenses de Trophées de Course sur le thème SBR.",
+            "Extension des récompenses de mise à jour via UPDATE3.5!, SBR!, NyoHo et FreeTrophies."
+          ],
+          "metaImpact": "Ajout d'options de combinaisons cosmétiques pour les animations d'armes, les unités et les effets d'unités."
+        },
+        {
+          "date": "Les nouvelles unités et routes de Trophées de Course ont étendu le farm de Portail et d'événement, tandis que les larges récompenses de rerolls et de chips ont accéléré l'optimisation du endgame.",
+          "version": "Mise à jour 3",
+          "changes": [
+            "Contenu Fate et Boss Rush",
+            "Ajout d'unités, de devises, de routes d'évolution et de récompenses de progression sur le thème Fate.",
+            "Extension du Boss Rush en tant que route d'unités et de ressources de fin de jeu."
+          ],
+          "metaImpact": "Introduction d'un support de récompenses via UPDATE3!, FATE! et les codes de mise à jour associés."
+        },
+        {
+          "date": "Les dégâts de boss soutenus, le soin, l'amplification de dégâts et la survivabilité sont devenus plus précieux pour les rencontres de boss consécutives.",
+          "version": "Mise à jour 2.5",
+          "changes": [
+            "Refonte majeure des unités",
+            "Refonte des unités sorties à partir de la mise à jour 1.5.",
+            "Ajustement des passifs, des capacités évoluées, de la puissance d'attaque, de la valeur de support et des interactions entre unités."
+          ],
+          "metaImpact": "Refonte des performances des anciennes options de l'effectif dans les modes difficiles."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Les classements précédents ont été remodelés, augmentant la valeur des kits évolués complets, des traits basés sur le rôle, du soin, du contrôle de foule et de la synergie d'équipe.",
+    "titleHighlight": "Questions",
+    "subtitle": "Fréquentes",
+    "questions": [
+      {
+        "question": "Qu'est-ce qu'Anime Paradox X ?",
+        "answer": "Anime Paradox X est un jeu de tower defense d'anime sur Roblox doté d'une IA intelligente à 360 degrés. Les unités invoquées défendent une base centrale pendant que les ennemis approchent de toutes les directions, et il s'agit de la version rééditée et renommée de l'original Anime Paradox."
+      },
+      {
+        "question": "Où puis-je jouer à Anime Paradox X ?",
+        "answer": "Anime Paradox X est gratuit sur Roblox. Ouvrez la page officielle du jeu, rejoignez un serveur actif et utilisez les derniers codes depuis le menu Codes en jeu pour obtenir des récompenses gratuites."
+      },
+      {
+        "question": "Comment utiliser les codes dans Anime Paradox X ?",
+        "answer": "Ouvrez le menu Codes sur le côté droit de l'écran d'Anime Paradox X, collez un code valide dans le champ Saisir le code, et appuyez sur Échanger. Les codes permettent d'obtenir des Rerolls de Traits, des Gemmes, de l'Or, des Stat Chips, des Essences et des Pièces APX."
+      },
+      {
+        "question": "Quelles sont les meilleures unités dans Anime Paradox X ?",
+        "answer": "Les meilleures unités d'Anime Paradox X comprennent des carrys Secrets et Paradoxes tels que Storrk, Megumo, Zid, Sakuno, Bumta et Sun Jin Wu. Associez-les à l'unité économique Bulla et à des options de support comme Idol, Oreheme ou Brojo pour former des équipes complètes."
+      },
+      {
+        "question": "Que sont les Traits dans Anime Paradox X ?",
+        "answer": "Les Traits sont des bonus passifs à obtenir dans Anime Paradox X. Eternal et Vampiric sont les plus puissants pour les carrys de dégâts, Angelic et Blessing conviennent aux unités de support et de soin, et Greed convient aux unités économiques comme Bulla."
+      },
+      {
+        "question": "Comment fonctionne l'évolution dans Anime Paradox X ?",
+        "answer": "Les unités d'Anime Paradox X évoluent via l'Etherealization et des matériaux spécifiques aux modes. Les unités JJK utilisent des ressources Sorcerer, Igrus utilise des pièces de Siege, Sun Jin Wu utilise des pièces de Raid, et Ichuga s'obtient dans les niveaux Hollow Legend."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à jouer à Anime Paradox X ?",
+    "description": "Rejoignez la communauté Anime Paradox X sur Discord pour obtenir des codes, des tier lists et des mises à jour, ou lancez-vous dans le jeu sur Roblox !",
+    "joinCommunity": "Rejoindre Discord",
+    "joinGame": "Jouer sur Roblox"
+  },
+  "footer": {
+    "title": "Wiki Anime Paradox X",
+    "description": "Votre centre de ressources complet pour les codes d'Anime Paradox X, les tier lists d'unités, les traits, les évolutions, les modes de jeu et les guides de progression d'équipe.",
+    "resources": "Ressources",
+    "community": "Communauté",
+    "legal": "Mentions légales",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "youtube": "YouTube",
+    "roblox": "Roblox",
+    "about": "À propos",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Anime Paradox X Wiki. Non affilié aux développeurs d'Anime Paradox X.",
+    "disclaimer": "Site de ressources non officiel créé par des fans."
+  },
+  "pages": {
+    "codes": {
+      "title": "Codes Anime Paradox X",
+      "description": "Tous les codes actifs d'Anime Paradox X pour obtenir des gemmes gratuites, des relances de stats et des boosts d'invocation. Utilisez les derniers codes fonctionnels pour accélérer la collection de vos unités.",
+      "metaTitle": "Codes Anime Paradox X - Gemmes gratuites & Boosts d'invocation",
+      "metaDescription": "Utilisez les derniers codes fonctionnels d'Anime Paradox X pour obtenir des gemmes gratuites, des relances de stats et des boosts d'invocation. Liste mise à jour des récompenses actives pour accélérer votre progression.",
+      "categoryLabel": "ÉCHANGER LES CODES",
+      "whatIs": "Que sont les codes ?",
+      "whatIsDescription": "Les codes sont des récompenses gratuites publiées par les développeurs d'Anime Paradox X. Chaque code accorde des bonus comme des gemmes, de la monnaie d'invocation et des relances de statistiques pour vous aider à agrandir votre effectif d'unités sans passer des heures à farmer.",
+      "why": "Pourquoi utiliser des codes ?",
+      "whySteps": {
+        "step1Title": "Ressources gratuites",
+        "step1Description": "Accumulez des gemmes et de la monnaie d'invocation pour invoquer plus d'unités sur les bannières",
+        "step2Title": "Progression plus rapide",
+        "step2Description": "Évitez le farm de départ grâce aux boosts et aux récompenses de débutant",
+        "step3Title": "Restez à jour",
+        "step3Description": "De nouveaux codes sortent à chaque mise à jour majeure et événement"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les codes"
+    },
+    "guide": {
+      "title": "Guide Anime Paradox X",
+      "description": "Guides complets d'Anime Paradox X, des bases pour débutants à la composition d'équipe avancée, au farm de gemmes et à la réussite des niveaux Légende.",
+      "metaTitle": "Guide Anime Paradox X - Stratégies de débutant à avancé",
+      "metaDescription": "Maîtrisez Anime Paradox X grâce à des guides complets sur la progression des débutants, le farm de gemmes, la composition d'équipe, les unités secrètes et la réussite des niveaux Légende.",
+      "categoryLabel": "GUIDES DE JEU",
+      "whatIs": "Qu'est-ce que le hub des guides ?",
+      "whatIsDescription": "Une collection complète de guides couvrant chaque étape de votre aventure sur Anime Paradox X, de votre première invocation aux victoires en niveau Légende en endgame et à la chasse aux unités secrètes.",
+      "why": "Pourquoi lire des guides ?",
+      "whySteps": {
+        "step1Title": "Apprenez les mécaniques de base",
+        "step1Description": "Comprenez les bannières, la pity, les traits et l'énergie maudite",
+        "step2Title": "Créez la meilleure équipe",
+        "step2Description": "Combinez les unités méta et les synergies pour chaque mode",
+        "step3Title": "Progressez efficacement",
+        "step3Description": "Suivez des méthodes éprouvées pour farmer des gemmes et rattraper rapidement votre retard"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les guides"
+    },
+    "units": {
+      "title": "Unités Anime Paradox X",
+      "description": "Guides détaillés des unités d'Anime Paradox X couvrant les stats, les traits, l'évolution et les meilleurs builds pour chaque personnage, y compris les secrets.",
+      "metaTitle": "Unités Anime Paradox X - Stats, traits et builds des personnages",
+      "metaDescription": "Parcourez chaque unité d'Anime Paradox X avec des analyses complètes des stats, les meilleurs traits, les chemins d'évolution et des guides de build, y compris pour les unités secrètes rares.",
+      "categoryLabel": "UNITÉS",
+      "whatIs": "Que sont les unités ?",
+      "whatIsDescription": "Les unités sont les personnages que vous invoquez, déployez et améliorez dans Anime Paradox X. Chaque unité possède des stats, des traits et des chemins d'évolution uniques qui définissent son rôle dans votre équipe.",
+      "why": "Pourquoi étudier les guides d'unités ?",
+      "whySteps": {
+        "step1Title": "Choisissez les bonnes unités",
+        "step1Description": "Comparez les stats et les rôles pour composer une équipe équilibrée",
+        "step2Title": "Optimisez les traits",
+        "step2Description": "Choisissez les meilleurs traits et builds pour chaque unité",
+        "step3Title": "Planifiez l'évolution",
+        "step3Description": "Sachez exactement ce dont chaque unité a besoin pour évoluer et libérer sa pleine puissance"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Toutes les unités"
+    },
+    "rankings": {
+      "title": "Classements Anime Paradox X",
+      "description": "---",
+      "metaTitle": "Tier lists et classements d'unités d'Anime Paradox X. Trouvez les meilleures unités pour chaque mise à jour et créez l'équipe méta la plus forte.",
+      "metaDescription": "Classements Anime Paradox X - Tier Lists et Meilleures Unités",
+      "categoryLabel": "Découvrez les meilleures unités d'Anime Paradox X avec des tier lists et des classements méta mis à jour pour chaque patch. Créez l'équipe la plus forte pour n'importe quel mode.",
+      "whatIs": "TIER LISTS",
+      "whatIsDescription": "Que sont les classements ?",
+      "why": "Les classements trient chaque unité d'Anime Paradox X par puissance globale et valeur, mis à jour à chaque patch pour que vous sachiez toujours quelles unités dominent la méta actuelle.",
+      "whySteps": {
+        "step1Title": "Pourquoi consulter les classements ?",
+        "step1Description": "Créez une équipe méta",
+        "step2Title": "Concentrez vos ressources sur les unités de haut niveau",
+        "step2Description": "Comparez les unités",
+        "step3Title": "Voyez comment votre effectif se mesure aux meilleurs",
+        "step3Description": "Restez à jour"
+      },
+      "featured": "Suivez quelles unités montent ou descendent à chaque mise à jour",
+      "all": "En vedette et essentiels"
+    },
+    "systems": {
+      "title": "Tous les classements",
+      "description": "Systèmes d'Anime Paradox X",
+      "metaTitle": "Analyses approfondies des systèmes de jeu d'Anime Paradox X : bannières, pity, traits, énergie maudite et butins de portails expliqués.",
+      "metaDescription": "Systèmes d'Anime Paradox X - Bannières, Pity, Traits et plus",
+      "categoryLabel": "Comprenez chaque système d'Anime Paradox X, y compris les mécaniques de bannière et de pity, les meilleurs traits, l'énergie maudite et les butins de portails.",
+      "whatIs": "SYSTÈMES DE JEU",
+      "whatIsDescription": "Que sont les systèmes ?",
+      "why": "Les systèmes sont les mécaniques de base qui régissent Anime Paradox X : comment les bannières et la pity déterminent vos tirages, comment les traits et l'énergie maudite façonnent la puissance des unités, et comment les butins de portails vous récompensent.",
+      "whySteps": {
+        "step1Title": "Pourquoi apprendre les systèmes ?",
+        "step1Description": "Invoquez plus intelligemment",
+        "step2Title": "Maîtrisez les mécaniques de bannière et de pity pour planifier vos invocations",
+        "step2Description": "Maximisez la puissance des unités",
+        "step3Title": "Choisissez les meilleurs traits et utilisez l'énergie maudite efficacement",
+        "step3Description": "Gagnez plus"
+      },
+      "featured": "Comprenez les butins de portails et la pity secrète pour obtenir des unités rares",
+      "all": "En vedette et essentiels"
+    },
+    "evolution": {
+      "title": "Tous les systèmes",
+      "description": "Évolution Anime Paradox X",
+      "metaTitle": "Guides d'évolution d'Anime Paradox X. Découvrez les matériaux, les conditions et les déblocages pour faire évoluer chaque unité vers sa forme finale.",
+      "metaDescription": "Évolution Anime Paradox X - Matériaux et conditions",
+      "categoryLabel": "Faites évoluer vos unités dans Anime Paradox X grâce à des guides complets sur les matériaux d'évolution, les conditions et les déblocages pour chaque personnage.",
+      "whatIs": "ÉVOLUTION",
+      "whatIsDescription": "Qu'est-ce que l'évolution ?",
+      "why": "L'évolution améliore une unité vers une forme plus puissante, débloquant des statistiques plus élevées et de nouvelles capacités une fois que vous avez rassemblé les matériaux requis et rempli les conditions.",
+      "whySteps": {
+        "step1Title": "Pourquoi faire évoluer les unités ?",
+        "step1Description": "Les unités évoluées obtiennent des boosts de statistiques majeurs et de nouvelles capacités",
+        "step2Title": "Planifier les matériaux",
+        "step2Description": "Sachez exactement quoi farmer avant de procéder à l'évolution",
+        "step3Title": "Restez compétitif",
+        "step3Description": "Gardez votre équipe au maximum de sa force pour le contenu de fin de jeu"
+      },
+      "featured": "En vedette & Essentiel",
+      "all": "Tous les guides d'évolution"
+    },
+    "updates": {
+      "title": "Mises à jour d'Anime Paradox X",
+      "description": "Chaque journal de mise à jour et note de patch d'Anime Paradox X. Suivez les nouvelles unités, les changements de bannières, les équilibrages et les ajouts d'événements.",
+      "metaTitle": "Mises à jour d'Anime Paradox X - Notes de patch & Journaux de mise à jour",
+      "metaDescription": "Lisez chaque journal de mise à jour et note de patch d'Anime Paradox X. Suivez les nouvelles unités, les bannières, les équilibrages et les événements à travers toutes les mises à jour.",
+      "categoryLabel": "JOURNAUX DE MISE À JOUR",
+      "whatIs": "Que sont les mises à jour ?",
+      "whatIsDescription": "Les journaux de mise à jour enregistrent chaque changement dans Anime Paradox X, les nouvelles unités et bannières, les ajustements d'équilibrage, les corrections de bugs et les ajouts d'événements, afin que vous puissiez voir exactement ce que chaque patch apporte.",
+      "why": "Pourquoi suivre les mises à jour ?",
+      "whySteps": {
+        "step1Title": "Repérez la nouvelle méta",
+        "step1Description": "Découvrez quelles unités et bannières ont changé à chaque patch",
+        "step2Title": "Planifiez vos invocations",
+        "step2Description": "Programmez vos invocations en fonction de la sortie des nouvelles unités",
+        "step3Title": "Ne manquez jamais aucun contenu",
+        "step3Description": "Profitez de chaque événement et ajout dès sa sortie"
+      },
+      "featured": "En vedette & Essentiel",
+      "all": "Toutes les mises à jour"
+    }
+  }
+}

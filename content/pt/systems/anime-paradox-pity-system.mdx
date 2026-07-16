@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sistema de Pity do Anime Paradox: Mecânicas da Atualização 2 e Estratégias de Banner",
+  description: "Domine o novo sistema de pity do Anime Paradox na Atualização 2. Aprenda como garantir unidades Secretas, otimizar o farm na Loja Ragnarok e gerenciar suas almas de forma eficaz.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Pity+System+Guide",
+  date: "2026-07-17",
+  author: "Equipe da Wiki do Anime Paradox"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Sistema de Pity**: O **sistema de pity do anime paradox** é atualmente exclusivo do Banner 2, fornecendo uma rede de segurança para unidades de alta raridade.
+- **Limitação do Banner 1**: Os banners originais não possuem uma mecânica de pity, tornando as unidades Secretas significativamente mais difíceis de obter lá.
+- **Loja Ragnarok**: Um novo caminho de progressão garantida usando drops do modo Ragnarok, oferecendo uma alternativa às invocações baseadas em RNG.
+- **Eficiência de Farm**: O novo mapa Ragnarok é compacto e projetado para combate de alta velocidade, ideal para farmar portais e almas.
+- **Portais Secretos**: Estes têm uma taxa de drop de 1% por abate no novo modo, exigindo farm consistente em vez de sorte em invocações.
+</Callout>
+
+<Section icon={Sparkles} title="Entendendo o sistema de pity do anime paradox">
+
+A chegada da Atualização 2 mudou fundamentalmente a forma como os jogadores interagem com as mecânicas de invocação no Anime Paradox. Anteriormente, os jogadores podiam gastar dezenas de milhões de almas sem qualquer garantia de receber uma unidade Secreta ou Paradox. A introdução do **sistema de pity do anime paradox** visa estabilizar essa experiência, embora sua implementação esteja atualmente limitada a áreas específicas do jogo.
+
+**Destaques do Vídeo:**
+- Passo a passo detalhado da interface da Atualização 2 e a localização do novo Banner 2.
+- Confirmação visual do contador de pity e como ele rastreia suas invocações.
+- Análise do inventário da Loja Ragnarok e custos das unidades.
+- Jogabilidade do novo modo Ragnarok e mecânicas de drop de portal.
+
+<YouTubeEmbed videoId="7AFCkTFkimQ" title="Tudo de Novo na Atualização 2 - Novo Sistema de Pity & Loja Ragnarok | Anime Paradox" />
+
+Em versões anteriores, jogadores relataram gastar mais de 30 milhões de almas no Banner 1 sem ver uma única unidade Paradox. O novo sistema no Banner 2 garante que, após um certo número de giros, o jogo forçará o drop de uma raridade alta. Esta é uma melhoria massiva para o meta competitivo, pois permite que os jogadores planejem seus gastos de recursos com certeza matemática, em vez de depender apenas da sorte.
+
+| Recurso | Banner 1 (Legado) | Banner 2 (Atualização 2) |
+| :--- | :--- | :--- |
+| **Sistema de Pity** | Não Disponível | **Ativo e Rastreando** |
+| **Garantia** | Nenhuma (RNG Puro) | Unidades Secretas / Paradox |
+| **Custo de Almas** | Taxas Padrão | Taxas Padrão |
+| **Pool de Unidades** | Unidades Clássicas | Novas Unidades da Atualização 2 |
+| **Nível de Risco** | Alto (Potencial para 0 drops) | Baixo (Recompensas garantidas) |
+
+<Callout type="tip" title="Conselho Estratégico">
+Sempre priorize suas almas para o Banner 2. Até que os desenvolvedores adicionem retroativamente o **sistema de pity do anime paradox** ao Banner 1, girar lá é considerado uma aposta de alto risco que pode esgotar seus recursos sem retorno.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas de Banner e Taxas de Drop">
+
+Embora o sistema de pity forneça uma rede de segurança, entender as taxas base ainda é crucial para gerenciar expectativas. O **sistema de pity do anime paradox** funciona incrementando um contador toda vez que uma unidade não Secreta/Paradox é puxada. Uma vez atingido o limite, a próxima puxada é garantida como sendo do nível de raridade mais alto disponível naquele banner específico.
+
+| Nível de Raridade | Taxa de Drop Base | Interação com Pity |
+| :--- | :--- | :--- |
+| **Mítico** | % Alta Padrão | Reseta o pity se obtido antes |
+| **Secreto** | ~0,01% - 0,05% | Garantido no Limite do Pity |
+| **Paradox** | Extremamente Baixa | Potencial Recompensa de Pity |
+| **Drop de Portal** | 1% (Drop de Combate) | Não afetado pelo Pity do Banner |
+
+<CardGrid cols={2}>
+  <Card title="Foco no Banner 2">
+    - **Secretos Garantidos**: Use este banner se precisar de saltos de poder confiáveis.
+    - **Eficiência de Recursos**: Melhor para jogadores com um orçamento limitado de almas.
+    - **Novo Meta**: Apresenta as unidades mais recentes necessárias para a progressão no Ragnarok.
+  </Card>
+  <Card title="Riscos do Banner 1">
+    - **Sem Rede de Segurança**: Você pode gastar milhões com zero resultados de alto nível.
+    - **Unidades Legadas**: Só puxe aqui se precisar especificamente de uma unidade antiga para coleção.
+    - **Dreno de Almas**: Frequentemente leva ao "burnout" devido a sequências de azar no RNG.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Alerta de Bug">
+Alguns jogadores relataram "unidades invisíveis" aparecendo após uma invocação bem-sucedida. Este é um bug visual conhecido na Atualização 2. Se isso acontecer, sua unidade ainda está no seu inventário; basta reiniciar o jogo ou atualizar sua lista de personagens para ver o modelo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Loja Ragnarok e Rotas de Farm">
+
+A Loja Ragnarok serve como um sistema de progressão secundário que complementa o **sistema de pity do anime paradox**. Em vez de depender de invocações, você pode farmar drops específicos do modo Ragnarok para comprar unidades e itens diretamente. Esta mecânica de "esforço para vencer" é muito favorecida pela comunidade, pois recompensa o tempo de jogo ativo.
+
+| Item da Loja | Tipo de Custo | Utilidade |
+| :--- | :--- | :--- |
+| **Unidades Míticas** | Tokens Ragnarok | Alta (Para preencher o time) |
+| **Materiais de Upgrade** | Drops do Modo | Essencial (Para subir nível de unidade) |
+| **Portais Secretos** | Drop Raro (1%) | Muito Alta (Acesso a unidades Secretas) |
+| **Poções Especiais** | Moeda de Evento | Média (Boosts temporários) |
+
+O novo mapa para o modo Ragnarok é significativamente menor do que os mapas de eventos anteriores. Este design compacto permite uma limpeza de ondas mais rápida e mais "abates por hora", o que é vital, já que a taxa de drop do Portal Secreto é fixa em 1% por abate.
+
+<Callout type="success" title="Dica de Eficiência">
+Foque em limpar o mapa Ragnarok rapidamente. Como o drop do portal é por abate, usar unidades com alto AOE (Área de Efeito) maximizará suas chances de obter um Portal Secreto sem tocar nos banners de invocação.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Otimização de Invocação Passo a Passo">
+
+Para aproveitar ao máximo o **sistema de pity do anime paradox**, você deve seguir uma sequência específica de coleta e gasto de recursos. Girar cegamente assim que tiver almas é ineficiente e muitas vezes leva a perder o limite do pity.
+
+<Steps>
+  <Step num="1" title="Acúmulo de Almas">
+    Farme pelo menos 10 a 20 milhões de almas antes de tentar uma sequência séria no Banner 2. Isso garante que você tenha o suficiente para atingir o limite do pity se sua sorte for ruim.
+  </Step>
+  <Step num="2" title="Verifique o Status do Banner">
+    Verifique se você está girando no Banner 2. Procure pelo texto "Pity" ou pelo contador na interface. Não gire no Banner 1 se seu objetivo for um Secreto garantido.
+  </Step>
+  <Step num="3" title="Monitore o Contador">
+    Acompanhe suas puxadas. Se você conseguir uma unidade Secreta *antes* de atingir o limite do pity, o contador geralmente resetará. Este é o momento ideal para parar e economizar almas para a próxima rotação.
+  </Step>
+  <Step num="4" title="Suplemento Ragnarok">
+    Enquanto suas almas estiverem baixas, mude para o modo Ragnarok. Farme os drops de portal de 1% para continuar progredindo seu time sem gastar moeda.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Visão de Especialista">
+O sistema de pity é uma mecânica de "proteção contra má sorte". Não se destina a ser a forma principal de obter unidades, mas sim uma garantia de que seu tempo e moeda nunca sejam verdadeiramente desperdiçados.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Progressão da Atualização 2">
+
+Com os novos sistemas em vigor, seus objetivos diários e semanais no Anime Paradox devem mudar para maximizar tanto o contador de pity quanto o inventário da Loja Ragnarok.
+
+<Checklist
+  id="update-2-goals"
+  title="Objetivos Prioritários:"
+  items={[
+    "Atingir o primeiro marco de Pity no Banner 2",
+    "Farmar pelo menos 5 Portais Secretos do Modo Ragnarok",
+    "Desbloquear a unidade Mítica exclusiva da Loja Ragnarok",
+    "Acumular 30 milhões de almas para futuras rotações de banner",
+    "Verificar o inventário de unidades para garantir que nenhum bug de 'invisibilidade' esteja ativo"
+  ]}
+/>
+
+| Método de Farm | Almas/Hora | Tipo de Recompensa | Dificuldade |
+| :--- | :--- | :--- | :--- |
+| **Farm AFK** | Alta | Apenas Almas | Muito Baixa |
+| **Modo Ragnarok** | Média | Portais / Tokens | Média |
+| **Progressão da História** | Baixa | Recompensas Únicas | Alta |
+| **Modo Desafio** | Média | Mats de Upgrade | Muito Alta |
+
+<Callout type="warning" title="Nota Importante">
+Os desenvolvedores podem ajustar os limites de pity em patches futuros. Sempre verifique o Discord oficial ou o quadro de notícias do jogo para ver se os "giros necessários para o pity" mudaram antes de iniciar uma grande sessão de invocação.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O sistema de pity do anime paradox acumula entre banners?",
+    answer: "Atualmente, o contador de pity é específico para o Banner 2 e não acumula se as unidades do banner rotacionarem. É altamente recomendável terminar seu ciclo de pity antes de uma grande atualização ou mudança de banner."
+  },
+  {
+    question: "Por que não há sistema de pity no Banner 1?",
+    answer: "A partir da Atualização 2, os desenvolvedores implementaram a mecânica de pity apenas no banner mais novo. Isso provavelmente serve para encorajar os jogadores a se envolverem com o novo conteúdo, embora possa ser adicionado a banners antigos no futuro."
+  },
+  {
+    question: "Qual é a melhor maneira de farmar para a Loja Ragnarok?",
+    answer: "Use unidades com alta velocidade de movimento e grandes ataques AOE. O mapa Ragnarok é pequeno, então você pode limpar grupos de inimigos muito rapidamente para maximizar a taxa de drop de portal de 1%."
+  },
+  {
+    question: "Eu puxei uma unidade Secreta, mas meu pity não resetou, isso é um bug?",
+    answer: "Em alguns casos, obter uma unidade através de um drop de Portal não afeta o pity do seu Banner. Apenas unidades puxadas diretamente da interface do Banner 2 interagem com o contador de pity."
+  }
+]} />
+
+</Section>

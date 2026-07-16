@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Star } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Evolução em Anime Paradox: Guia de Melhores Unidades Míticas e Crafting 2026",
+  description: "Domine o sistema de evolução de Anime Paradox. Aprenda como evoluir Broly, Okiora e Zoldic usando essências, peles e materiais raros de crafting em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Anime+Paradox+Evolution+Guide",
+  date: "2026-07-17",
+  author: "Equipe Wiki de Anime Paradox"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **evolução em Anime Paradox** é o método principal para transitar do mid-game para o status de elite, aumentando significativamente os atributos das unidades Míticas.
+- **Materiais essenciais** incluem Essências coloridas (Vermelha, Rosa, Azul, Verde) e drops exclusivos de chefes como Peles de Broly ou Máscaras de Vessel.
+- **Unidades de alto nível** que dominam o meta de 2026 atualmente são o Broly Evoluído, Zoldic Godspeed e Okiora Evoluído.
+- A **sinergia de Trait** é vital; busque traits como Eterno (0.1%) ou Vampírico (0.2%) para maximizar a eficácia das formas evoluídas.
+- **Desafios Diários** e o Mercador de Ouro são as fontes mais confiáveis para reunir os componentes de evolução necessários.
+</Callout>
+
+<Section icon={Map} title="Introdução à Evolução em Anime Paradox">
+
+O sistema de progressão em Anime Paradox gira em torno da transformação de unidades Míticas padrão em suas formas definitivas. Este processo, conhecido como evolução, não apenas aumenta o dano bruto; ele frequentemente altera padrões de ataque, aumenta o alcance da Área de Efeito (AoE) e desbloqueia passivas exclusivas necessárias para completar estágios de dificuldade Pesadelo (Nightmare) e Raids. Entender o ciclo de recursos entre a conclusão da história e o farm de materiais é o primeiro passo para se tornar um jogador extremamente poderoso.
+
+**Destaques do Vídeo:**
+- Demonstrando o salto de poder das unidades Míticas base para as versões totalmente evoluídas.
+- Estratégia de invocação passo a passo para garantir unidades relevantes no meta como Okiora e Zoldic.
+- Rotas de farm eficientes para Peles de Broly em estágios Lendários.
+- Mostrando o impacto dos traits Eternos de 0.1% no desempenho da unidade evoluída.
+
+<YouTubeEmbed videoId="kbMZAdh1ryo" title="Passei mais de 24 horas para ficar PODEROSO em Anime Paradox! (De Noob a Pro)" />
+
+<Callout type="tip" title="Conselho Estratégico">
+Sempre priorize evoluir uma unidade de DPS principal até o nível máximo antes de distribuir seus recursos entre vários personagens. Um Broly evoluído pode solar conteúdos que uma equipe completa de Míticos base teria dificuldade em enfrentar.
+</Callout>
+
+| Recurso de Evolução | Impacto na Forma Base | Impacto na Forma Evoluída |
+| :--- | :--- | :--- |
+| **Dano Causado** | Escalonamento padrão | Frequentemente 2x a 3x o poder base |
+| **Alcance AoE** | Limitado ou Alvo Único | AoE circular ou em linha massivo |
+| **Habilidades Passivas** | Bônus de atributos básicos | Mecânicas únicas (ex: Sangramento, Atordoamento) |
+| **Custo de Posicionamento** | 1.000 - 2.000 Ouro | Geralmente permanece consistente |
+| **Níveis de Melhoria** | 5 - 7 Níveis | Expandido para 10+ Níveis |
+
+</Section>
+
+<Section icon={Swords} title="Tier List de Evolução Meta para 2026">
+
+Nem todas as unidades são criadas iguais quando se trata do processo de **evolução em Anime Paradox**. Algumas unidades ganham significativamente mais utilidade do que outras. Atualmente, Broly é considerado o padrão ouro para dano AoE, enquanto Zoldic oferece velocidade e proeza técnica inigualáveis. Okiora continua sendo um favorito dos fãs devido aos seus ataques em linha massivos e altos atributos de sobrevivência.
+
+<CardGrid cols={3}>
+  <Card title="Broly (Super Saiyajin)">
+    - **Tipo**: DPS de Área (AoE) Massivo
+    - **Item de Evolução**: 25x Peles de Broly
+    - **Melhor Para**: Limpar ondas de mobs com HP alto no modo Cerco (Siege).
+  </Card>
+  <Card title="Zoldic (Godspeed)">
+    - **Tipo**: Técnico de Alta Velocidade
+    - **Item de Evolução**: Io-iô + Essência Azul
+    - **Melhor Para**: Triturar chefes e Desafios Diários de ritmo acelerado.
+  </Card>
+  <Card title="Okiora (Resurrección)">
+    - **Tipo**: AoE em Linha / Nuker
+    - **Item de Evolução**: Máscara de Vessel + Essência Rosa
+    - **Melhor Para**: Progressão no modo história e dificuldade Pesadelo.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gerenciamento de Recursos">
+Itens de evolução como o Io-iô e a Máscara de Vessel são caros. Certifique-se de ter pelo menos 50.000 de Ouro e um suprimento constante de Essências coloridas antes de tentar criar esses itens de late-game.
+</Callout>
+
+| Nome da Unidade | Requisito de Evolução | Bônus de Atributo Principal | Rank Meta |
+| :--- | :--- | :--- | :--- |
+| **Broly** | 25x Peles, Essência Verde | Transformação AoE Total | S+ |
+| **Zoldic** | Io-iô, Essência Azul/Rosa | Redução de Velocidade de Ataque (SBA) | S |
+| **Okiora** | Máscara de Vessel, Essência Vermelha/Rosa | Alcance e Dano Bruto | A+ |
+| **Itachi** | Totem de Corvo, Essência Vermelha | Melhoria de Queimadura/DoT | A |
+
+</Section>
+
+<Section icon={Sparkles} title="Como Evoluir Unidades: Passo a Passo">
+
+O processo de evolução é realizado através dos NPCs de Crafting e Evolução encontrados no lobby principal. É um processo de duas partes: primeiro, você deve criar o item de evolução específico e, segundo, deve aplicar esse item a uma unidade de nível máximo ou ascendida.
+
+<Steps>
+  <Step num="1" title="Adquira a Unidade Mítica Base">
+    Invoque nos banners rotativos. Para melhores resultados, use Poções de Sorte e espere por banners que destaquem Zoldic ou Okiora. Se você tiver VIP, aproveite o desconto de 20% na invocação.
+  </Step>
+  <Step num="2" title="Farme Estágios Lendários">
+    Materiais de evolução específicos, como Peles de Broly, só caem em Estágios Lendários (ex: Planeta Namek Ato 1). Esses estágios são mais difíceis que os atos da história padrão e exigem uma equipe bem nivelada.
+  </Step>
+  <Step num="3" title="Colete Essências Coloridas">
+    Essências (Vermelha, Azul, Verde, Rosa) são obtidas através de Desafios Diários e Semanais. Você também pode comprar quantidades limitadas no Mercador de Ouro, que reseta a cada hora.
+  </Step>
+  <Step num="4" title="Crie o Item de Evolução">
+    Visite o NPC de Crafting. Combine suas essências coletadas e drops de chefes para criar o item único (ex: o Io-iô Godspeed).
+  </Step>
+  <Step num="5" title="Execute a Evolução">
+    Vá até o NPC de Evolução, selecione sua unidade e consuma o item. Sua unidade agora terá um novo modelo e habilidades aprimoradas.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica de Invocação">
+Se estiver com dificuldade para conseguir Míticos, guarde suas gemas para a invocação de 10x. O recurso "Auto-Delete" é útil para limpar o espaço do inventário enquanto você caça aquela taxa de drop de 0.5%.
+</Callout>
+
+| Cor da Essência | Fonte Principal | Caso de Uso Comum |
+| :--- | :--- | :--- |
+| **Verde** | Desafios Diários | Evolução do Broly / Ascensões Gerais |
+| **Vermelha** | Desafios Semanais | Evolução do Itachi / Unidades de Dano |
+| **Azul** | Mercador de Ouro | Evolução do Zoldic / Unidades de Velocidade |
+| **Rosa** | Modo Cerco (Siege) | Evolução do Okiora / Crafting Raro |
+
+</Section>
+
+<Section icon={Target} title="O Sistema de Traits e Rerolling">
+
+A evolução é apenas metade da batalha. Para maximizar verdadeiramente o seu potencial de **evolução em Anime Paradox**, você deve combinar suas unidades com traits de elite. Os traits são rolados aleatoriamente usando Tokens de Reroll. Enquanto traits básicos fornecem bônus menores, os traits de nível Mítico podem mudar completamente como uma unidade funciona no meta.
+
+| Nome do Trait | Raridade | Descrição do Efeito |
+| :--- | :--- | :--- |
+| **Eterno** | 0.1% | Bônus massivo de Dano, Alcance e SBA |
+| **Vampírico** | 0.2% | Roubo de vida e aumento significativo de Dano |
+| **Divino** | 0.5% | Multiplicador de Dano puro (maior do jogo) |
+| **Ganância** | 2.0% | Aumenta o Ouro ganho por abates em 20% |
+| **Benção** | 1.0% | Bônus moderado em todos os atributos base |
+
+<Callout type="info" title="Estratégia de Trait">
+O trait "Ganância" é excelente para o farm no early-game. Se você rolar ele em uma Bulma ou em uma unidade barata do Naruto, mantenha-o para acelerar sua renda de Ouro, que é necessária para comprar materiais no mercador.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Eficiência de Farming e Benefícios VIP">
+
+Para acompanhar as demandas da **evolução em Anime Paradox**, você precisa de um fluxo constante de Ouro e Gemas. A maneira mais eficiente de farmar enquanto estiver longe do computador é a Câmara do Tempo (Time Chamber). No entanto, jogadores ativos devem se concentrar em limpar os atos mais altos do modo Pesadelo que conseguirem gerenciar.
+
+**Checklist de Farming Profissional:**
+<Checklist
+  id="farming-daily"
+  title="Metas Diárias de Progressão:"
+  items={[
+    "Limpar todos os Desafios Diários para recompensas de Essência",
+    "Verificar o Mercador de Ouro a cada hora para Tokens de Reroll",
+    "Completar pelo menos 5 corridas em Estágios Lendários para drops de chefes",
+    "Ficar AFK na Câmara do Tempo durante as horas de folga para Gemas passivas",
+    "Participar do modo Cerco (Siege) para ganhar Moedas de Cerco"
+  ]}
+/>
+
+<Callout type="tip" title="Valor do VIP">
+A compra do VIP fornece um bônus de 2x nas recompensas de AFK da Câmara do Tempo e um bônus de 10% de XP. Para jogadores sérios sobre evoluir vários Míticos, o desconto de 20% na invocação sozinho paga o investimento em poucos milhares de gemas.
+</Callout>
+
+| Atividade | Recompensa Principal | Nível de Eficiência |
+| :--- | :--- | :--- |
+| **Câmara do Tempo** | Gemas / XP | Alto (Passivo) |
+| **Estágios Lendários** | Drops de Chefe / Peles | Alto (Ativo) |
+| **História Pesadelo** | Gemas / Ouro | Médio |
+| **Desafios Diários** | Essência Colorida | Muito Alto (Limitado) |
+
+</Section>
+
+<Section icon={Trophy} title="Conclusão e Dicas Finais">
+
+O sistema de **evolução em Anime Paradox** é o teste definitivo da dedicação de um jogador. Ao focar nos "Três Grandes" — Broly, Zoldic e Okiora — e farmar sistematicamente as essências e drops de chefes necessários, você pode se transformar de um "noob" em um "pro" capaz de limpar qualquer conteúdo que o jogo ofereça em 2026. Lembre-se de gerenciar seu Ouro com sabedoria, pois os resets do Mercador são o segredo para obter materiais raros sem um grinding excessivo.
+
+<Callout type="success" title="Dica Pro Final">
+Use o "Método Naruto" para os estágios iniciais da história. Colocar várias unidades Naruto base em diferentes cantos do mapa permite cobrir todos os caminhos simultaneamente, tornando a progressão inicial muito mais rápida enquanto você guarda gemas para seu primeiro Mítico.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor unidade para evoluir primeiro em Anime Paradox?",
+    answer: "Broly é atualmente a melhor primeira evolução porque sua forma Super Saiyajin fornece dano AoE massivo, o que é essencial para farmar os materiais necessários para outras evoluções."
+  },
+  {
+    question: "Como consigo Peles de Broly para sua evolução?",
+    answer: "Peles de Broly caem no Estágio Lendário em Planeta Namek (Ato 1). Tem uma baixa taxa de drop, então você pode precisar jogar o estágio várias vezes."
+  },
+  {
+    question: "Posso mudar o trait de uma unidade depois que ela evoluiu?",
+    answer: "Sim, você pode rerolar traits a qualquer momento usando Tokens de Reroll. O status de evolução da unidade não bloqueia seus traits."
+  },
+  {
+    question: "Onde posso encontrar o Mercador de Ouro?",
+    answer: "O Mercador de Ouro está localizado no lobby principal. Ele vende Tokens de Reroll e várias Essências por Ouro. Seu inventário reseta a cada hora."
+  }
+]} />
+
+</Section>

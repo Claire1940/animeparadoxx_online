@@ -10,7 +10,15 @@
       "twitterDescription": "Anime Paradox X Wiki covers working codes, unit tier lists, teams, traits, evolutions, game modes, and patch notes for the Roblox anime tower defense game."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "units": "Units",
+    "rankings": "Rankings",
+    "systems": "Systems",
+    "evolution": "Evolution",
+    "updates": "Updates"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1771,125 +1779,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Anime Paradox X Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Anime Paradox X Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Anime Paradox X guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+    "codes": {
+      "title": "Anime Paradox X Codes",
+      "description": "All active Anime Paradox X codes for free gems, stat rerolls, and summon boosts. Redeem the latest working codes to fast-track your unit collection.",
+      "metaTitle": "Anime Paradox X Codes - Free Gems & Summon Boosts",
+      "metaDescription": "Redeem the latest working Anime Paradox X codes for free gems, stat rerolls, and summon boosts. Updated list of active rewards to speed up your progress.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Codes are free redemption rewards released by the Anime Paradox X developers. Each code grants bonuses like gems, summon currency, and stat rerolls to help you build your unit roster without spending hours grinding.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Free Resources",
+        "step1Description": "Stack gems and summon currency to pull more units from banners",
+        "step2Title": "Faster Progression",
+        "step2Description": "Skip early grinding with boosts and starter rewards",
+        "step3Title": "Stay Updated",
+        "step3Description": "New codes drop with every major update and event"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Anime Paradox X Guide",
+      "description": "Complete Anime Paradox X guides from beginner basics to advanced team building, gem farming, and clearing Legend stages.",
+      "metaTitle": "Anime Paradox X Guide - Beginner to Advanced Strategies",
+      "metaDescription": "Master Anime Paradox X with full guides on beginner progression, gem farming, team building, secret units, and clearing Legend stages.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIs": "What is the Guide hub?",
+      "whatIsDescription": "A complete walkthrough collection covering every stage of your Anime Paradox X journey, from your first summon to endgame Legend clears and secret unit hunting.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Description": "Understand banners, pity, traits, and cursed energy",
+        "step2Title": "Build the Best Team",
+        "step2Description": "Combine meta units and synergies for every mode",
+        "step3Title": "Progress Efficiently",
+        "step3Description": "Follow proven paths to farm gems and catch up fast"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Anime Paradox X Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Anime Paradox X Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Anime Paradox X Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "units": {
+      "title": "Anime Paradox X Units",
+      "description": "Detailed Anime Paradox X unit guides covering stats, traits, evolution, and best builds for every character including secrets.",
+      "metaTitle": "Anime Paradox X Units - Character Stats, Traits & Builds",
+      "metaDescription": "Browse every Anime Paradox X unit with full stat breakdowns, best traits, evolution paths, and build guides including rare secret units.",
+      "categoryLabel": "UNITS",
+      "whatIs": "What are Units?",
+      "whatIsDescription": "Units are the characters you summon, deploy, and upgrade in Anime Paradox X. Each unit has unique stats, traits, and evolution paths that define its role in your team.",
+      "why": "Why study unit guides?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Pick the Right Units",
+        "step1Description": "Compare stats and roles to build a balanced team",
+        "step2Title": "Optimize Traits",
+        "step2Description": "Choose the best traits and builds for each unit",
+        "step3Title": "Plan Evolution",
+        "step3Description": "Know exactly what each unit needs to evolve and unlock full power"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Units"
     },
-    "items": {
-      "title": "Anime Paradox X Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Anime Paradox X Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Anime Paradox X including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "rankings": {
+      "title": "Anime Paradox X Rankings",
+      "description": "Anime Paradox X tier lists and unit rankings. Find the best units for every update and build the strongest meta team.",
+      "metaTitle": "Anime Paradox X Rankings - Tier Lists & Best Units",
+      "metaDescription": "See the best units in Anime Paradox X with updated tier lists and meta rankings for every patch. Build the strongest team for any mode.",
+      "categoryLabel": "TIER LISTS",
+      "whatIs": "What are Rankings?",
+      "whatIsDescription": "Rankings sort every Anime Paradox X unit by overall power and value, updated each patch so you always know which units lead the current meta.",
+      "why": "Why check rankings?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Build a Meta Team",
+        "step1Description": "Focus resources on the top-tier units",
+        "step2Title": "Compare Units",
+        "step2Description": "See how your roster stacks up against the best",
+        "step3Title": "Stay Current",
+        "step3Description": "Track which units rise and fall with each update"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Rankings"
     },
-    "biomes": {
-      "title": "Anime Paradox X Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Anime Paradox X Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Anime Paradox X biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "systems": {
+      "title": "Anime Paradox X Systems",
+      "description": "Deep dives into Anime Paradox X game systems: banners, pity, traits, cursed energy, and portal drops explained.",
+      "metaTitle": "Anime Paradox X Systems - Banners, Pity, Traits & More",
+      "metaDescription": "Understand every Anime Paradox X system including the banner and pity mechanics, best traits, cursed energy, and portal drops.",
+      "categoryLabel": "GAME SYSTEMS",
+      "whatIs": "What are Systems?",
+      "whatIsDescription": "Systems are the core mechanics that drive Anime Paradox X, how banners and pity determine your pulls, how traits and cursed energy shape unit power, and how portal drops reward you.",
+      "why": "Why learn systems?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Pull Smarter",
+        "step1Description": "Master banner and pity mechanics to plan your summons",
+        "step2Title": "Maximize Unit Power",
+        "step2Description": "Pick the best traits and use cursed energy effectively",
+        "step3Title": "Earn More",
+        "step3Description": "Understand portal drops and secret pity to get rare units"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Systems"
     },
-    "building": {
-      "title": "Anime Paradox X Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Anime Paradox X Building - Qualia & Base Construction",
-      "metaDescription": "Master Anime Paradox X building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "evolution": {
+      "title": "Anime Paradox X Evolution",
+      "description": "Anime Paradox X evolution guides. Learn the materials, requirements, and unlocks for evolving every unit to its final form.",
+      "metaTitle": "Anime Paradox X Evolution - Materials & Requirements",
+      "metaDescription": "Evolve your units in Anime Paradox X with full guides on evolution materials, requirements, and unlocks for every character.",
+      "categoryLabel": "EVOLUTION",
+      "whatIs": "What is Evolution?",
+      "whatIsDescription": "Evolution upgrades a unit to a stronger form, unlocking higher stats and new abilities once you gather the required materials and meet the conditions.",
+      "why": "Why evolve units?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Unlock Full Power",
+        "step1Description": "Evolved units gain major stat boosts and new abilities",
+        "step2Title": "Plan Materials",
+        "step2Description": "Know exactly what to farm before you evolve",
+        "step3Title": "Stay Competitive",
+        "step3Description": "Keep your team at peak strength for endgame content"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Evolution Guides"
     },
-    "support": {
-      "title": "Anime Paradox X Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Anime Paradox X Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Anime Paradox X including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "updates": {
+      "title": "Anime Paradox X Updates",
+      "description": "Every Anime Paradox X update log and patch note. Track new units, banner changes, balance updates, and event additions.",
+      "metaTitle": "Anime Paradox X Updates - Patch Notes & Update Logs",
+      "metaDescription": "Read every Anime Paradox X update log and patch note. Track new units, banners, balance changes, and events across all updates.",
+      "categoryLabel": "UPDATE LOGS",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Update logs record every change in Anime Paradox X, new units and banners, balance tweaks, bug fixes, and event additions, so you can see exactly what each patch brings.",
+      "why": "Why follow updates?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Spot the New Meta",
+        "step1Description": "See which units and banners changed with each patch",
+        "step2Title": "Plan Your Pulls",
+        "step2Description": "Time your summons around new unit releases",
+        "step3Title": "Never Miss Content",
+        "step3Description": "Catch every event and addition as it drops"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Updates"
     }
   }
 }
