@@ -198,6 +198,10 @@
         "file": "anime-paradox-beginner-guide"
       },
       {
+        "slug": "anime-paradox-best-team",
+        "file": "anime-paradox-best-team"
+      },
+      {
         "slug": "anime-paradox-gem-farming",
         "file": "anime-paradox-gem-farming"
       },
@@ -226,6 +230,14 @@
       {
         "slug": "anime-paradox-meta-units",
         "file": "anime-paradox-meta-units"
+      },
+      {
+        "slug": "anime-paradox-tier-list",
+        "file": "anime-paradox-tier-list"
+      },
+      {
+        "slug": "anime-paradox-update-2-tier-list",
+        "file": "anime-paradox-update-2-tier-list"
       },
       {
         "slug": "anime-paradox-update-3-tier-list",
@@ -276,6 +288,10 @@
         "file": "anime-paradox-hades"
       },
       {
+        "slug": "anime-paradox-ichigo",
+        "file": "anime-paradox-ichigo"
+      },
+      {
         "slug": "anime-paradox-kaneki",
         "file": "anime-paradox-kaneki"
       },
@@ -299,6 +315,24 @@
         "slug": "anime-paradox-yuta",
         "file": "anime-paradox-yuta"
       }
+    ],
+    "updates": [
+      {
+        "slug": "anime-paradox-update-2",
+        "file": "anime-paradox-update-2"
+      },
+      {
+        "slug": "anime-paradox-update-3",
+        "file": "anime-paradox-update-3"
+      },
+      {
+        "slug": "anime-paradox-update-log",
+        "file": "anime-paradox-update-log"
+      },
+      {
+        "slug": "anime-paradox-update",
+        "file": "anime-paradox-update"
+      }
     ]
   },
   "pt": {
@@ -316,6 +350,10 @@
       {
         "slug": "anime-paradox-evolution",
         "file": "anime-paradox-evolution"
+      },
+      {
+        "slug": "anime-paradox-orihime-evo",
+        "file": "anime-paradox-orihime-evo"
       },
       {
         "slug": "anime-paradox-sukuna-evolution",
@@ -340,11 +378,23 @@
         "file": "anime-paradox-how-to-catch-up"
       },
       {
+        "slug": "anime-paradox-how-to-get-secret-units",
+        "file": "anime-paradox-how-to-get-secret-units"
+      },
+      {
+        "slug": "anime-paradox-progression-guide",
+        "file": "anime-paradox-progression-guide"
+      },
+      {
         "slug": "anime-paradox-solo-legend-stage",
         "file": "anime-paradox-solo-legend-stage"
       }
     ],
     "rankings": [
+      {
+        "slug": "anime-paradox-best-units",
+        "file": "anime-paradox-best-units"
+      },
       {
         "slug": "anime-paradox-meta-units",
         "file": "anime-paradox-meta-units"
@@ -356,6 +406,10 @@
       {
         "slug": "anime-paradox-update-2-tier-list",
         "file": "anime-paradox-update-2-tier-list"
+      },
+      {
+        "slug": "anime-paradox-update-3-tier-list",
+        "file": "anime-paradox-update-3-tier-list"
       }
     ],
     "systems": [
@@ -402,6 +456,10 @@
         "file": "anime-paradox-hades"
       },
       {
+        "slug": "anime-paradox-ichigo",
+        "file": "anime-paradox-ichigo"
+      },
+      {
         "slug": "anime-paradox-kaneki",
         "file": "anime-paradox-kaneki"
       },
@@ -420,6 +478,28 @@
       {
         "slug": "anime-paradox-sung-jin-woo",
         "file": "anime-paradox-sung-jin-woo"
+      },
+      {
+        "slug": "anime-paradox-yuta",
+        "file": "anime-paradox-yuta"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "anime-paradox-update-2",
+        "file": "anime-paradox-update-2"
+      },
+      {
+        "slug": "anime-paradox-update-3",
+        "file": "anime-paradox-update-3"
+      },
+      {
+        "slug": "anime-paradox-update-log",
+        "file": "anime-paradox-update-log"
+      },
+      {
+        "slug": "anime-paradox-update",
+        "file": "anime-paradox-update"
       }
     ]
   }
