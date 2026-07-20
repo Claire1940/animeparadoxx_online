@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Paradox Eryu : Guide Complet de l'Unité Mythique & Build Meta",
+  description: "Maîtrisez l'unité Anime Paradox Eryu (Uru Mythique) avec notre guide 2026. Découvrez l'évolution, le trait Éternel et les stratégies de défense de base.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Anime+Paradox+Eryu+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki anime paradox",
+  keywords: "Anime Paradox Eryu, Uru Mythique, guide anime paradox, meta build, évolution Eryu, trait éternel"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Anime Paradox Eryu** : Une unité Mythique de haut niveau obtenue principalement via la Bannière de Gemmes, spécialisée dans les dégâts évolutifs et la défense de base.
+- **Meilleur Trait** : Le trait **Éternel** est fortement recommandé pour maximiser la progression à long terme d'Eryu lors des vagues d'ennemis.
+- **Mécanique de Progression** : Eryu gagne **+5% de Dégâts** et **+2,5% de Portée** pour chaque ennemi dans sa zone toutes les 20 secondes.
+- **Évolution** : Faire évoluer Eryu en **L'Antithèse** octroie un bonus massif de **+50% de Dégâts** spécifiquement contre les Boss.
+- **Rôle Meta** : Bien qu'il puisse attaquer, les joueurs de haut niveau l'utilisent fréquemment comme **Défenseur** en raison de ses PV élevés et de son passif défensif.
+</Callout>
+
+<Section icon={Map} title="Présentation et Obtention d'Anime Paradox Eryu">
+
+L'unité **anime paradox eryu** (souvent appelée Uru Mythique par la communauté) s'impose comme l'une des unités Mythiques les plus fiables de la meta actuelle de 2026. Contrairement aux jeux de tower defense classiques basés sur des couloirs, Anime Paradox propose un système de mouvement dynamique où les unités patrouillent entre quatre portails. Eryu excelle dans cet environnement car ses capacités passives sont conçues pour punir les fortes densités d'ennemis, ce qui en fait un choix idéal pour le nettoyage des vagues en milieu et fin de partie.
+
+**Points Forts de la Vidéo :**
+- **Classement de l'Unité** : Eryu est actuellement classé juste en dessous des défenseurs de premier plan comme Cell et Igris, ce qui en fait un excellent choix de Tier A ou S.
+- **Combat Dynamique** : Découvrez comment Eryu interagit avec le système d'apparition des ennemis via les quatre portails.
+- **Définition du Rôle** : Comprendre pourquoi Eryu est catégorisé comme défenseur malgré son fort potentiel de dégâts.
+- **Contexte Meta** : Comparaison avec des unités Secrètes comme Stark (Coyote) et Sid.
+
+<YouTubeEmbed videoId="patRU0Bzecw" title="Classement de CHAQUE UNITÉ à la sortie d'Anime Paradox ! (META Tier List)" />
+
+L'obtention d'Eryu nécessite que les joueurs tirent sur la **Bannière de Gemmes**. En tant qu'unité de rareté Mythique, son taux d'obtention est nettement inférieur à celui des unités Légendaires ou Épiques, mais son utilité dans le Mode Histoire et les Raids justifie l'investissement.
+
+| Méthode d'Obtention | Rareté | Coût de Déploiement | Limite de Placement |
+| :--- | :--- | :--- | :--- |
+| **Bannière de Gemmes** | Mythique | **1,65k Or** | **2 Unités** |
+| **Échange** | Mythique | 1,65k Or | 2 Unités |
+
+<Callout type="tip" title="Conseil de Pro">
+Si vous avez du mal avec le coût de déploiement de 1,65k, assurez-vous d'utiliser **Bulma** comme unité de farm principale. Dans la meta 2026, l'économie de Bulma est si efficace que le coût des unités comme Eryu devient dérisoire dès la vague 11.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Compétences, Passifs et Mécaniques de Progression">
+
+La force principale d'**anime paradox eryu** réside dans son passif de progression unique, **Still Silver**. Cette capacité lui permet de devenir plus fort à mesure que le champ de bataille se remplit, ce qui est essentiel pour survivre aux étapes "Beyond Fantasy" et "Sorcerer Games".
+
+| Nom du Passif | Description de l'Effet | Progression Max |
+| :--- | :--- | :--- |
+| **Still Silver** | +5% Dgt & +2,5% Portée par ennemi à portée (toutes les 20s) | **+50% Dgt / +25% Portée** |
+| **Successeur Quincy** | Progression de la vitesse d'attaque de base et des projectiles | N/A |
+| **L'Antithèse** | +50% de Dégâts contre les Boss pendant 26s (Post-Évolution) | 60s Recharge |
+
+Le passif **Still Silver** d'Eryu se déclenche toutes les 20 secondes. Pour chaque ennemi présent dans sa portée à ce moment précis, il reçoit un cumul. Cela rend son positionnement près des portails à fort trafic ou de la base elle-même critique pour maximiser son rendement.
+
+<CardGrid cols={2}>
+  <Card title="Progression Still Silver">
+    - **Déclencheur** : Toutes les 20 secondes
+    - **Durée du Buff** : 8 secondes
+    - **Focus** : Haute densité d'ennemis
+    - **Meilleur Usage** : Gestion des vagues précoces
+  </Card>
+  <Card title="L'Antithèse (Évo)">
+    - **Déclencheur** : Attaquer un Boss
+    - **Buff** : +50% de Dégâts bruts
+    - **Durée** : 26 secondes
+    - **Meilleur Usage** : Boss de Raid et Ultra Boss
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gestion du Temps de Recharge">
+Le passif de L'Antithèse a un **temps de recharge de 60 secondes**. Assurez-vous qu'Eryu soit positionné pour frapper le Boss dès son entrée afin de maximiser les 26 secondes de bonus de dégâts de 50 %.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide d'Évolution : Débloquer L'Antithèse">
+
+Pour atteindre le plein potentiel d'**anime paradox eryu**, vous devez le faire évoluer. L'évolution augmente considérablement ses statistiques de base et débloque les capacités de tueur de boss de "L'Antithèse". Contrairement à certaines unités qui nécessitent des butins de raid complexes, le chemin d'évolution d'Eryu est relativement direct pour les joueurs assidus.
+
+<Steps>
+  <Step num="1" title="Atteindre le Niveau Max">
+    Avant de procéder à l'évolution, assurez-vous que votre unité Eryu de base a atteint le niveau maximum. Cela garantit une transition de statistiques optimisée pour le contenu de haut niveau.
+  </Step>
+  <Step num="2" title="Collecter des Pierres d'Essence">
+    Collectez les Pierres d'Essence requises dans le Mode Histoire ou la Chambre du Temps. Eryu nécessite généralement un mélange d'essences Universelles et Spécifiques.
+  </Step>
+  <Step num="3" title="Fabriquer l'Objet d'Évolution">
+    Rendez-vous dans le menu d'artisanat pour assembler l'objet d'évolution unique. Vérifiez la boutique d'événement actuelle de 2026 si certains matériaux sont limités dans le temps.
+  </Step>
+  <Step num="4" title="Finaliser l'Évolution">
+    Utilisez le menu d'Évolution pour consommer les matériaux et transformer Eryu en sa forme évoluée, débloquant la synergie entre "Still Silver" et "L'Antithèse".
+  </Step>
+</Steps>
+
+| Étape d'Évolution | Multiplicateur PV | Multiplicateur DGT | Nouvelle Capacité |
+| :--- | :--- | :--- | :--- |
+| **Eryu de Base** | 1.0x | 1.0x | Still Silver |
+| **Eryu Évolué** | **1.4x** | **1.6x** | **L'Antithèse** |
+
+<Callout type="success" title="Avantage de l'Évolution">
+Faire évoluer Eryu ne se contente pas d'augmenter les dégâts ; ses PV augmentent d'environ 40 %, ce qui en fait un "tank" ou défenseur encore plus efficace pour votre base.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparaison Meta : Eryu vs Autres Défenseurs">
+
+Dans Anime Paradox, les unités sont généralement classées en Attaquants, Défenseurs ou Soutiens. **Anime paradox eryu** occupe une place unique. Bien que le Wiki le répertorie comme une unité Mythique à fort potentiel de dégâts, les meilleurs joueurs le classent souvent comme un **Défenseur**.
+
+<CardGrid cols={3}>
+  <Card title="Eryu (Uru)">
+    - **Points Forts** : Progression dynamique, spécialiste des boss.
+    - **Points Faibles** : Nécessite une haute densité d'ennemis.
+    - **Rôle** : Défenseur évolutif.
+  </Card>
+  <Card title="Igris (Secret)">
+    - **Points Forts** : Réduction de dégâts de 50 %, saignement.
+    - **Points Faibles** : Extrêmement rare (Secret).
+    - **Rôle** : Meilleur Défenseur Pur.
+  </Card>
+  <Card title="Cell (Mythic)">
+    - **Points Forts** : Croissance permanente des PV par élimination.
+    - **Points Faibles** : Dégâts initiaux plus faibles.
+    - **Rôle** : Tank Infini.
+  </Card>
+</CardGrid>
+
+Eryu est souvent comparé à Cell. Tandis que Cell se concentre sur la croissance permanente des PV, Eryu se focalise sur des pics de dégâts et de portée temporaires mais massifs. Si vous avez le trait **Vampirique** sur Eryu, sa survivabilité rivalise avec celle des unités de rareté supérieure, car son vol de vie s'adapte à ses dégâts accrus.
+
+| Caractéristique | Eryu (Mythique) | Cell (Mythique) | Igris (Secret) |
+| :--- | :--- | :--- | :--- |
+| **Stat Principale** | Dégâts évolutifs | PV permanents | Réduction de dégâts |
+| **Meilleur Trait** | **Éternel** | Vampirique | Éternel |
+| **Placement** | 2 | 2 | 1 |
+| **Tier Meta** | **A+** | A | S+ |
+
+<Callout type="info" title="Note sur la Synergie">
+Associer Eryu avec **Sunjin Wu** et **Igris** crée une défense impénétrable. Pendant qu'Igris encaisse les coups initiaux avec sa réduction de dégâts, le passif "Still Silver" d'Eryu se déclenchera sur les ennemis regroupés autour d'Igris, entraînant un nettoyage de zone massif.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Meilleurs Traits et Synergie d'Équipe">
+
+Les traits peuvent faire ou défaire une unité Mythique. Pour **anime paradox eryu**, le consensus de la communauté est clair : **Éternel** est le roi. Cependant, selon la composition de votre équipe, d'autres traits peuvent offrir une meilleure utilité.
+
+**Traits Recommandés pour Eryu :**
+- **Éternel** : Améliore sa progression naturelle, en faisant un monstre dans les missions d'histoire longues et les raids.
+- **Vampirique** : Essentiel si vous l'utilisez comme défenseur de base principal pour garantir qu'il ne meure jamais.
+- **Divin (Godly)** : Un boost équilibré de toutes les statistiques, bien que moins spécialisé qu'Éternel.
+
+| Trait | Tier | Effet | Pourquoi ça marche |
+| :--- | :--- | :--- | :--- |
+| **Éternel** | **S** | Progression massive au fil du temps | Synergie avec Still Silver |
+| **Vampirique** | **A** | Vol de vie basé sur les dégâts | Idéal pour les rôles de Défenseur |
+| **Sans Égal** | **B** | Boost de dégâts purs | Bon pour les speedruns de début de partie |
+
+<Checklist
+  id="eryu-optimization"
+  title="Liste de Contrôle d'Optimisation d'Eryu :"
+  items={[
+    "Obtenir Eryu via la Bannière de Gemmes",
+    "Relancer pour le trait Éternel ou Vampirique",
+    "Atteindre le niveau Max et évoluer pour débloquer L'Antithèse",
+    "Équiper des Pierres d'Essence pour les boosts de stats secondaires",
+    "Associer avec Bulma pour l'économie de déploiement précoce"
+  ]}
+/>
+
+<Callout type="tip" title="Synergie de Soutien">
+Utilisez toujours **Orahibbe** aux côtés d'Eryu. Orahibbe offre des soins à toute l'équipe et un bonus d'attaque de 30 %. Comme le passif d'Eryu augmente déjà ses dégâts de base, le multiplicateur de 30 % d'Orahibbe donne des chiffres dévastateurs contre les boss de Raid.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Est-ce qu'Anime Paradox Eryu est meilleur que Cell pour la défense de base ?",
+    answer: "Cela dépend de l'étape. Cell est meilleur pour la progression infinie des PV, mais Eryu offre une puissance de dégâts bien plus élevée. La plupart des joueurs préfèrent Eryu pour les étapes avec une forte densité d'ennemis où sa progression peut atteindre rapidement le plafond de 50 % de dégâts."
+  },
+  {
+    question: "Quel est le meilleur trait pour Eryu en 2026 ?",
+    answer: "Le trait Éternel est largement considéré comme le meilleur pour Eryu. Il permet à ses dégâts et à sa portée d'atteindre des niveaux absurdes lors des longs affrontements, ce qui complète parfaitement son passif 'Still Silver'."
+  },
+  {
+    question: "Comment déclencher le passif 'L'Antithèse' ?",
+    answer: "Ce passif se déclenche automatiquement lorsqu'Eryu attaque un Boss. Il accorde un bonus de dégâts de 50 % pendant 26 secondes, mais gardez à l'esprit qu'il a un temps de recharge de 60 secondes, donc le timing est essentiel."
+  },
+  {
+    question: "Eryu peut-il terminer seul les étapes du Mode Histoire ?",
+    answer: "Bien qu'Eryu soit très fort, il est limité à 2 placements. Pour terminer seul les étapes les plus difficiles, vous aurez besoin d'un soutien solide comme Bulma pour l'argent et potentiellement d'une unité de blocage temporel comme Shadow Dio."
+  }
+]} />
+
+</Section>

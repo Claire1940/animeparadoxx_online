@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fandom Anime Paradox : Base de données Wiki et Guide du débutant",
+  description: "Maîtrisez Anime Paradox grâce à notre guide complet de la base de données wiki. Découvrez les mécaniques de défense du Nexus, les raretés des unités, les traits et les stratégies de progression.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Wiki+Database+Guide",
+  date: "2026-07-21",
+  author: "Équipe Wiki d'Anime Paradox",
+  keywords: "Anime Paradox, wiki, guide, base de données, défense du nexus, unités, traits, stratégie"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Base de données principale** : L'accès à la base de données wiki du **fandom anime paradox** est essentiel pour optimiser vos builds de personnages, vos tirages de traits et vos compositions d'équipe.
+- **Défense du Nexus** : Contrairement aux jeux de tower defense traditionnels, les unités de ce RPG possèdent des barres de vie, subissent des dégâts actifs et régénèrent leur santé passivement lorsqu'elles ne sont pas au combat.
+- **Échelonnage de l'économie** : Priorisez l'invocation et l'amélioration des unités économiques comme Bulma dès le début des matchs pour financer les améliorations de personnages à coût élevé et à gros dégâts.
+- **Optimisation des traits** : Utilisez des tirages de traits (trade rolls) pour obtenir des modificateurs puissants comme Éternel pour des dégâts massifs ou Cupidité pour booster votre génération d'or et de gemmes.
+</Callout>
+
+<Section icon={Map} title="Présentation du jeu et mécaniques de base">
+
+Anime Paradox introduit une nouvelle dynamique dans le genre tower defense d'anime en mélangeant placement tactique et mécaniques de jeu de rôle actives. Les joueurs doivent défendre un Nexus central contre des vagues d'ennemis agressifs. Au lieu de fonctionner comme des tours statiques et invulnérables, vos personnages agissent comme des défenseurs physiques sur le champ de bataille. Ils possèdent des points de vie individuels, attirent l'attention des ennemis et peuvent être temporairement mis hors de combat s'ils sont submergés. La gestion de leur positionnement et de leur santé est tout aussi critique que la maximisation de leurs dégâts.
+
+**Points forts de la vidéo :**
+- **Mécaniques de défense du Nexus** : Découvrez comment le système de défense de la base centrale diffère des jeux de tower defense classiques basés sur des couloirs.
+- **Présentations d'unités** : Admirez des unités de haut niveau comme Megumin et Goku Black en action, mettant en avant leurs compétences uniques et leur couverture de zone (AoE).
+- **Gacha d'invocation et de traits** : Regardez une démonstration en direct du système d'invocation, des tirages de traits et de l'influence des potions de chance sur vos taux de drop.
+- **Démonstration de gameplay en direct** : Observez une partie complète en difficulté Normale, démontrant une gestion efficace de l'économie et des stratégies de placement d'unités.
+
+<YouTubeEmbed videoId="GtwHDWCcPg0" title="Nouveau TYPE de JEU DE DÉFENSE ANIME | Anime Paradox !!" />
+
+Pour réussir dans le contenu de haut niveau, les joueurs doivent consulter la [base de données officielle du Wiki Fandom Anime Paradox](https://anime-paradox.fandom.com/wiki/Anime_paradox_Wiki) pour suivre le cheminement des ennemis, les faiblesses élémentaires et la disposition des cartes. Chaque carte présente des dangers environnementaux uniques et des points d'étranglement qui dictent l'endroit où vous devez positionner vos principaux attaquants et vos unités de soutien.
+
+| Mode de jeu | Objectif principal | Récompenses clés | Niveau de difficulté |
+| :--- | :--- | :--- | :--- |
+| Mode Histoire | Défendre le Nexus à travers des chapitres thématiques (Forêt des Ninjas, Base Marine) | Gemmes standard, EXP de base | Débutant à Intermédiaire |
+| Mode Légende | Affronter des variantes avancées des cartes de l'histoire avec des modificateurs ennemis améliorés | Gemmes de haut niveau, Matériaux d'évolution | Intermédiaire à Avancé |
+| Raids | Coordonner dans des arènes spécialisées (Sommet du Château de Hueco) pour vaincre des boss | Objets de craft rares, Unités exclusives | Avancé |
+| Raids Mondiaux | Participer à des rencontres massives à l'échelle du serveur (Invasion de fourmis) | Matériaux légendaires, Titres uniques | Fin de jeu (End-game) |
+| Royaume Virtuel | Tester votre endurance contre des vagues infinies et croissantes d'ennemis aléatoires | Jetons cosmétiques, Boosters de stats | Échelonné |
+
+<Callout type="tip" title="Conseil de placement Pro">
+Placez toujours vos unités économiques principales, comme Bulma, près du Nexus central. Cela les protège des attaques de zone ennemies égarées tout en les gardant à portée des buffers défensifs.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fandom Anime Paradox : Raretés et traits des personnages">
+
+Construire une équipe optimisée nécessite une compréhension approfondie des raretés et des traits des unités. La base de données du **fandom anime paradox** classe les unités en différents niveaux (tiers) basés sur leurs statistiques de base, leurs ensembles de compétences et leur potentiel d'évolution. Alors que les unités de départ comme Goku offrent une base fiable pour la progression en début de jeu, les unités de haut niveau Mythiques et Exclusives sont obligatoires pour terminer les Raids de fin de jeu et les défis Ultra Boss.
+
+<CardGrid cols={3}>
+  <Card title="Goku Black (Mythique)">
+    - **Passif évolutif** : Gagne 3 % de dégâts par élimination, cumulable jusqu'à 10 fois.
+    - **AoE massive** : Dispose d'une large portée d'agression et d'attaques de boules d'énergie à hauts dégâts.
+    - **Polyvalence** : Excellent pour le contrôle des foules et le nettoyage de vagues d'ennemis denses.
+  </Card>
+  <Card title="Megumin (Exclusive)">
+    - **Arcane d'explosion** : Inflige 300 % de dégâts à tous les ennemis à portée toutes les 90 secondes.
+    - **Dégâts de brûlure** : Inflige un effet de brûlure persistant qui fait fondre les cibles à haute armure.
+    - **Limite de placement** : Limitée à un seul placement en raison de sa puissance extrême.
+  </Card>
+  <Card title="Perfect Cell (Mythique)">
+    - **Évolution Parfaite** : Gagne 5 % de dégâts et 3 % de santé par élimination, jusqu'à un plafond de 50 %.
+    - **Haute survivabilité** : Excellentes capacités de tanking pour la défense de première ligne.
+    - **Potentiel d'évolution** : Peut être évolué vers des formes plus fortes en utilisant des matériaux artisanaux.
+  </Card>
+</CardGrid>
+
+Les traits ajoutent une couche supplémentaire de personnalisation à vos unités. Lorsque vous invoquez un personnage, il a une chance d'apparaître avec un trait aléatoire qui modifie ses performances au combat ou son utilité économique. Vous pouvez relancer ces traits chez le Marchand d'Or en utilisant des tirages de traits.
+
+| Nom du trait | Modificateurs de stats et effets | Meilleure synergie d'unité | Note Meta |
+| :--- | :--- | :--- | :--- |
+| Éternel | Multiplicateur de dégâts massif, limite le placement de l'unité à une seule | Mages AoE à fort impact (Megumin) | Excellent (5/5) |
+| Cupidité | Augmente l'argent généré par l'unité de 20 % | Générateurs d'économie dédiés (Bulma) | Essentiel (5/5) |
+| Oméga | Accorde une vitesse d'attaque doublée et des capacités de frappes multiples | Attaquants physiques à tir rapide | Super (4/5) |
+| Évolution Parfaite | Cumule des pourcentages de dégâts et de santé lors des éliminations | Bruisers de première ligne évolutifs (Cell, Goku Black) | Super (4/5) |
+
+<Callout type="warning" title="Avertissement sur les relances">
+Ne gaspillez pas vos précieux tirages de traits sur des unités Rares ou Épiques. Économisez vos tirages exclusivement pour les unités Mythiques, Exclusives ou Secrètes qui resteront des éléments permanents de vos compositions d'équipe de fin de jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Route de progression étape par étape pour les débutants">
+
+Naviguer dans les premières étapes du jeu peut être déroutant. Suivez ce chemin de progression structuré pour augmenter efficacement le niveau de votre compte, débloquer des unités puissantes et vous préparer au contenu de raid de haut niveau.
+
+<Steps>
+  <Step num="1" title="Choisissez votre starter et rejoignez le groupe">
+    Commencez par sélectionner Goku comme unité de départ. Son kit de dégâts physiques simple évolue de manière fiable à travers les premiers chapitres. De plus, assurez-vous de rejoindre le groupe officiel des développeurs pour débloquer gratuitement l'unité Exclusive Megumin, vous donnant un avantage immédiat en dégâts de zone dès le début du jeu.
+  </Step>
+  <Step num="2" title="Établissez votre noyau économique">
+    Priorisez l'obtention de Bulma via la bannière d'invocation standard. Dans n'importe quel match de défense, votre première action devrait être de placer Bulma et de l'améliorer à son niveau maximum. Cela garantit un flux régulier d'argent, vous permettant de financer les améliorations coûteuses pour vos principaux attaquants.
+  </Step>
+  <Step num="3" title="Optimisez vos invocations avec des potions de chance">
+    Accumulez des gemmes en accomplissant les quêtes quotidiennes et en terminant les chapitres du Mode Histoire. Avant de vous lancer dans une grande session d'invocation, achetez et consommez une Potion de Chance dans la boutique. Cela augmente temporairement vos chances de tirer des unités Mythiques et Secrètes des bannières gacha.
+  </Step>
+  <Step num="4" title="Fermez les raids pour les matériaux d'évolution">
+    Une fois que votre compte atteint une puissance de milieu de jeu, passez du Mode Histoire aux Raids. Les cartes de défi comme le Sommet du Château de Hueco permettent d'obtenir les matériaux d'artisanat essentiels nécessaires pour faire évoluer vos personnages. Faire évoluer une unité booste considérablement ses stats de base et débloque de nouvelles capacités de combat.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Jalon de progression">
+Terminer votre première évolution est une étape majeure. Les unités évoluées infligent non seulement beaucoup plus de dégâts, mais accèdent également à des compétences passives avancées qui peuvent inverser le cours des batailles de raid difficiles.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist des défis avancés et des événements">
+
+Une fois que vous avez établi une liste solide d'unités Mythiques évoluées, vous pouvez commencer à vous attaquer aux événements de fin de jeu et aux défis spécialisés. Ces activités à durée limitée offrent les récompenses les plus prestigieuses du jeu, notamment des cosmétiques exclusifs, des titres uniques et des composants d'artisanat de haut niveau.
+
+<Checklist
+  id="endgame-milestones"
+  title="Checklist de progression de fin de jeu :"
+  items={[
+    "Terminer tous les chapitres du Mode Histoire et Légende avec une note de 3 étoiles",
+    "Acquérir et faire évoluer complètement au moins trois unités Mythiques de base",
+    "Obtenir des traits de rang S (tels que Éternel ou Cupidité) sur votre équipe principale",
+    "Réussir une rencontre de Raid Mondial (ex: Résurrection du Bio-Androïde)",
+    "Vaincre un Ultra Boss pour débloquer des cosmétiques de profil et des titres exclusifs"
+  ]}
+/>
+
+Pour vous préparer à ces défis, consultez le tableau ci-dessous pour suivre la rotation hebdomadaire des modes d'événement et leurs récompenses respectives de haute valeur.
+
+| Nom de l'événement | Boss / Ennemi vedette | Récompenses uniques | Niveau recommandé |
+| :--- | :--- | :--- | :--- |
+| Résurrection du Bio-Androïde | Boss Androïde Parfait | Noyaux d'évolution d'androïde, Skins secrets de Cell | Niveau 50+ |
+| Invasion de fourmis | Roi Chimère | Matériau de craft Gelée Royale, Unités de Garde Fourmi | Niveau 60+ |
+| Lutte de Kitsunox | Renard à neuf queues | Éclats d'ascension divine, Monture Kitsune | Niveau 70+ |
+| Dieu Impitoyable | Arbitre Divin | Jetons de la Bête Blanco, Traits Inégalés | Niveau 80+ |
+
+<Callout type="info" title="Conseil de participation aux événements">
+Les Raids Mondiaux et les Ultra Boss possèdent des barres de vie massives qui nécessitent des stratégies d'équipe coordonnées. Utilisez le serveur Discord officiel pour trouver des joueurs expérimentés et coordonner vos placements d'unités.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions (FAQ)">
+
+Pour vous aider à tirer le meilleur parti de vos stratégies défensives, nous avons compilé les réponses aux questions les plus fréquemment posées par la communauté.
+
+<FAQ items={[
+  {
+    question: "Comment accéder à la base de données wiki du fandom anime paradox ?",
+    answer: "Vous pouvez accéder à la base de données officielle du Wiki Fandom Anime Paradox en ligne pour consulter les statistiques détaillées des personnages, les recettes d'évolution, les tableaux de traits et les guides complets pour chaque mode de jeu."
+  },
+  {
+    question: "Les unités régénèrent-elles leur santé pendant un match ?",
+    answer: "Oui. Les unités dans Anime Paradox possèdent des barres de vie individuelles. Si elles subissent des dégâts des ennemis, elles régénéreront passivement leur santé au fil du temps, à condition qu'elles restent hors de combat actif pendant une brève période."
+  },
+  {
+    question: "Quel est l'avantage du pass VIP ?",
+    answer: "Le pass de jeu VIP offre une réduction permanente de 20 % sur toutes les invocations de personnages, réduisant le coût d'un multi-tirage standard de 500 gemmes à 400 gemmes. Il accorde également des badges de profil exclusifs et des couleurs de chat spéciales."
+  },
+  {
+    question: "Comment obtenir plus de tirages de traits (trade rolls) ?",
+    answer: "Les tirages de traits peuvent être obtenus en accomplissant des quêtes quotidiennes et hebdomadaires, en atteignant des scores élevés dans le Royaume Virtuel, ou en les achetant directement auprès du marchand d'or avec la monnaie du jeu."
+  }
+]} />
+
+<Callout type="tip" title="Conseil Final">
+Gardez toujours un œil sur les codes promo actifs publiés par les développeurs. Ces codes offrent fréquemment des gemmes gratuites, des potions de chance et des tirages de traits qui peuvent accélérer considérablement votre progression.
+</Callout>
+
+</Section>

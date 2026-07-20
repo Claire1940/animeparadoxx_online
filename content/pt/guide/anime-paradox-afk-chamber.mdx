@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Paradox AFK Chamber: Guia de Configuração de Farm com TinyTask",
+  description: "Aprenda a configurar a AFK chamber do Anime Paradox usando o TinyTask. Otimize suas configurações, unidades e atrasos para obter o máximo de energia de maldição.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=AFK+Chamber+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki de Anime Paradox"
+}
+
+<Callout type="info" title="Guia Rápido">
+- As configurações da **AFK chamber do Anime Paradox** dependem do TinyTask para automatizar as execuções de portais continuamente enquanto os jogadores estão ausentes.
+- **Otimize as configurações do jogo** desativando efeitos visuais, tremor de câmera e indicadores de dano para evitar a dessincronização da macro.
+- **Implemente atrasos de gravação** de 20 a 30 segundos no final de cada execução para acomodar variações na tela de carregamento.
+- **Selecione unidades poderosas** como Eternal Sunjin Wu para limpar as ondas do portal de forma rápida e confiável, sem posicionamentos complexos.
+- **Maximize os ganhos de recursos** focando no Portal JJK 13 para ganhar até 19.000 de energia de maldição por execução.
+</Callout>
+
+<Section icon={Map} title="Configurando a AFK Chamber do Anime Paradox">
+
+Estabelecer uma **AFK chamber do Anime Paradox** eficiente é o método de progressão mais eficaz para jogadores que desejam acumular grandes quantidades de moeda, experiência e drops de portais de alto nível sem a necessidade de farm manual. Ao utilizar ferramentas de automação externas como o TinyTask, os jogadores podem gravar uma sequência de comandos que inicia, joga e reinicia automaticamente as execuções de portais. Isso permite um farm contínuo durante o dia ou a noite.
+
+O destino principal para este método de farm é o mapa de portal de Shibuya. Farmar portais de alto nível, como o Portal JJK 13, rende recompensas substanciais, incluindo energia de maldição e gemas, que são essenciais para desbloquear personagens de primeira linha, como Mahoraga. Para garantir que a macro funcione sem problemas, sem ficar presa em telas de carregamento ou falhar ao posicionar unidades, a calibração adequada tanto da ferramenta de macro quanto das opções do jogo é obrigatória.
+
+**Destaques do Vídeo:**
+- Configuração passo a passo do software de automação TinyTask.
+- Configuração de gráficos do jogo e definições de interface (UI) para evitar desvios da macro.
+- Demonstração de posicionamento de unidades usando Eternal Sunjin Wu.
+- Calibração adequada de tempo para telas de carregamento e seleção de portais.
+
+<YouTubeEmbed videoId="AcGNjBEk6zc" title="Método de Farm de Portal AFK no Anime Paradox" />
+
+| Nível do Portal | Recompensa de Energia de Maldição | Recompensa de Gemas | Tempo Médio de Conclusão |
+|---|---|---|---|
+| Portal JJK 11 | 12000 | 95 | 2 min 30 seg |
+| Portal JJK 12 | 15000 | 120 | 2 min 15 seg |
+| Portal JJK 13 | 19000 | 145 | 2 min 00 seg |
+
+<Callout type="warning" title="Alerta de Resolução do Sistema">
+Certifique-se de que seu cliente Roblox permaneça no modo janela ou em uma resolução fixa. Alterar o tamanho da janela após a gravação mudará as coordenadas dos botões, fazendo com que a macro clique em espaços vazios e quebre o loop.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Configurações de Macro e TinyTask">
+
+O TinyTask é um utilitário leve que grava movimentos do mouse, cliques e entradas de teclado, reproduzindo-os em um loop contínuo. Como a ferramenta depende inteiramente de ações baseadas em coordenadas, minimizar o lag do jogo e as mudanças na interface é crítico. Se uma notificação aparecer ou ocorrer uma queda de quadros, a macro pode clicar na área errada, encerrando a execução automatizada prematuramente.
+
+Antes de iniciar o processo de gravação, configure as definições do TinyTask para garantir a confiabilidade. A velocidade de reprodução deve permanecer na velocidade normal e as configurações de loop devem ser ajustadas para repetir indefinidamente.
+
+<CardGrid cols={3}>
+  <Card title="Reprodução Contínua">
+    - **Permite loops infinitos**
+    - Executa a macro repetidamente
+    - Essencial para farm durante a noite
+  </Card>
+  <Card title="Customização de Atalhos">
+    - **F12 para gravar**
+    - F8 para reproduzir
+    - Evita movimentos acidentais do mouse
+  </Card>
+  <Card title="Velocidade 1x">
+    - **Mantém o tempo de entrada**
+    - Evita pular telas de carregamento
+    - Previne problemas de sincronização da UI
+  </Card>
+</CardGrid>
+
+| Parâmetro | Configuração Recomendada | Objetivo |
+|---|---|---|
+| Velocidade de Reprodução | Velocidade 1x | Evita erros de registro de entrada |
+| Loop de Reprodução | Reprodução Contínua | Mantém a macro rodando indefinidamente |
+| Atalho de Gravação | F12 | Inicia e interrompe a sequência de gravação |
+| Atalho de Reprodução | F8 | Inicia a sequência de loop automatizada |
+
+Além de configurar o software de macro, as configurações dentro do Anime Paradox devem ser otimizadas. Poluição visual, números de dano e movimentos de câmera podem alterar o posicionamento dos elementos da UI ou causar quedas de desempenho que dessincronizam o tempo da macro.
+
+| Nome da Configuração | Status | Impacto na Macro |
+|---|---|---|
+| Efeitos Visuais | Desativado | Reduz o lag e mantém as coordenadas de clique da unidade |
+| Tremor de Câmera | Desativado | Evita o deslocamento da câmera durante os ataques |
+| Auto Skip | Ativado | Acelera as transições de ondas |
+| Indicadores de Dano | Desativado | Economiza recursos de CPU e evita poluição na UI |
+| Tags de Unidade | Desativado | Remove sobreposições de texto que bloqueiam áreas de posicionamento |
+
+<Callout type="tip" title="Otimização de Desempenho">
+Ative o Modo de Baixo Detalhe (Low Detail Mode) no menu de configurações. Isso reduz a carga de renderização na sua placa de vídeo, minimizando a chance de quedas de quadros durante ondas intensas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Execução Passo a Passo do Farm de Portal">
+
+Executar a macro com sucesso requer uma sequência de gravação precisa. Qualquer erro cometido durante a fase de gravação será repetido pelo software durante a reprodução. Siga estes passos cuidadosamente para estabelecer um loop confiável.
+
+<Steps>
+  <Step num="1" title="Calibrar Ângulo da Câmera">
+    Entre no mapa de Shibuya e ajuste imediatamente sua câmera para uma visão de cima (bird's-eye view). Este ângulo garante que as áreas de posicionamento estejam claramente visíveis e não se desloquem quando as unidades forem implantadas.
+  </Step>
+  <Step num="2" title="Iniciar Gravação">
+    Pressione sua tecla de atalho de gravação designada (F12) para começar. Clique no botão de confirmação de entrada na sua tela para iniciar oficialmente a execução do portal.
+  </Step>
+  <Step num="3" title="Implantar e Melhorar Unidades">
+    Posicione suas unidades defensivas principais, como Eternal Sunjin Wu, em locais estratégicos. Clique na opção de auto-upgrade imediatamente para garantir que suas unidades escalem automaticamente conforme as ondas progridem.
+  </Step>
+  <Step num="4" title="Gravar Atrasos de Vitória">
+    Assim que a onda final for limpa e a tela de vitória aparecer, espere. Não clique em nada por 20 a 30 segundos. Este tempo de buffer compensa quaisquer atrasos futuros na tela de carregamento.
+  </Step>
+  <Step num="5" title="Reentrar e Parar Gravação">
+    Clique na UI de seleção de portal, selecione o nível de portal desejado e clique no botão de usar. Assim que a tela de carregamento começar, pressione sua tecla de atalho de gravação para salvar a macro.
+  </Step>
+</Steps>
+
+| Fase do Passo | Ação Necessária | Tempo de Buffer |
+|---|---|---|
+| Fase 1: Spawn | Alinhar ângulo da câmera | 2 segundos |
+| Fase 2: Implantar | Posicionar unidades de defesa principal | 5 segundos |
+| Fase 3: Esperar | Não mover o cursor do mouse | Duração da limpeza |
+| Fase 4: Vitória | Esperar pela tela de recompensas | 25 segundos |
+| Fase 5: Reentrada | Selecionar portal e reiniciar | 5 segundos |
+
+<Callout type="success" title="Validação do Loop">
+Execute a macro gravada manualmente por pelo menos três loops consecutivos antes de deixar sua configuração sem supervisão. Isso confirma que os buffers de atraso são longos o suficiente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Unidades e Objetivos de Progressão">
+
+Selecionar as unidades corretas determina a taxa de sucesso da sua configuração de **AFK chamber do Anime Paradox**. Como a macro não pode se adaptar a vazamentos ou avanços inesperados de inimigos, você deve usar unidades que consigam solar as ondas do portal confortavelmente sem padrões de posicionamento complexos.
+
+Eternal Sunjin Wu é atualmente a escolha principal para farm de portal AFK. Seu alto dano base, ataques de área ampla e caminho de upgrade direto permitem que ele limpe as ondas com eficiência. Usar uma única unidade extremamente forte é muito mais seguro do que depender de uma equipe completa, pois minimiza o número de cliques que a macro precisa executar.
+
+<Checklist
+  id="afk-chamber-checklist"
+  title="Requisitos para Configuração de Farm:"
+  items={[
+    "Obter Eternal Sunjin Wu ou uma unidade DPS de alto nível comparável",
+    "Configurar as teclas de atalho do TinyTask e ativar o loop contínuo",
+    "Desativar tremor de câmera e todos os efeitos gráficos no jogo",
+    "Gravar um buffer de atraso de 30 segundos no final da execução",
+    "Desbloquear o Portal JJK 13 para rendimentos máximos de energia de maldição e gemas"
+  ]}
+/>
+
+| Nome da Unidade | Função | Classificação de Viabilidade AFK | Complexidade de Configuração |
+|---|---|---|---|
+| Eternal Sunjin Wu | Solo Carry | 5/5 | Muito Baixa |
+| Gojo | Controle de Grupo | 4/5 | Média |
+| Sukuna | DPS Principal | 4/5 | Média |
+| Yuta | Suporte | 3/5 | Alta |
+
+<Callout type="info" title="Alocação de Recursos">
+Use a energia de maldição coletada em suas sessões AFK para tentar obter o Mahoraga. As gemas acumuladas podem ser reinvestidas na melhoria do seu elenco de unidades ativas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ e Solução de Problemas">
+
+<FAQ items={[
+  {
+    question: "Por que minha macro erra o botão do portal após várias execuções?",
+    answer: "Isso geralmente é causado por lag do jogo ou atrasos na tela de carregamento. Certifique-se de ter desativado todos os efeitos visuais e adicionado um atraso de 20 a 30 segundos ao final da sua gravação para compensar tempos de carregamento variáveis."
+  },
+  {
+    question: "Qual é o melhor portal para farmar usando o método AFK chamber do Anime Paradox?",
+    answer: "O Portal JJK 13 é altamente recomendado. Ele rende 19.000 de energia de maldição e 145 gemas por execução, e pode ser concluído em aproximadamente 2 minutos com as unidades certas."
+  },
+  {
+    question: "Posso usar velocidades de reprodução superiores a 1x no TinyTask?",
+    answer: "Não é recomendado. Velocidades mais altas frequentemente fazem com que os cliques sejam registrados antes que os elementos carreguem, quebrando o loop da macro."
+  },
+  {
+    question: "Preciso de várias unidades para limpar os portais de Shibuya?",
+    answer: "Não, uma única unidade poderosa como Eternal Sunjin Wu é suficiente para limpar as ondas, tornando o processo de gravação da macro muito mais simples."
+  }
+]} />
+
+<Callout type="warning" title="Aviso Anti-Cheat">
+Embora macros como o TinyTask sejam amplamente utilizadas para progressão, sempre monitore as atualizações oficiais do jogo e os canais da comunidade para garantir que o farm automatizado permaneça em conformidade com os termos de serviço do jogo.
+</Callout>
+
+</Section>

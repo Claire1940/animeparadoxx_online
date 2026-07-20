@@ -6,7 +6,21 @@
         "file": "anime-paradox-codes"
       }
     ],
+    "community": [
+      {
+        "slug": "anime-paradox-official-discord",
+        "file": "anime-paradox-official-discord"
+      },
+      {
+        "slug": "anime-paradox-player-count",
+        "file": "anime-paradox-player-count"
+      }
+    ],
     "evolution": [
+      {
+        "slug": "anime-paradox-ascension",
+        "file": "anime-paradox-ascension"
+      },
       {
         "slug": "anime-paradox-broly-evo",
         "file": "anime-paradox-broly-evo"
@@ -26,12 +40,32 @@
     ],
     "guide": [
       {
+        "slug": "anime-paradox-afk-chamber",
+        "file": "anime-paradox-afk-chamber"
+      },
+      {
         "slug": "anime-paradox-beginner-guide",
         "file": "anime-paradox-beginner-guide"
       },
       {
         "slug": "anime-paradox-best-team",
         "file": "anime-paradox-best-team"
+      },
+      {
+        "slug": "anime-paradox-discord",
+        "file": "anime-paradox-discord"
+      },
+      {
+        "slug": "anime-paradox-drama",
+        "file": "anime-paradox-drama"
+      },
+      {
+        "slug": "anime-paradox-fandom",
+        "file": "anime-paradox-fandom"
+      },
+      {
+        "slug": "anime-paradox-farm",
+        "file": "anime-paradox-farm"
       },
       {
         "slug": "anime-paradox-gem-farming",
@@ -44,6 +78,14 @@
       {
         "slug": "anime-paradox-how-to-get-secret-units",
         "file": "anime-paradox-how-to-get-secret-units"
+      },
+      {
+        "slug": "anime-paradox-official-discord",
+        "file": "anime-paradox-official-discord"
+      },
+      {
+        "slug": "anime-paradox-player-count",
+        "file": "anime-paradox-player-count"
       },
       {
         "slug": "anime-paradox-progression-guide",
@@ -78,6 +120,10 @@
     ],
     "systems": [
       {
+        "slug": "anime-paradox-auto-play",
+        "file": "anime-paradox-auto-play"
+      },
+      {
         "slug": "anime-paradox-banner",
         "file": "anime-paradox-banner"
       },
@@ -104,12 +150,76 @@
       {
         "slug": "anime-paradox-secret-pity",
         "file": "anime-paradox-secret-pity"
+      },
+      {
+        "slug": "anime-paradox-worthiness",
+        "file": "anime-paradox-worthiness"
       }
     ],
     "units": [
       {
+        "slug": "anime-paradox-akiko",
+        "file": "anime-paradox-akiko"
+      },
+      {
+        "slug": "anime-paradox-all-traits",
+        "file": "anime-paradox-all-traits"
+      },
+      {
+        "slug": "anime-paradox-angelic-trait",
+        "file": "anime-paradox-angelic-trait"
+      },
+      {
+        "slug": "anime-paradox-asta",
+        "file": "anime-paradox-asta"
+      },
+      {
+        "slug": "anime-paradox-best-units",
+        "file": "anime-paradox-best-units"
+      },
+      {
+        "slug": "anime-paradox-bulla",
+        "file": "anime-paradox-bulla"
+      },
+      {
         "slug": "anime-paradox-cid",
         "file": "anime-paradox-cid"
+      },
+      {
+        "slug": "anime-paradox-death-reaper",
+        "file": "anime-paradox-death-reaper"
+      },
+      {
+        "slug": "anime-paradox-dio",
+        "file": "anime-paradox-dio"
+      },
+      {
+        "slug": "anime-paradox-eryu",
+        "file": "anime-paradox-eryu"
+      },
+      {
+        "slug": "anime-paradox-eto",
+        "file": "anime-paradox-eto"
+      },
+      {
+        "slug": "anime-paradox-executioner",
+        "file": "anime-paradox-executioner"
+      },
+      {
+        "slug": "anime-paradox-frieza",
+        "file": "anime-paradox-frieza"
+      },
+      {
+        "slug": "anime-paradox-geto",
+        "file": "anime-paradox-geto"
+      },
+      {
+        "slug": "anime-paradox-gilgamesh",
+        "file": "anime-paradox-gilgamesh"
+      },
+      {
+        "slug": "anime-paradox-god-slayer",
+        "file": "anime-paradox-god-slayer"
       },
       {
         "slug": "anime-paradox-gojo",
@@ -124,16 +234,68 @@
         "file": "anime-paradox-ichigo"
       },
       {
+        "slug": "anime-paradox-igris",
+        "file": "anime-paradox-igris"
+      },
+      {
+        "slug": "anime-paradox-itadori",
+        "file": "anime-paradox-itadori"
+      },
+      {
+        "slug": "anime-paradox-jogo",
+        "file": "anime-paradox-jogo"
+      },
+      {
         "slug": "anime-paradox-kaneki",
         "file": "anime-paradox-kaneki"
+      },
+      {
+        "slug": "anime-paradox-kashimo",
+        "file": "anime-paradox-kashimo"
+      },
+      {
+        "slug": "anime-paradox-killua",
+        "file": "anime-paradox-killua"
+      },
+      {
+        "slug": "anime-paradox-mahito",
+        "file": "anime-paradox-mahito"
       },
       {
         "slug": "anime-paradox-megumi",
         "file": "anime-paradox-megumi"
       },
       {
+        "slug": "anime-paradox-meliodas",
+        "file": "anime-paradox-meliodas"
+      },
+      {
+        "slug": "anime-paradox-monkey-king",
+        "file": "anime-paradox-monkey-king"
+      },
+      {
+        "slug": "anime-paradox-natsu",
+        "file": "anime-paradox-natsu"
+      },
+      {
+        "slug": "anime-paradox-ohmu",
+        "file": "anime-paradox-ohmu"
+      },
+      {
+        "slug": "anime-paradox-poseidon",
+        "file": "anime-paradox-poseidon"
+      },
+      {
         "slug": "anime-paradox-qin-shi-huang",
         "file": "anime-paradox-qin-shi-huang"
+      },
+      {
+        "slug": "anime-paradox-shiny",
+        "file": "anime-paradox-shiny"
+      },
+      {
+        "slug": "anime-paradox-stark",
+        "file": "anime-paradox-stark"
       },
       {
         "slug": "anime-paradox-sukuna",
@@ -144,11 +306,23 @@
         "file": "anime-paradox-sung-jin-woo"
       },
       {
+        "slug": "anime-paradox-ulquiorra",
+        "file": "anime-paradox-ulquiorra"
+      },
+      {
+        "slug": "anime-paradox-valentine-unit",
+        "file": "anime-paradox-valentine-unit"
+      },
+      {
         "slug": "anime-paradox-yuta",
         "file": "anime-paradox-yuta"
       }
     ],
     "updates": [
+      {
+        "slug": "anime-paradox-event",
+        "file": "anime-paradox-event"
+      },
       {
         "slug": "anime-paradox-update-2",
         "file": "anime-paradox-update-2"
@@ -164,6 +338,10 @@
       {
         "slug": "anime-paradox-update",
         "file": "anime-paradox-update"
+      },
+      {
+        "slug": "anime-paradox-valentine-shop",
+        "file": "anime-paradox-valentine-shop"
       }
     ]
   },
@@ -174,7 +352,21 @@
         "file": "anime-paradox-codes"
       }
     ],
+    "community": [
+      {
+        "slug": "anime-paradox-official-discord",
+        "file": "anime-paradox-official-discord"
+      },
+      {
+        "slug": "anime-paradox-player-count",
+        "file": "anime-paradox-player-count"
+      }
+    ],
     "evolution": [
+      {
+        "slug": "anime-paradox-ascension",
+        "file": "anime-paradox-ascension"
+      },
       {
         "slug": "anime-paradox-broly-evo",
         "file": "anime-paradox-broly-evo"
@@ -194,12 +386,32 @@
     ],
     "guide": [
       {
+        "slug": "anime-paradox-afk-chamber",
+        "file": "anime-paradox-afk-chamber"
+      },
+      {
         "slug": "anime-paradox-beginner-guide",
         "file": "anime-paradox-beginner-guide"
       },
       {
         "slug": "anime-paradox-best-team",
         "file": "anime-paradox-best-team"
+      },
+      {
+        "slug": "anime-paradox-discord",
+        "file": "anime-paradox-discord"
+      },
+      {
+        "slug": "anime-paradox-drama",
+        "file": "anime-paradox-drama"
+      },
+      {
+        "slug": "anime-paradox-fandom",
+        "file": "anime-paradox-fandom"
+      },
+      {
+        "slug": "anime-paradox-farm",
+        "file": "anime-paradox-farm"
       },
       {
         "slug": "anime-paradox-gem-farming",
@@ -212,6 +424,14 @@
       {
         "slug": "anime-paradox-how-to-get-secret-units",
         "file": "anime-paradox-how-to-get-secret-units"
+      },
+      {
+        "slug": "anime-paradox-official-discord",
+        "file": "anime-paradox-official-discord"
+      },
+      {
+        "slug": "anime-paradox-player-count",
+        "file": "anime-paradox-player-count"
       },
       {
         "slug": "anime-paradox-progression-guide",
@@ -246,6 +466,10 @@
     ],
     "systems": [
       {
+        "slug": "anime-paradox-auto-play",
+        "file": "anime-paradox-auto-play"
+      },
+      {
         "slug": "anime-paradox-banner",
         "file": "anime-paradox-banner"
       },
@@ -272,12 +496,72 @@
       {
         "slug": "anime-paradox-secret-pity",
         "file": "anime-paradox-secret-pity"
+      },
+      {
+        "slug": "anime-paradox-worthiness",
+        "file": "anime-paradox-worthiness"
       }
     ],
     "units": [
       {
+        "slug": "anime-paradox-akiko",
+        "file": "anime-paradox-akiko"
+      },
+      {
+        "slug": "anime-paradox-all-traits",
+        "file": "anime-paradox-all-traits"
+      },
+      {
+        "slug": "anime-paradox-angelic-trait",
+        "file": "anime-paradox-angelic-trait"
+      },
+      {
+        "slug": "anime-paradox-asta",
+        "file": "anime-paradox-asta"
+      },
+      {
+        "slug": "anime-paradox-bulla",
+        "file": "anime-paradox-bulla"
+      },
+      {
         "slug": "anime-paradox-cid",
         "file": "anime-paradox-cid"
+      },
+      {
+        "slug": "anime-paradox-death-reaper",
+        "file": "anime-paradox-death-reaper"
+      },
+      {
+        "slug": "anime-paradox-dio",
+        "file": "anime-paradox-dio"
+      },
+      {
+        "slug": "anime-paradox-eryu",
+        "file": "anime-paradox-eryu"
+      },
+      {
+        "slug": "anime-paradox-eto",
+        "file": "anime-paradox-eto"
+      },
+      {
+        "slug": "anime-paradox-executioner",
+        "file": "anime-paradox-executioner"
+      },
+      {
+        "slug": "anime-paradox-frieza",
+        "file": "anime-paradox-frieza"
+      },
+      {
+        "slug": "anime-paradox-geto",
+        "file": "anime-paradox-geto"
+      },
+      {
+        "slug": "anime-paradox-gilgamesh",
+        "file": "anime-paradox-gilgamesh"
+      },
+      {
+        "slug": "anime-paradox-god-slayer",
+        "file": "anime-paradox-god-slayer"
       },
       {
         "slug": "anime-paradox-gojo",
@@ -292,16 +576,68 @@
         "file": "anime-paradox-ichigo"
       },
       {
+        "slug": "anime-paradox-igris",
+        "file": "anime-paradox-igris"
+      },
+      {
+        "slug": "anime-paradox-itadori",
+        "file": "anime-paradox-itadori"
+      },
+      {
+        "slug": "anime-paradox-jogo",
+        "file": "anime-paradox-jogo"
+      },
+      {
         "slug": "anime-paradox-kaneki",
         "file": "anime-paradox-kaneki"
+      },
+      {
+        "slug": "anime-paradox-kashimo",
+        "file": "anime-paradox-kashimo"
+      },
+      {
+        "slug": "anime-paradox-killua",
+        "file": "anime-paradox-killua"
+      },
+      {
+        "slug": "anime-paradox-mahito",
+        "file": "anime-paradox-mahito"
       },
       {
         "slug": "anime-paradox-megumi",
         "file": "anime-paradox-megumi"
       },
       {
+        "slug": "anime-paradox-meliodas",
+        "file": "anime-paradox-meliodas"
+      },
+      {
+        "slug": "anime-paradox-monkey-king",
+        "file": "anime-paradox-monkey-king"
+      },
+      {
+        "slug": "anime-paradox-natsu",
+        "file": "anime-paradox-natsu"
+      },
+      {
+        "slug": "anime-paradox-ohmu",
+        "file": "anime-paradox-ohmu"
+      },
+      {
+        "slug": "anime-paradox-poseidon",
+        "file": "anime-paradox-poseidon"
+      },
+      {
         "slug": "anime-paradox-qin-shi-huang",
         "file": "anime-paradox-qin-shi-huang"
+      },
+      {
+        "slug": "anime-paradox-shiny",
+        "file": "anime-paradox-shiny"
+      },
+      {
+        "slug": "anime-paradox-stark",
+        "file": "anime-paradox-stark"
       },
       {
         "slug": "anime-paradox-sukuna",
@@ -312,11 +648,23 @@
         "file": "anime-paradox-sung-jin-woo"
       },
       {
+        "slug": "anime-paradox-ulquiorra",
+        "file": "anime-paradox-ulquiorra"
+      },
+      {
+        "slug": "anime-paradox-valentine-unit",
+        "file": "anime-paradox-valentine-unit"
+      },
+      {
         "slug": "anime-paradox-yuta",
         "file": "anime-paradox-yuta"
       }
     ],
     "updates": [
+      {
+        "slug": "anime-paradox-event",
+        "file": "anime-paradox-event"
+      },
       {
         "slug": "anime-paradox-update-2",
         "file": "anime-paradox-update-2"
@@ -332,6 +680,10 @@
       {
         "slug": "anime-paradox-update",
         "file": "anime-paradox-update"
+      },
+      {
+        "slug": "anime-paradox-valentine-shop",
+        "file": "anime-paradox-valentine-shop"
       }
     ]
   },
@@ -342,7 +694,21 @@
         "file": "anime-paradox-codes"
       }
     ],
+    "community": [
+      {
+        "slug": "anime-paradox-official-discord",
+        "file": "anime-paradox-official-discord"
+      },
+      {
+        "slug": "anime-paradox-player-count",
+        "file": "anime-paradox-player-count"
+      }
+    ],
     "evolution": [
+      {
+        "slug": "anime-paradox-ascension",
+        "file": "anime-paradox-ascension"
+      },
       {
         "slug": "anime-paradox-broly-evo",
         "file": "anime-paradox-broly-evo"
@@ -362,12 +728,32 @@
     ],
     "guide": [
       {
+        "slug": "anime-paradox-afk-chamber",
+        "file": "anime-paradox-afk-chamber"
+      },
+      {
         "slug": "anime-paradox-beginner-guide",
         "file": "anime-paradox-beginner-guide"
       },
       {
         "slug": "anime-paradox-best-team",
         "file": "anime-paradox-best-team"
+      },
+      {
+        "slug": "anime-paradox-discord",
+        "file": "anime-paradox-discord"
+      },
+      {
+        "slug": "anime-paradox-drama",
+        "file": "anime-paradox-drama"
+      },
+      {
+        "slug": "anime-paradox-fandom",
+        "file": "anime-paradox-fandom"
+      },
+      {
+        "slug": "anime-paradox-farm",
+        "file": "anime-paradox-farm"
       },
       {
         "slug": "anime-paradox-gem-farming",
@@ -380,6 +766,14 @@
       {
         "slug": "anime-paradox-how-to-get-secret-units",
         "file": "anime-paradox-how-to-get-secret-units"
+      },
+      {
+        "slug": "anime-paradox-official-discord",
+        "file": "anime-paradox-official-discord"
+      },
+      {
+        "slug": "anime-paradox-player-count",
+        "file": "anime-paradox-player-count"
       },
       {
         "slug": "anime-paradox-progression-guide",
@@ -414,6 +808,10 @@
     ],
     "systems": [
       {
+        "slug": "anime-paradox-auto-play",
+        "file": "anime-paradox-auto-play"
+      },
+      {
         "slug": "anime-paradox-banner",
         "file": "anime-paradox-banner"
       },
@@ -440,12 +838,72 @@
       {
         "slug": "anime-paradox-secret-pity",
         "file": "anime-paradox-secret-pity"
+      },
+      {
+        "slug": "anime-paradox-worthiness",
+        "file": "anime-paradox-worthiness"
       }
     ],
     "units": [
       {
+        "slug": "anime-paradox-akiko",
+        "file": "anime-paradox-akiko"
+      },
+      {
+        "slug": "anime-paradox-all-traits",
+        "file": "anime-paradox-all-traits"
+      },
+      {
+        "slug": "anime-paradox-angelic-trait",
+        "file": "anime-paradox-angelic-trait"
+      },
+      {
+        "slug": "anime-paradox-asta",
+        "file": "anime-paradox-asta"
+      },
+      {
+        "slug": "anime-paradox-bulla",
+        "file": "anime-paradox-bulla"
+      },
+      {
         "slug": "anime-paradox-cid",
         "file": "anime-paradox-cid"
+      },
+      {
+        "slug": "anime-paradox-death-reaper",
+        "file": "anime-paradox-death-reaper"
+      },
+      {
+        "slug": "anime-paradox-dio",
+        "file": "anime-paradox-dio"
+      },
+      {
+        "slug": "anime-paradox-eryu",
+        "file": "anime-paradox-eryu"
+      },
+      {
+        "slug": "anime-paradox-eto",
+        "file": "anime-paradox-eto"
+      },
+      {
+        "slug": "anime-paradox-executioner",
+        "file": "anime-paradox-executioner"
+      },
+      {
+        "slug": "anime-paradox-frieza",
+        "file": "anime-paradox-frieza"
+      },
+      {
+        "slug": "anime-paradox-geto",
+        "file": "anime-paradox-geto"
+      },
+      {
+        "slug": "anime-paradox-gilgamesh",
+        "file": "anime-paradox-gilgamesh"
+      },
+      {
+        "slug": "anime-paradox-god-slayer",
+        "file": "anime-paradox-god-slayer"
       },
       {
         "slug": "anime-paradox-gojo",
@@ -460,16 +918,68 @@
         "file": "anime-paradox-ichigo"
       },
       {
+        "slug": "anime-paradox-igris",
+        "file": "anime-paradox-igris"
+      },
+      {
+        "slug": "anime-paradox-itadori",
+        "file": "anime-paradox-itadori"
+      },
+      {
+        "slug": "anime-paradox-jogo",
+        "file": "anime-paradox-jogo"
+      },
+      {
         "slug": "anime-paradox-kaneki",
         "file": "anime-paradox-kaneki"
+      },
+      {
+        "slug": "anime-paradox-kashimo",
+        "file": "anime-paradox-kashimo"
+      },
+      {
+        "slug": "anime-paradox-killua",
+        "file": "anime-paradox-killua"
+      },
+      {
+        "slug": "anime-paradox-mahito",
+        "file": "anime-paradox-mahito"
       },
       {
         "slug": "anime-paradox-megumi",
         "file": "anime-paradox-megumi"
       },
       {
+        "slug": "anime-paradox-meliodas",
+        "file": "anime-paradox-meliodas"
+      },
+      {
+        "slug": "anime-paradox-monkey-king",
+        "file": "anime-paradox-monkey-king"
+      },
+      {
+        "slug": "anime-paradox-natsu",
+        "file": "anime-paradox-natsu"
+      },
+      {
+        "slug": "anime-paradox-ohmu",
+        "file": "anime-paradox-ohmu"
+      },
+      {
+        "slug": "anime-paradox-poseidon",
+        "file": "anime-paradox-poseidon"
+      },
+      {
         "slug": "anime-paradox-qin-shi-huang",
         "file": "anime-paradox-qin-shi-huang"
+      },
+      {
+        "slug": "anime-paradox-shiny",
+        "file": "anime-paradox-shiny"
+      },
+      {
+        "slug": "anime-paradox-stark",
+        "file": "anime-paradox-stark"
       },
       {
         "slug": "anime-paradox-sukuna",
@@ -480,11 +990,23 @@
         "file": "anime-paradox-sung-jin-woo"
       },
       {
+        "slug": "anime-paradox-ulquiorra",
+        "file": "anime-paradox-ulquiorra"
+      },
+      {
+        "slug": "anime-paradox-valentine-unit",
+        "file": "anime-paradox-valentine-unit"
+      },
+      {
         "slug": "anime-paradox-yuta",
         "file": "anime-paradox-yuta"
       }
     ],
     "updates": [
+      {
+        "slug": "anime-paradox-event",
+        "file": "anime-paradox-event"
+      },
       {
         "slug": "anime-paradox-update-2",
         "file": "anime-paradox-update-2"
@@ -500,6 +1022,10 @@
       {
         "slug": "anime-paradox-update",
         "file": "anime-paradox-update"
+      },
+      {
+        "slug": "anime-paradox-valentine-shop",
+        "file": "anime-paradox-valentine-shop"
       }
     ]
   }

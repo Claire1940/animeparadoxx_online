@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Paradox Fandom: Banco de Dados Wiki e Guia para Iniciantes",
+  description: "Domine o Anime Paradox com nosso guia completo do banco de dados wiki. Aprenda sobre mecânicas de defesa do Nexus, raridades de unidades, características (traits) e estratégias de progressão.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Wiki+Database+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki de Anime Paradox"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Banco de Dados Principal**: Acessar o banco de dados wiki do **anime paradox fandom** é essencial para otimizar as builds de seus personagens, rolagens de características (traits) e composições de equipe.
+- **Defesa do Nexus**: Ao contrário dos jogos tradicionais de tower defense, as unidades neste RPG têm barras de vida, sofrem danos ativos e regeneram vida passivamente quando estão fora de combate.
+- **Escalonamento de Economia**: Priorize invocar e melhorar unidades de economia como a Bulma no início das partidas para financiar melhorias de personagens de alto custo e alto dano.
+- **Otimização de Características (Traits)**: Use rolagens de troca (trade rolls) para garantir modificadores poderosos como Eterno (Eternal) para dano massivo ou Ganância (Greed) para aumentar sua geração de ouro e gemas.
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Jogo e Mecânicas Principais">
+
+O Anime Paradox introduz uma nova dinâmica ao gênero de tower defense de anime, misturando posicionamento tático com mecânicas de RPG ativo. Os jogadores devem defender um Nexus central de ondas de inimigos agressivos. Em vez de funcionarem como torres estáticas e invulneráveis, seus personagens agem como defensores físicos no campo de batalha. Eles possuem barras de vida individuais, atraem a atenção (aggro) dos inimigos e podem ser temporariamente nocauteados se forem sobrecarregados. Gerenciar o posicionamento e a vida deles é tão crítico quanto maximizar a sua produção de dano.
+
+**Destaques do Vídeo:**
+- **Mecânicas de Defesa do Nexus**: Saiba como o sistema de defesa da base central difere dos jogos de tower defense padrão baseados em rotas.
+- **Demonstração de Unidades**: Veja unidades de alto nível como Megumin e Goku Black em ação, destacando suas habilidades exclusivas e cobertura de área (AoE).
+- **Invocação e Gacha de Características**: Assista a uma demonstração ao vivo do sistema de invocação, rolagens de características (traits) e como as poções de sorte influenciam suas taxas de obtenção.
+- **Passo a Passo de Gameplay ao Vivo**: Observe uma partida completa na dificuldade Normal, demonstrando um escalonamento de economia eficiente e estratégias de posicionamento de unidades.
+
+<YouTubeEmbed videoId="GtwHDWCcPg0" title="Novo TIPO de JOGO DE DEFESA DE ANIME | Anime Paradox!!" />
+
+Para ter sucesso no conteúdo de alto nível, os jogadores devem consultar o banco de dados oficial da [Anime Paradox Fandom Wiki](https://anime-paradox.fandom.com/wiki/Anime_paradox_Wiki) para acompanhar as rotas dos inimigos, fraquezas elementares e layouts dos mapas. Cada mapa apresenta perigos ambientais e pontos de afunilamento (choke points) exclusivos que determinam onde você deve posicionar seus causadores de dano principais e unidades de suporte.
+
+| Modo de Jogo | Objetivo Principal | Recompensas Principais | Nível de Dificuldade |
+| :--- | :--- | :--- | :--- |
+| Modo História (Story Mode) | Defenda o Nexus em capítulos temáticos como Floresta Ninja (Ninja Forest) e Base Marinha (Marine Base) | Gemas Padrão, XP Básico | Iniciante a Intermediário |
+| Modo Lenda (Legend Mode) | Encare variações avançadas dos mapas da história com modificadores de inimigos aprimorados | Gemas de Alto Nível, Materiais de Evolução | Intermediário a Avançado |
+| Incursões (Raids) | Coordene em arenas especializadas como o Topo do Castelo Hueco (Top of Hueco Castle) para derrotar chefes | Itens Raros de Criação, Unidades Exclusivas | Avançado |
+| Incursões Mundiais (World Raids) | Participe de encontros massivos em todo o servidor, como a Invasão de Formigas (Ant Invasion) | Materiais Lendários, Títulos Exclusivos | Fim de Jogo (End-game) |
+| Reino Virtual (Virtual Realm) | Teste sua resistência contra ondas infinitas e escalonadas de inimigos aleatórios | Tokens Cosméticos, Fortalecedores de Atributos | Escalonado |
+
+<Callout type="tip" title="Dica de Posicionamento Pro">
+Sempre coloque suas unidades de economia principais, como a Bulma, perto do Nexus central. Isso as protege de ataques de área de efeito (AoE) perdidos dos inimigos, mantendo-as ao alcance de bônus defensivos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Anime Paradox Fandom: Raridades e Características de Personagens">
+
+Montar uma equipe otimizada exige uma compreensão profunda das raridades e características (traits) das unidades. O banco de dados do **anime paradox fandom** classifica as unidades em categorias distintas com base em seus atributos básicos, conjuntos de habilidades e potencial de escalonamento. Embora unidades iniciais como o Goku forneçam uma base confiável para a progressão no início do jogo, unidades Míticas (Mythic) e Exclusivas (Exclusive) de alto nível são obrigatórias para concluir as Incursões de fim de jogo e os desafios de Ultra Chefes (Ultra Boss).
+
+<CardGrid cols={3}>
+  <Card title="Goku Black (Mítico)">
+    - **Passiva de Escalonamento**: Ganha 3% de dano por eliminação, acumulando até 10 vezes.
+    - **AoE Massivo**: Apresenta um grande alcance de aggro e ataques de esfera de energia de alto dano.
+    - **Versatilidade**: Excelente para controle de grupo e limpeza de ondas densas de inimigos.
+  </Card>
+  <Card title="Megumin (Exclusiva)">
+    - **Arcana de Explosão**: Causa 300% de dano a todos os inimigos ao alcance a cada 90 segundos.
+    - **Dano de Queimadura**: Aplica um efeito de queimadura contínuo que derrete alvos com armadura alta.
+    - **Limite de Posicionamento**: Restrita a um único posicionamento devido ao seu poder extremo.
+  </Card>
+  <Card title="Cell Perfeito (Mítico)">
+    - **Evolução Perfeita**: Ganha 5% de dano e 3% de vida por eliminação, até um limite de 50%.
+    - **Alta Sobrevivência**: Excelentes capacidades de tanque para defesa na linha de frente.
+    - **Potencial de Evolução**: Pode ser evoluído para formas mais fortes usando materiais criáveis.
+  </Card>
+</CardGrid>
+
+As Características (Traits) adicionam uma camada extra de personalização às suas unidades. Quando você invoca um personagem, ele tem a chance de vir com uma característica aleatória que altera seu desempenho em combate ou utilidade econômica. Você pode rolar novamente (reroll) essas características no Mercador de Ouro (Gold Merchant) usando rolagens de troca (trade rolls).
+
+| Nome da Característica | Modificadores de Atributos e Efeitos | Melhor Sinergia de Unidade | Classificação no Meta |
+| :--- | :--- | :--- | :--- |
+| Eterno (Eternal) | Multiplicador de dano massivo, restringe o posicionamento da unidade a apenas uma | Magos de AoE de alto impacto (Megumin) | Excelente (5/5) |
+| Ganância (Greed) | Aumenta o dinheiro gerado pela unidade em 20% | Geradores de economia dedicados (Bulma) | Essencial (5/5) |
+| Ômega (Omega) | Concede o dobro de velocidade de ataque e capacidades de golpes múltiplos | Atacantes físicos de tiro rápido | Ótimo (4/5) |
+| Evolução Perfeita (Perfect Evolution) | Acumula porcentagens fixas de dano e vida ao garantir eliminações | Lutadores de linha de frente escalonáveis (Cell, Goku Black) | Ótimo (4/5) |
+
+<Callout type="warning" title="Aviso sobre Rolagens">
+Não desperdice suas valiosas rolagens de troca em unidades Raras (Rare) ou Épicas (Epic). Guarde suas rolagens exclusivamente para unidades Míticas (Mythic), Exclusivas (Exclusive) ou Secretas (Secret) que serão peças permanentes em suas composições de equipe de fim de jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rota de Progressão Passo a Passo para Iniciantes">
+
+Navegar pelas fases iniciais do jogo pode ser desafiador. Siga este caminho de progressão estruturado para subir o nível da sua conta com eficiência, desbloquear unidades poderosas e se preparar para o conteúdo de incursão de alto nível.
+
+<Steps>
+  <Step num="1" title="Escolha Seu Inicial e Junte-se ao Grupo">
+    Comece selecionando o Goku como sua unidade inicial. Seu conjunto de habilidades de dano físico direto escalona de forma confiável ao longo dos capítulos iniciais. Além disso, certifique-se de se juntar ao grupo oficial dos desenvolvedores para desbloquear a unidade Exclusiva da Megumin gratuitamente, garantindo uma vantagem imediata em dano de área (AoE) no início do jogo.
+  </Step>
+  <Step num="2" title="Estabeleça Sua Base Econômica">
+    Priorize obter a Bulma no banner de invocação padrão. Em qualquer partida de defesa, sua primeira ação deve ser posicionar a Bulma e melhorá-la até o nível máximo. Isso garante um fluxo constante de dinheiro, permitindo que você financie melhorias caras para seus causadores de dano principais.
+  </Step>
+  <Step num="3" title="Otimize Suas Invocações com Poções de Sorte">
+    Acumule gemas completando missões diárias e limpando capítulos do Modo História. Antes de se comprometer com uma grande sessão de invocação, compre e consuma uma Poção de Sorte (Luck Potion) na loja. Isso aumenta temporariamente suas chances de obter unidades Míticas e Secretas nos banners de gacha.
+  </Step>
+  <Step num="4" title="Farme Incursões para Obter Materiais de Evolução">
+    Assim que sua conta atingir a força de meio de jogo (mid-game), mude do Modo História para as Incursões (Raids). Mapas de desafio como o Topo do Castelo Hueco (Top of Hueco Castle) deixam cair os materiais de criação essenciais necessários para evoluir seus personagens. Evoluir uma unidade aumenta significativamente seus atributos básicos e desbloqueia novas habilidades de combate.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Marco de Progressão">
+Concluir sua primeira evolução é um grande marco. Unidades evoluídas não apenas causam substancialmente mais dano, mas também ganham acesso a habilidades passivas avançadas que podem mudar o rumo de batalhas difíceis em incursões.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Desafios Avançados e Eventos">
+
+Depois de estabelecer uma equipe sólida de unidades Míticas evoluídas, você pode começar a enfrentar eventos de fim de jogo e desafios especializados. Essas atividades por tempo limitado oferecem as recompensas mais prestigiadas do jogo, incluindo cosméticos exclusivos, títulos únicos e componentes de criação de alto nível.
+
+<Checklist
+  id="endgame-milestones"
+  title="Lista de Verificação de Progressão de Fim de Jogo:"
+  items={[
+    "Concluir todos os capítulos do Modo História e Modo Lenda com uma classificação de 3 estrelas",
+    "Adquirir e evoluir totalmente pelo menos três unidades Míticas principais",
+    "Rolar características de Tier-S (como Eterno ou Ganância) em sua equipe principal",
+    "Concluir com sucesso um encontro de Incursão Mundial (ex: Ressurreição do Bio-Androide)",
+    "Derrotar um Ultra Chefe para desbloquear cosméticos e títulos de perfil exclusivos"
+  ]}
+/>
+
+Para se preparar para esses desafios, consulte a tabela abaixo para acompanhar a rotação semanal dos modos de evento e seus respectivos espólios de alto valor.
+
+| Nome do Evento | Chefe / Inimigo em Destaque | Recompensas Únicas | Nível Recomendado |
+| :--- | :--- | :--- | :--- |
+| Ressurreição do Bio-Androide (Resurrection of the Bio-Android) | Chefe Androide Perfeito | Núcleos de Evolução de Androide, Skins Secretas do Cell | Nível 50+ |
+| Invasão de Formigas (Ant Invasion) | Rei Quimera | Material de Criação Geleia Real, Unidades de Guarda Formiga | Nível 60+ |
+| Luta Kitsunox (Kitsunox Struggle) | Raposa de Nove Caudas | Fragmentos de Ascensão Divina, Montaria Kitsune | Nível 70+ |
+| Deus Impiedoso (Merciless God) | Árbitro Divino | Tokens de Besta Blanco, Características Incomparáveis | Nível 80+ |
+
+<Callout type="info" title="Dica de Participação em Eventos">
+As Incursões Mundiais e Ultra Chefes apresentam barras de vida massivas que exigem estratégias de equipe coordenadas. Use o servidor oficial do Discord para encontrar jogadores experientes e coordenar o posicionamento de suas unidades.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+Para ajudar você a aproveitar ao máximo suas estratégias defensivas, reunimos respostas para as perguntas mais comuns feitas pela comunidade.
+
+<FAQ items={[
+  {
+    question: "Como faço para acessar o banco de dados wiki do anime paradox fandom?",
+    answer: "Você pode acessar o banco de dados oficial da Anime Paradox Fandom Wiki online para visualizar estatísticas detalhadas de personagens, receitas de evolução, tabelas de características (traits) e tutoriais completos para cada modo de jogo."
+  },
+  {
+    question: "As unidades regeneram vida durante uma partida?",
+    answer: "Sim. As unidades no Anime Paradox possuem barras de vida individuais. Se sofrerem dano dos inimigos, elas regenerarão passivamente sua vida ao longo do tempo, desde que permaneçam fora de combate ativo por um breve período."
+  },
+  {
+    question: "Qual é o benefício do passe VIP?",
+    answer: "O passe de jogo VIP oferece um desconto permanente de 20% em todas as invocações de personagens, reduzindo o custo de uma invocação múltipla padrão de 500 gemas para 400 gemas. Ele também concede emblemas de perfil e cores de chat exclusivos."
+  },
+  {
+    question: "Como consigo mais rolagens de troca (trade rolls) para características?",
+    answer: "As rolagens de troca podem ser obtidas ao completar missões diárias e semanais, alcançar pontuações altas no Reino Virtual ou comprando-as diretamente no mercador de ouro usando a moeda do jogo."
+  }
+]} />
+
+<Callout type="tip" title="Conselho Final">
+Fique sempre de olho nos códigos promocionais (promo codes) ativos lançados pelos desenvolvedores. Esses códigos frequentemente recompensam com gemas grátis, poções de sorte e rolagens de troca que podem acelerar significativamente sua progressão.
+</Callout>
+
+</Section>

@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Paradox Auto Play: Guia de Configuração e Dicas da Atualização 1.5",
+  description: "Configure o sistema nativo de auto play do Anime Paradox e utilize macros externos para otimizar seu farm de portais e progressão de personagens em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Auto+Play+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki do Anime Paradox",
+  keywords: "anime paradox, auto play, atualização 1.5, farm de portais, macros, roblox"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **Auto play do Anime Paradox** permite que os jogadores automatizem o posicionamento de unidades, melhorias e ativação de habilidades nativamente.
+- A **Atualização 1.5** introduziu melhorias massivas de qualidade de vida, incluindo automação nativa e requisitos de evolução reduzidos.
+- Os requisitos de **evolução do Megumi** foram drasticamente reduzidos de 25 rodas para apenas 1 roda.
+- **Scripts de macro externos**, como o Imp Hub, podem ser combinados com recursos nativos para obter replays de portais totalmente automatizados.
+- **Bugs de otimização**, como a tela de carregamento de caixa preta, exigem etapas específicas de solução de problemas para serem resolvidos.
+</Callout>
+
+<Section icon={Sparkles} title="Auto Play do Anime Paradox: Visão Geral da Atualização 1.5">
+
+A altamente antecipada Atualização 1.5 chegou, trazendo ajustes massivos de qualidade de vida que mudam fundamentalmente a forma como os jogadores fazem o grind. A adição de destaque é o sistema oficial nativo de **auto play do Anime Paradox**. Este recurso elimina a necessidade absoluta de depender de macros instáveis de terceiros para a jogabilidade básica, permitindo que jogadores de dispositivos móveis e PC farmem portais com uma facilidade sem precedentes.
+
+Junto com este sistema de automação, a atualização introduz seis novas unidades, incluindo cinco Míticos e uma unidade Secreta incrivelmente rara. Também apresenta correções importantes de balanceamento, como ajustes na redução de dano da roda do Mahoraga e na hitbox da expansão de domínio do Sukuna.
+
+**Destaques do Vídeo:**
+- Detalhamento das mudanças oficiais de qualidade de vida da Atualização 1.5.
+- Demonstração dos novos botões nativos de auto play, auto upgrade e auto skill.
+- Visão geral das unidades Míticas e Secretas recém-adicionadas, incluindo Toji e Choso.
+- Demonstração dos bugs de carregamento do mapa de portal e como navegá-los.
+
+<YouTubeEmbed videoId="CpFqcSrkDo0" title="Guia da ATUALIZAÇÃO 1.5 do Anime Paradox! Maior Atualização Até Agora + AUTOPLAY & UNIDADE SECRETA! (Roblox)" />
+
+Embora a ferramenta de automação nativa lide perfeitamente com as mecânicas dentro da partida, os jogadores que buscam um farm completamente sem as mãos ainda podem querer comparar a ferramenta oficial com as opções de scripts externos. Abaixo está uma comparação direta do sistema nativo versus scripts de macro de terceiros.
+
+| Recurso | Auto Play Nativo | Script Externo (Imp Hub) |
+| :--- | :--- | :--- |
+| Complexidade de Configuração | Nenhuma (Botão no jogo) | Alta (Requer executor de terceiros) |
+| Posicionamento Automático | Sim (Otimizado por alcance) | Sim (Coordenadas personalizadas) |
+| Melhorias Automáticas | Sim (Contínuas) | Sim (Sequenciais) |
+| Uso Automático de Habilidade | Sim | Sim |
+| Replay Automático de Portais | Não (Clique manual necessário) | Sim |
+| Nível de Segurança | 100% Seguro | Risco de restrição de conta |
+
+<Callout type="success" title="Grande Buff na Economia">
+A Atualização 1.5 reduziu o requisito de evolução para o Megumi de 25 rodas para apenas 1 roda. Isso economiza aos jogadores cerca de 600.000 em moeda do jogo, tornando este o momento perfeito para evoluir esta unidade de primeira linha.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Como Configurar o Recurso de Auto Play Nativo">
+
+Configurar o recurso nativo de **auto play do Anime Paradox** é simples, mas maximizar sua eficiência requer entender como a IA prioriza as ações. Quando ativado, o jogo lida automaticamente com o posicionamento das unidades, melhorias e gatilhos de habilidades ativas. No entanto, como o sistema não seleciona e inicia novos portais automaticamente, os jogadores de dispositivos móveis ainda precisarão utilizar um clicker de tela simples para repetir as partidas continuamente.
+
+Para tirar o máximo proveito deste sistema, você deve definir suas configurações antes de entrar em uma partida para garantir que suas unidades sejam implantadas imediatamente no início da onda.
+
+<Steps>
+  <Step num="1" title="Acessar o Menu de Configurações">
+    Abra o menu de configurações do jogo no lobby principal ou durante a fase de preparação de qualquer partida.
+  </Step>
+  <Step num="2" title="Ativar os Botões de Automação">
+    Localize a seção de automação e ative 'Auto Play', 'Auto Spawn', 'Auto Upgrades' e 'Auto Use Skills' para a posição 'On'.
+  </Step>
+  <Step num="3" title="Selecionar Comportamentos Padrão">
+    Defina essas configurações como padrão para que elas sejam ativadas automaticamente no início de cada partida subsequente.
+  </Step>
+  <Step num="4" title="Implantar e Monitorar">
+    Entre em um mapa de portal e observe o posicionamento inicial das unidades para garantir que seus principais causadores de dano estejam posicionados corretamente.
+  </Step>
+</Steps>
+
+O sistema nativo oferece vários botões que podem ser personalizados com base no seu elenco atual e na dificuldade do portal que você está executando.
+
+| Nome da Configuração | Função | Status Recomendado |
+| :--- | :--- | :--- |
+| Auto Play | Ativa a IA central de automação | Ativado para todos os farms |
+| Auto Spawn | Implanta unidades automaticamente da sua barra | Ativado (Prioriza unidades mais baratas) |
+| Auto Upgrade | Gasta ouro para melhorar unidades implantadas | Ativado (Prioriza unidades mais antigas) |
+| Auto Use Skills | Ativa habilidades ativas instantaneamente após o cooldown | Ativado (Maximiza o DPS ativo) |
+| Force Restart | Reinicia instantaneamente a partida atual | Uso manual (Para partidas falhas) |
+| Force End | Termina a partida imediatamente | Uso manual (Para economizar tempo) |
+
+<Callout type="warning" title="Limitações de Posicionamento">
+A IA do auto play nativo ocasionalmente tem dificuldades com layouts de mapas complexos. Ela posiciona as unidades com base em seu alcance base, o que significa que unidades com características de alcance medíocres podem ser posicionadas de forma subótima. Para eficiência máxima, use unidades com características de alcance superiores ou ataques de área (AoE) amplos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Otimizando sua Configuração de Auto Play: Seleção de Unidades e Estratégias">
+
+Para farmar com sucesso portais de alto nível usando o **auto play do Anime Paradox**, a composição da sua equipe deve ser adaptada para acomodar os padrões de posicionamento da IA. Como a IA implanta unidades sequencialmente com base no custo e no ouro disponível, depender de unidades de alto custo e baixo alcance pode levar a derrotas nas ondas iniciais.
+
+A atualização 1.5 introduziu várias unidades poderosas que se destacam sob controle automatizado, particularmente devido às suas habilidades de área de efeito (AoE) amplas e passivas autossuficientes.
+
+<CardGrid cols={3}>
+  <Card title="Choso (Mítico)">
+    - **Excelente dano de veneno AoE**
+    - Baixo custo de implantação inicial
+    - Altamente confiável para defesa no início das ondas
+  </Card>
+  <Card title="Toji (Secreto)">
+    - **DPS de alvo único extremamente alto**
+    - Move-se rapidamente entre as prioridades de alvo
+    - Ideal para ondas de chefes no auto play
+  </Card>
+  <Card title="Megumi (Evoluído)">
+    - **Cobertura de alcance massiva**
+    - Mecânicas de invocação distraem os inimigos
+    - Altamente econômico após o buff da 1.5
+  </Card>
+</CardGrid>
+
+Ao montar sua equipe, priorize unidades que não exigem tempo preciso de habilidade. Unidades com buffs de dano passivo ou hitboxes automáticas funcionam significativamente melhor sob controle da IA do que aquelas que dependem de habilidades manuais direcionadas ao solo.
+
+| Nome da Unidade | Raridade | Função Primária | Sinergia com Auto Play |
+| :--- | :--- | :--- | :--- |
+| Megumi (Evoluído) | Mítico | Controle de Grupo / Invocador | Excepcional (Alcance massivo cobre erros de posicionamento) |
+| Toji | Secreto | Matador de Chefes / Alto DPS | Alta (Limpa vazamentos facilmente) |
+| Choso | Mítico | Limpeza de Ondas / Dano por Tempo | Alta (Opção acessível para o início do jogo) |
+| Gojo | Mítico | Atordoamento / Suporte | Média (Requer posicionamento estratégico para maximizar o stun) |
+| Sukuna | Mítico | Explosão AoE | Alta (Hitbox agora cobre o mapa inteiro pós-atualização) |
+
+<Callout type="tip" title="Dica de Evolução">
+Como Toji e Choso requerem apenas Essências padrão para evoluir, em vez de itens de evolução especializados, foque suas sessões de farm no auto play em coletar Essências em portais de alto nível.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Usando Macros Externos: Configuração do Script Imp Hub">
+
+Para jogadores que acham o **auto play do Anime Paradox** nativo muito limitado — especificamente devido à sua incapacidade de repetir portais automaticamente ou avançar para a próxima fase da campanha — scripts de macro externos continuam sendo uma alternativa popular. Scripts como o Imp Hub oferecem um conjunto completo de ferramentas de automação que funcionam através de executores de terceiros.
+
+Esses scripts fornecem recursos avançados, como Auto Replay, Auto Next Stage e Auto Sell, que permitem um farm completamente desacompanhado por longos períodos.
+
+<Checklist
+  id="macro-safety"
+  title="Checklist de Execução Segura de Macros:"
+  items={[
+    "Use um executor de script confiável e atualizado",
+    "Execute macros em servidores privados para evitar denúncias de jogadores",
+    "Defina atrasos aleatórios (1-3 segundos) entre as ações para imitar a entrada humana",
+    "Monitore a temperatura do seu sistema durante sessões de farm noturnas",
+    "Mantenha seu script atualizado para corresponder aos patches da versão mais recente do jogo"
+  ]}
+/>
+
+Embora os scripts externos ofereçam uma automação superior, eles carregam riscos inerentes. Os desenvolvedores do jogo corrigem ativamente exploits, e o uso de software de terceiros não autorizado pode levar a suspensões de conta. Se você optar por usar scripts externos, entenda as vantagens mecânicas que eles oferecem sobre o sistema nativo.
+
+| Recurso do Script | Descrição | Caso de Uso Prático |
+| :--- | :--- | :--- |
+| Gravador de Macro | Grava e reproduz movimentos exatos do mouse | Criando rotas de posicionamento personalizadas e perfeitas |
+| Auto Replay | Reinicia automaticamente o portal após a conclusão | Farm infinito de recursos durante a noite |
+| Auto Sell | Vende unidades selecionadas quando o espaço de farm está cheio | Gerenciando posicionamentos apertados em mapas estreitos |
+| Auto Next Stage | Progride automaticamente pelos capítulos da história | Nivelamento rápido de conta e coleta de gemas |
+
+<Callout type="info" title="Estratégia Híbrida">
+O método de farm mais seguro e estável é uma abordagem híbrida: ative o auto play nativo do jogo para lidar com as mecânicas de combate e use um auto-clicker externo simples configurado para clicar na posição do botão 'Replay' ao final da partida. Isso minimiza os riscos de detecção de scripts enquanto alcança a automação total.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Solução de Problemas e Bugs Comuns na Atualização 1.5">
+
+A atualização 1.5, embora repleta de recursos excelentes, introduziu vários problemas de otimização e bugs visuais que podem interromper suas configurações de **auto play do Anime Paradox**. O problema mais proeminente é o bug de carregamento do mapa de portal, que coloca os jogadores em uma caixa totalmente preta onde o ambiente não carrega corretamente.
+
+Além disso, os jogadores relataram problemas de escala de interface em dispositivos móveis, onde botões superdimensionados obstruem indicadores críticos de jogabilidade.
+
+| Descrição do Bug | Impacto no Auto Play | Solução Recomendada |
+| :--- | :--- | :--- |
+| Bug de Carregamento da Caixa Preta | Apenas visual; unidades ainda podem ser colocadas | Deixe a partida correr; a IA ainda pode posicionar unidades e vencer |
+| Glitch de Escala da UI | Bloqueia botões de melhoria manual | Dependa inteiramente dos botões nativos de Auto Upgrade |
+| Desseleção de Alvo | Unidades param de focar nos chefes | Re-selecione o alvo manualmente ou use unidades AoE amplas |
+| Stun do Lucky Streak | Efeitos de atordoamento falham em aplicar | Resolvido em hotfix; certifique-se de que seu cliente está atualizado |
+
+<Callout type="warning" title="Queda de Desempenho">
+O bug da caixa preta é principalmente um problema de otimização associado aos mapas de portal. Se o seu jogo falhar em carregar os assets após 8 minutos, force o encerramento da partida usando o novo botão da UI nativa para preservar seus boosts ativos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O auto play nativo do Anime Paradox funciona em dispositivos móveis?",
+    answer: "Sim, o recurso de auto play nativo é totalmente compatível com dispositivos móveis. No entanto, como o jogo não seleciona portais automaticamente nem clica em replay, os jogadores móveis devem usar um aplicativo de auto-clicker externo para repetir as partidas continuamente."
+  },
+  {
+    question: "É seguro usar scripts de macro externos como o Imp Hub?",
+    answer: "O uso de scripts de terceiros acarreta risco de banimento da conta. Embora recursos como Auto Replay sejam muito convenientes, utilizar o auto play nativo do jogo combinado com um clicker simples é muito mais seguro e altamente recomendado."
+  },
+  {
+    question: "Por que o mapa fica inteiramente preto quando eu entro em um portal?",
+    answer: "Este é um bug de otimização conhecido introduzido na Atualização 1.5. O ambiente do jogo falha ao renderizar, mas as mecânicas ainda funcionam. Sua IA de auto play continuará a posicionar e melhorar as unidades normalmente, permitindo que você vença a partida apesar do glitch visual."
+  },
+  {
+    question: "Como eu evoluo o Megumi após a mudança da Atualização 1.5?",
+    answer: "Após a atualização, o requisito de evolução do Megumi foi reduzido de 25 rodas para apenas 1 roda. Você pode evoluí-lo diretamente no menu do gerenciador de unidades assim que obtiver a única roda necessária."
+  }
+]} />
+
+<Callout type="tip" title="Mantenha-se Atualizado">
+Junte-se aos canais oficiais da comunidade para receber alertas em tempo real sobre hotfixes dos desenvolvedores para os bugs de carregamento e problemas de escala de interface que afetam atualmente a Atualização 1.5.
+</Callout>
+
+</Section>

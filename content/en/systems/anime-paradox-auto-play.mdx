@@ -1,0 +1,213 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Paradox Auto Play: Setup Guide & 1.5 Update Tips",
+  description: "Configure the native Anime Paradox auto play system and utilize external macros to optimize your portal farming and character progression in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Auto+Play+Guide",
+  date: "2026-07-21",
+  author: "anime paradox Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Anime paradox auto play** allows players to automate unit placement, upgrades, and skill activation natively.
+- **Update 1.5** introduced massive quality-of-life improvements, including native automation and reduced evolution requirements.
+- **Megumi evolution** requirements have been dramatically reduced from 25 wheels down to just 1 wheel.
+- **External macro scripts** like Imp Hub can be paired with native features to achieve fully automated portal replays.
+- **Optimization bugs** such as the black box loading screen require specific troubleshooting steps to resolve.
+</Callout>
+
+<Section icon={Sparkles} title="Anime Paradox Auto Play: 1.5 Update Overview">
+
+The highly anticipated Update 1.5 has arrived, bringing massive quality-of-life adjustments that fundamentally change how players grind. The standout addition is the official native **anime paradox auto play** system. This feature eliminates the absolute necessity of relying on unstable third-party macros for basic gameplay, allowing both mobile and PC players to farm portals with unprecedented ease. 
+
+Alongside this automation system, the update introduces six new units, including five Mythics and one incredibly rare Secret unit. It also features major balancing fixes, such as adjustments to Mahoraga's wheel damage reduction and Sukuna's domain expansion hitbox.
+
+**Video Highlights:**
+- Detailed breakdown of the official Update 1.5 quality-of-life changes.
+- Showcase of the new native auto play, auto upgrade, and auto skill toggles.
+- Overview of the newly added Mythic and Secret units, including Toji and Choso.
+- Demonstration of the portal map loading bugs and how to navigate them.
+
+<YouTubeEmbed videoId="CpFqcSrkDo0" title="Anime Paradox 1.5 UPDATE Guide! Biggest Update Yet + AUTOPLAY & SECRET UNIT! (Roblox)" />
+
+While the native automation tool handles in-match mechanics beautifully, players seeking complete hands-free farming may still want to compare the official tool against external scripting options. Below is a direct comparison of the native system versus third-party macro scripts.
+
+| Feature | Native Auto Play | External Script (Imp Hub) |
+| :--- | :--- | :--- |
+| Setup Complexity | None (In-game toggle) | High (Requires third-party executor) |
+| Auto Placement | Yes (Optimized based on range) | Yes (Custom coordinates) |
+| Auto Upgrades | Yes (Continuous) | Yes (Sequential) |
+| Auto Skill Usage | Yes | Yes |
+| Auto Replay Portals | No (Manual click required) | Yes |
+| Safety Level | 100% Safe | Risk of account restriction |
+
+<Callout type="success" title="Major Economy Buff">
+Update 1.5 has reduced the evolution requirement for Megumi from 25 wheels to just 1 wheel. This saves players roughly 600,000 in-game currency, making it the perfect time to evolve this top-tier unit.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="How to Configure the Native Auto Play Feature">
+
+Setting up the native **anime paradox auto play** feature is straightforward, but maximizing its efficiency requires understanding how the AI prioritizes actions. When enabled, the game automatically handles unit placement, upgrades, and active skill triggers. However, because the system does not automatically select and start new portals, mobile players will still need to utilize a simple screen clicker to loop matches continuously.
+
+To get the most out of this system, you should configure your settings before entering a match to ensure your units deploy immediately upon wave start.
+
+<Steps>
+  <Step num="1" title="Access Settings Menu">
+    Open the in-game settings menu from the main lobby or during the preparation phase of any match.
+  </Step>
+  <Step num="2" title="Enable Auto Toggles">
+    Locate the automation section and toggle 'Auto Play', 'Auto Spawn', 'Auto Upgrades', and 'Auto Use Skills' to the 'On' position.
+  </Step>
+  <Step num="3" title="Select Default Behaviors">
+    Set these configurations as default so they automatically activate at the start of every subsequent match.
+  </Step>
+  <Step num="4" title="Deploy and Monitor">
+    Enter a portal map and observe the initial unit placement to ensure your primary damage dealers are positioned correctly.
+  </Step>
+</Steps>
+
+The native system offers several toggles that can be customized based on your current roster and the difficulty of the portal you are running.
+
+| Setting Name | Function | Recommended Status |
+| :--- | :--- | :--- |
+| Auto Play | Activates the core automation AI | Enabled for all farming runs |
+| Auto Spawn | Automatically deploys units from your bar | Enabled (Prioritizes cheapest units first) |
+| Auto Upgrade | Spends gold to upgrade deployed units | Enabled (Prioritizes oldest units) |
+| Auto Use Skills | Triggers active abilities instantly on cooldown | Enabled (Maximizes active DPS) |
+| Force Restart | Instantly restarts the current match | Manual use (For failed runs) |
+| Force End | Immediately terminates the match | Manual use (To save time) |
+
+<Callout type="warning" title="Placement Limitations">
+The native auto play AI occasionally struggles with complex map layouts. It places units based on their base range, which means units with mediocre range traits might be positioned sub-optimally. For maximum efficiency, use units with superior range traits or wide AoE attacks.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Optimizing Your Auto Play Setup: Unit Selection & Strategies">
+
+To successfully farm high-tier portals using **anime paradox auto play**, your team composition must be tailored to accommodate the AI's placement patterns. Because the AI deploys units sequentially based on cost and available gold, relying on high-cost, low-range units can lead to early-wave defeats. 
+
+The 1.5 update introduced several powerful units that excel under automated control, particularly due to their wide area-of-effect (AoE) abilities and self-sufficient passives.
+
+<CardGrid cols={3}>
+  <Card title="Choso (Mythic)">
+    - **Excellent AoE poison damage**
+    - Cheap initial deployment cost
+    - Highly reliable for early-wave defense
+  </Card>
+  <Card title="Toji (Secret)">
+    - **Extremely high single-target DPS**
+    - Moves quickly across target priorities
+    - Ideal for boss waves on auto play
+  </Card>
+  <Card title="Megumi (Evolved)">
+    - **Massive range coverage**
+    - Summoning mechanics distract enemies
+    - Highly cost-effective after the 1.5 buff
+  </Card>
+</CardGrid>
+
+When building your team, prioritize units that do not require precise skill timing. Units with passive damage buffs or automatic hitboxes perform significantly better under AI control than those relying on manual ground-targeted abilities.
+
+| Unit Name | Rarity | Primary Role | Auto Play Synergy |
+| :--- | :--- | :--- | :--- |
+| Megumi (Evolved) | Mythic | Crowd Control / Summoner | Outstanding (Massive range covers placement errors) |
+| Toji | Secret | Boss Killer / High DPS | High (Cleans up leaks easily) |
+| Choso | Mythic | Wave Clear / Damage over Time | High (Affordable early-game option) |
+| Gojo | Mythic | Stun / Support | Medium (Requires strategic placement to maximize stun) |
+| Sukuna | Mythic | AoE Burst | High (Hitbox now covers the full map post-update) |
+
+<Callout type="tip" title="Evolution Tip">
+Since Toji and Choso only require standard Essences to evolve rather than specialized evolution items, focus your auto play farming runs on gathering Essences in high-tier portals.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Using External Macros: Imp Hub Script Setup">
+
+For players who find the native **anime paradox auto play** too limiting—specifically due to its inability to automatically replay portals or advance to the next campaign stage—external macro scripts remain a popular alternative. Scripts like Imp Hub offer a complete suite of automation tools that run via third-party executors. 
+
+These scripts provide advanced features such as Auto Replay, Auto Next Stage, and Auto Sell, which allow for completely unattended farming over long periods.
+
+<Checklist
+  id="macro-safety"
+  title="Safe Macro Execution Checklist:"
+  items={[
+    "Use a reliable and updated script executor",
+    "Run macros in private servers to avoid player reports",
+    "Set random delays (1-3 seconds) between actions to mimic human input",
+    "Monitor your system temperature during overnight farming sessions",
+    "Keep your script updated to match the latest game version patches"
+  ]}
+/>
+
+While external scripts offer superior automation, they carry inherent risks. Game developers actively patch exploits, and using unauthorized third-party software can lead to account suspensions. If you choose to use external scripts, understand the mechanical advantages they offer over the native system.
+
+| Script Feature | Description | Practical Use Case |
+| :--- | :--- | :--- |
+| Macro Recorder | Records and replays exact mouse movements | Creating custom, flawless placement routes |
+| Auto Replay | Automatically restarts the portal upon completion | Infinite overnight resource farming |
+| Auto Sell | Sells selected units when farm space is full | Managing tight placements on narrow maps |
+| Auto Next Stage | Automatically progresses through story chapters | Rapid account leveling and gem gathering |
+
+<Callout type="info" title="Hybrid Strategy">
+The safest and most stable farming method is a hybrid approach: enable the native in-game auto play to handle the combat mechanics, and use a simple, external auto-clicker set to click the 'Replay' button position at the end of the match. This minimizes script detection risks while achieving full automation.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Troubleshooting and Common Bugs in Update 1.5">
+
+The 1.5 update, while packed with excellent features, introduced several optimization issues and visual bugs that can disrupt your **anime paradox auto play** setups. The most prominent issue is the portal map loading bug, which spawns players into a pitch-black box where the environment fails to load properly. 
+
+Additionally, players have reported UI scaling issues on mobile devices, where oversized buttons obstruct critical gameplay indicators.
+
+| Bug Description | Impact on Auto Play | Recommended Workaround |
+| :--- | :--- | :--- |
+| Black Box Loading Bug | Visual only; units can still be placed | Let the match run; the AI can still place units and win |
+| UI Scaling Glitch | Blocks manual upgrade buttons | Rely entirely on native Auto Upgrade toggles |
+| Target Deselection | Units stop targeting bosses | Re-target manually or rely on wide AoE units |
+| Lucky Streak Stun | Stun effects fail to apply | Resolved in hotfix; ensure your client is updated |
+
+<Callout type="warning" title="Performance Drop">
+The black box bug is primarily an optimization issue associated with portal maps. If your game fails to load assets after 8 minutes, force-end the match using the new native UI button to preserve your active boosts.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does the native Anime Paradox auto play work on mobile devices?",
+    answer: "Yes, the native auto play feature is fully compatible with mobile devices. However, because the game does not automatically select portals or click replay, mobile players must use an external auto-clicker app to loop matches continuously."
+  },
+  {
+    question: "Is it safe to use external macro scripts like Imp Hub?",
+    answer: "Using third-party scripts carries a risk of account ban. While features like Auto Replay are highly convenient, utilizing the native in-game auto play paired with a simple clicker is much safer and highly recommended."
+  },
+  {
+    question: "Why does the map turn entirely black when I load into a portal?",
+    answer: "This is a known optimization bug introduced in Update 1.5. The game environment fails to render, but the mechanics still work. Your auto play AI will continue to place and upgrade units normally, allowing you to win the match despite the visual glitch."
+  },
+  {
+    question: "How do I evolve Megumi after the Update 1.5 change?",
+    answer: "Following the update, Megumi's evolution requirement has been reduced from 25 wheels to just 1 wheel. You can evolve him directly in the unit manager menu once you obtain the single required wheel."
+  }
+]} />
+
+<Callout type="tip" title="Stay Updated">
+Join the official community channels to receive real-time alerts regarding developer hotfixes for the loading bugs and UI scaling issues currently affecting Update 1.5.
+</Callout>
+
+</Section>

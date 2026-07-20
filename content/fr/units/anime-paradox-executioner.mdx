@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Exécuteur Anime Paradox : Guide des Meilleures Unités et Traits",
+  description: "Maîtrisez la méta exécuteur dans Anime Paradox. Apprenez à optimiser Ken Kaneki et Maeto pour des dégâts maximaux et achever les ennemis à bas PV en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Executioner+Meta+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki Anime Paradox",
+  keywords: "Anime Paradox, exécuteur, Ken Kaneki, Maeto, méta, traits, évolution"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Exécuteur Anime Paradox** : Se concentre sur des unités comme **Maeto** et **Ken Kaneki** qui se spécialisent dans l'achèvement des ennemis à faible santé.
+- **Meilleur Exécuteur** : **Maeto (Forme Véritable)** est actuellement le premier exécuteur grâce à son bonus de dégâts au seuil de 50 % de PV.
+- **Trait Essentiel** : Bien qu'**Éternel** offre les meilleures statistiques brutes, **Vampirique** est fortement recommandé pour la survie des exécuteurs en première ligne.
+- **Chemin d'Évolution** : Faire évoluer Kaneki en **Roi au Cache-œil** nécessite 750 pièces de raid et l'objet spécifique **Menottes de Kaneki**.
+- **Synergie d'Équipe** : Associez les exécuteurs à des inducteurs de saignement comme **Sukuna** pour déclencher des multiplicateurs de dégâts supplémentaires.
+</Callout>
+
+<Section icon={Target} title="La Méta Exécuteur dans Anime Paradox">
+
+Dans la méta actuelle de 2026, le rôle d'un **exécuteur anime paradox** est devenu vital pour terminer les raids de haute difficulté et les étages du Château Infini. Les exécuteurs sont des unités conçues pour infliger d'énormes dégâts sur cible unique ou pour obtenir des bonus significatifs lors de l'attaque d'ennemis en dessous d'un certain seuil de santé. Contrairement aux unités AOE qui se concentrent sur le nettoyage des vagues, les exécuteurs garantissent que les boss et les monstres d'élite ne s'attardent pas sur le champ de bataille avec un soupçon de santé.
+
+**Points Forts de la Vidéo :**
+- **Présentation de Ken Kaneki** : Démonstration de la puissance du trait Éternel (0,1 %) sur le Roi au Cache-œil.
+- **Guide d'Évolution** : Un tutoriel pour obtenir les Menottes de Kaneki et terminer le processus d'évolution.
+- **Analyse des Passifs** : Comment le placement de plusieurs unités Kaneki augmente les dégâts jusqu'à 60 %.
+- **Efficacité en Raid** : Conseils pour terminer les raids Tokyo Ghoul en moins de 4 minutes en utilisant des configurations d'exécuteurs optimisées.
+
+<YouTubeEmbed videoId="tns_YNFzZXo" title="J'ai obtenu Ken Kaneki ÉTERNEL 0,1 % dans Anime Paradox !" />
+
+Le style de jeu "Exécuteur" est mieux illustré par des unités comme Maeto, qui reçoit explicitement une amplification de dégâts contre les ennemis affaiblis. Cependant, des unités à haut DPS comme Ken Kaneki remplissent souvent ce rôle en raison de leur échelonnage agressif et de leurs bonus de statistiques passifs.
+
+<Callout type="tip" title="Conseil de Pro">
+Lors de l'utilisation d'exécuteurs, le placement est essentiel. Positionnez-les vers le milieu ou la fin de votre ligne de défense pour vous assurer qu'ils ciblent des ennemis déjà affaiblis par vos unités AOE.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparaison des Meilleures Unités Exécuteurs">
+
+Choisir la bonne unité pour votre emplacement d'**exécuteur anime paradox** dépend de votre priorité : les dégâts bruts ou les affaiblissements (debuffs) utilitaires. Actuellement, la communauté est divisée entre l'échelonnage brut de Kaneki et les mécaniques d'exécution spécialisées de Maeto.
+
+| Nom de l'Unité | Type de Rôle | Mécanique d'Exécution | Meilleur Trait |
+| :--- | :--- | :--- | :--- |
+| **Maeto (Forme Véritable)** | Pur Exécuteur | +20 % de dégâts contre ennemis < 50 % PV | Vampirique |
+| **Ken Kaneki (Cache-œil)** | DPS Hybride | Échelonnage massif via placements multiples | Éternel |
+| **Storrk (Resurreccion)** | Exécuteur AOE | Nuke Metralleta pour de gros segments de PV | Éternel |
+| **Chaso (Bain de Sang)** | Tueur de Boss | Détonation de % PV Max sur les marques | Vampirique |
+| **Tuji (Pacte Céleste)** | Exécuteur de Burst | Burst de dégâts toutes les 4 attaques | Vampirique |
+
+<CardGrid cols={2}>
+  <Card title="Maeto (Forme Véritable)">
+    - **Spécialiste de l'Exécution** : Inflige nettement plus de dégâts aux ennemis à moins de la moitié de leur santé.
+    - **Utilité de Debuff** : Applique un debuff d'amplification de dégâts de 20 % à tous les ennemis touchés.
+    - **Survivabilité** : Haute résistance grâce à la réduction de dégâts de la Forme Distordue.
+  </Card>
+  <Card title="Ken Kaneki (Cache-œil)">
+    - **Roi de la Synergie** : Gagne 20 % de dégâts pour chaque autre Kaneki placé (jusqu'à 3).
+    - **Mécanique de Contre** : Entre dans un état de contre après avoir subi 5 coups, gagnant en vitesse.
+    - **Synergie de Saignement** : Inflige 12 % de dégâts supplémentaires aux ennemis qui saignent actuellement.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Aperçu de la Méta">
+Maeto est techniquement le meilleur "exécuteur" pour les boss, mais la synergie de Kaneki avec les unités de saignement comme Sukuna en fait un choix plus polyvalent pour le nettoyage général des raids.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guide d'Évolution : De Ken Kaneki au Roi au Cache-œil">
+
+Pour maximiser le potentiel de votre **exécuteur anime paradox**, vous devez faire évoluer vos unités. Pour Kaneki, cela implique un grind spécifique dans les actes de raid Tokyo Ghoul.
+
+<Steps>
+  <Step num="1" title="Obtenir Kaneki de Base">
+    Farmez l'Acte 1 du raid Tokyo Ghoul. Bien que le taux de drop soit faible, un grind persistant (estimé à 6-7 heures) finira par vous rapporter l'unité de base.
+  </Step>
+  <Step num="2" title="Collecter des Pièces de Raid">
+    Vous avez besoin de **750 pièces de raid** pour acheter l'objet d'évolution nécessaire. Actuellement, un bug dans l'Acte 3 permet de farmer les pièces plus rapidement en terminant 15 vagues au lieu de 30.
+  </Step>
+  <Step num="3" title="Acheter les Menottes de Kaneki">
+    Rendez-vous à la boutique de raid et échangez vos 750 pièces contre les **Menottes de Kaneki**. C'est le matériau d'évolution unique requis pour sa transformation.
+  </Step>
+  <Step num="4" title="Évolution Finale">
+    Allez dans le menu Évolution, sélectionnez Kaneki (Kan Beki), et dépensez **25 000 pièces d'or** ainsi que les Menottes pour le transformer en **Kan Jaka (Roi au Cache-œil)**.
+  </Step>
+</Steps>
+
+| Étape d'Évolution | Nom | Rareté | Changement Clé |
+| :--- | :--- | :--- | :--- |
+| Base | Kan Beki | Mythique | Attaques standard sur cible unique |
+| Évolué | Kan Jaka | Secret | Débloque "Ghoul Slam" et synergie passive |
+| Niveau Max | Roi au Cache-œil | Secret | Statistiques optimisées (Niveau 50+) |
+
+<Callout type="warning" title="Exigence Importante">
+Après l'évolution, vous devrez peut-être rejoindre un nouveau serveur pour que la rareté de l'unité se mette à jour correctement de Mythique à Secret dans votre inventaire.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Traits Optimaux et Relances de Statistiques">
+
+Pour un **exécuteur anime paradox**, le choix de votre trait définit votre efficacité. Alors que de nombreux joueurs recherchent le trait Éternel (0,1 %), d'autres trouvent plus de valeur dans les traits basés sur le maintien comme Vampirique, surtout pour les unités de première ligne.
+
+**Liste de Priorité des Traits :**
+1. **Éternel (0,1 %)** : La référence absolue. Fournit le boost le plus élevé en dégâts, portée et réduction de temps de recharge (CDR).
+2. **Vampirique** : Essentiel pour Maeto et Tuji afin de les maintenir en vie pendant qu'ils restent au cœur du combat.
+3. **Angélique** : Une alternative solide pour la réduction du temps de recharge si Éternel est hors de portée.
+4. **Divin** : Excellent boost de dégâts bruts, bien que manquant de l'utilité des traits de niveau supérieur.
+
+| Nom du Trait | Boost de DMG | Boost de Portée | Boost de CDR | Effet Spécial |
+| :--- | :--- | :--- | :--- | :--- |
+| **Éternel** | ★★★★★ | ★★★★★ | ★★★★★ | Statistiques de niveau divin polyvalentes |
+| **Vampirique** | ★★★★☆ | ★★★☆☆ | ★★★★☆ | Vol de vie / Soins à l'impact |
+| **Angélique** | ★★★☆☆ | ★★★★☆ | ★★★★★ | Grande vitesse / Faibles recharges |
+| **Divin** | ★★★★☆ | ★★★☆☆ | ★★★☆☆ | Augmentation pure de puissance |
+
+<Callout type="info" title="Puces de Statistiques">
+N'oubliez pas d'utiliser des puces de statistiques pour viser des rangs **S** ou **A** en Dégâts et Temps de recharge. Un exécuteur avec un rang B en dégâts aura du mal à atteindre ses seuils d'élimination.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Synergie d'Équipe et Positionnement de l'Exécuteur">
+
+Un **exécuteur anime paradox** travaille rarement seul. Pour dominer véritablement les classements de 2026, vous devez construire une équipe qui complète ses passifs spécifiques.
+
+<Checklist
+  id="executioner-synergy"
+  title="Check-list de l'Équipe Parfaite :"
+  items={[
+    "Inclure Sukuna pour une application constante de Saignement",
+    "Placer au moins 3 unités Kaneki pour maximiser le bonus de 60 % de DMG",
+    "Apporter une unité de ralentissement/étourdissement pour garder les ennemis dans la zone d'exécution",
+    "Équiper des artéfacts boostant la portée pour assurer une couverture complète de la carte",
+    "Utiliser Maeto comme principal affaiblisseur de boss"
+  ]}
+/>
+
+**Stratégie de Positionnement :**
+Les exécuteurs doivent être placés dans des "Zones de Mise à Mort". Ce sont des segments de la piste où les portées de plusieurs unités se chevauchent.
+
+| Type de Zone | Unités Recommandées | Objectif |
+| :--- | :--- | :--- |
+| **Zone d'Entrée** | Unités AOE (Storrk, Zid) | Affaiblir les vagues et appliquer les premiers debuffs |
+| **Zone Médiane** | Buffers et Stunners | Ralentir les ennemis et booster les dégâts |
+| **Zone de Mise à Mort** | **Exécuteurs (Kaneki, Maeto)** | Achever les élites et les boss à bas PV |
+
+<Callout type="tip" title="Placement Stratégique">
+Si vous utilisez Kaneki, rappelez-vous que ses dégâts s'échelonnent avec les autres unités Kaneki sur le terrain. Répartissez-les légèrement pour couvrir plus de terrain, mais gardez-les dans la même "Zone de Mise à Mort" générale pour maximiser leur tir concentré.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ sur l'Exécuteur Anime Paradox">
+
+<FAQ items={[
+  {
+    question: "Qui est le meilleur exécuteur dans Anime Paradox en ce moment ?",
+    answer: "Maeto (Forme Véritable) est largement considéré comme le meilleur pur exécuteur en raison de son bonus de dégâts spécifique de 20 % contre les ennemis en dessous de 50 % de santé. Cependant, Ken Kaneki est un DPS globalement plus fort si vous placez plusieurs copies."
+  },
+  {
+    question: "Comment déclencher le bonus de saignement de Kaneki ?",
+    answer: "Kaneki inflige 12 % de dégâts supplémentaires aux ennemis qui saignent. Vous devriez l'associer à des unités comme Sukuna qui appliquent l'effet de statut Saignement de manière constante pour maximiser ce bonus."
+  },
+  {
+    question: "Le trait Éternel est-il nécessaire pour un exécuteur ?",
+    answer: "Bien que non strictement nécessaire, Éternel offre la meilleure répartition de statistiques pour n'importe quel exécuteur anime paradox. Si vous ne pouvez pas obtenir Éternel, Vampirique est la meilleure alternative pour les unités qui doivent survivre à de longues vagues de raid."
+  },
+  {
+    question: "Où puis-je trouver les Menottes de Kaneki ?",
+    answer: "Les Menottes de Kaneki sont disponibles dans la boutique de raid pour 750 pièces de raid. Vous gagnez ces pièces en terminant les étapes des actes de raid Tokyo Ghoul."
+  }
+]} />
+
+<Callout type="success" title="Verdict Final">
+Construire un **exécuteur anime paradox** dédié est la clé pour passer du contenu de milieu de jeu au contenu de fin de jeu. Que vous choisissiez les frappes calculées de Maeto ou la puissance écrasante du Roi au Cache-œil, vous concentrer sur les mécaniques d'exécution améliorera considérablement vos temps de nettoyage de raid.
+</Callout>
+
+</Section>

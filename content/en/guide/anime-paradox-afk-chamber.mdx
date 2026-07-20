@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Paradox AFK Chamber: TinyTask Farming Setup Guide",
+  description: "Learn how to configure the Anime Paradox AFK chamber using TinyTask. Optimize your settings, units, and delays for maximum curse energy.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=AFK+Chamber+Guide",
+  date: "2026-07-21",
+  author: "anime paradox Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Anime paradox afk chamber** setups rely on TinyTask to automate portal runs continuously while players are away.
+- **Optimize game settings** by disabling visual effects, camera shake, and damage indicators to prevent macro desynchronization.
+- **Implement recording delays** of 20 to 30 seconds at the end of each run to accommodate loading screen variances.
+- **Select powerful units** like Eternal Sunjin Wu to clear portal waves quickly and reliably without complex placements.
+- **Maximize resource gains** by targeting JJK Portal 13 to earn up to 19000 curse energy per run.
+</Callout>
+
+<Section icon={Map} title="Setting Up the Anime Paradox AFK Chamber">
+
+Establishing an efficient **anime paradox afk chamber** is the most effective progression method for players looking to accumulate massive amounts of currency, experience, and high-tier portal drops without manual grinding. By utilizing external automation tools like TinyTask, players can record a sequence of inputs that automatically starts, plays, and restarts portal runs. This allows for continuous farming throughout the day or night.
+
+The primary destination for this farming method is the Shibuya portal map. Farming high-level portals like JJK Portal 13 yields substantial rewards, including curse energy and gems, which are essential for unlocking top-tier characters such as Mahoraga. To ensure the macro runs smoothly without getting stuck on loading screens or failing to place units, proper calibration of both the macro tool and the in-game options is mandatory.
+
+**Video Highlights:**
+- Step-by-step setup of the TinyTask automation software.
+- Configuration of in-game graphics and UI settings to prevent macro drift.
+- Demonstration of unit placement using Eternal Sunjin Wu.
+- Proper timing calibration for loading screens and portal selection.
+
+<YouTubeEmbed videoId="AcGNjBEk6zc" title="Anime Paradox AFK Portal Farming Method" />
+
+| Portal Level | Curse Energy Reward | Gem Reward | Average Clear Time |
+|---|---|---|---|
+| JJK Portal 11 | 12000 | 95 | 2 mins 30 secs |
+| JJK Portal 12 | 15000 | 120 | 2 mins 15 secs |
+| JJK Portal 13 | 19000 | 145 | 2 mins 00 secs |
+
+<Callout type="warning" title="System Resolution Alert">
+Ensure your Roblox client remains in windowed mode or a fixed resolution. Changing the window size after recording will shift the button coordinates, causing the macro to click empty space and break the loop.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Macro Settings & TinyTask Configuration">
+
+TinyTask is a lightweight utility that records mouse movements, clicks, and keyboard inputs, playing them back in a continuous loop. Because the tool relies entirely on coordinate-based actions, minimizing game lag and UI changes is critical. If a notification pops up or a frame drops, the macro may click the wrong area, ending the automated run prematurely.
+
+Before starting the recording process, configure TinyTask settings to ensure reliability. The playback speed must remain at normal velocity, and the loop settings must be adjusted to repeat indefinitely.
+
+<CardGrid cols={3}>
+  <Card title="Continuous Playback">
+    - **Enables infinite loops**
+    - Runs the macro repeatedly
+    - Essential for overnight farming
+  </Card>
+  <Card title="Hotkey Customization">
+    - **F12 for recording**
+    - F8 for playback
+    - Prevents accidental mouse movement
+  </Card>
+  <Card title="1x Playback Speed">
+    - **Maintains input timing**
+    - Avoids loading screen skips
+    - Prevents UI synchronization issues
+  </Card>
+</CardGrid>
+
+| Parameter | Recommended Setting | Purpose |
+|---|---|---|
+| Playback Speed | 1x Speed | Prevents input registration errors |
+| Playback Loop | Continuous Playback | Keeps the macro running indefinitely |
+| Recording Hotkey | F12 | Initiates and stops the recording sequence |
+| Playback Hotkey | F8 | Starts the automated loop sequence |
+
+In addition to configuring the macro software, the in-game settings within Anime Paradox must be optimized. Visual clutter, damage numbers, and camera movements can alter the positioning of UI elements or cause performance drops that desynchronize the macro timing.
+
+| Setting Name | Status | Impact on Macro |
+|---|---|---|
+| Visual Effects | Disabled | Reduces lag and maintains unit click coordinates |
+| Camera Shake | Disabled | Prevents camera displacement during attacks |
+| Auto Skip | Enabled | Speeds up wave transitions |
+| Damage Indicators | Disabled | Saves CPU resources and prevents UI clutter |
+| Unit Tags | Disabled | Removes text overlays that block placement areas |
+
+<Callout type="tip" title="Performance Optimization">
+Enable Low Detail Mode in the settings menu. This reduces the rendering load on your graphics card, minimizing the chance of frame drops during intense waves.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Portal Farming Execution">
+
+Executing the macro successfully requires a precise recording sequence. Any mistake made during the recording phase will be repeated by the software during playback. Follow these steps carefully to establish a reliable loop.
+
+<Steps>
+  <Step num="1" title="Calibrate Camera Angle">
+    Spawn into the Shibuya map and immediately adjust your camera to a top-down, bird's-eye view. This angle ensures that placement areas are clearly visible and do not shift when units are deployed.
+  </Step>
+  <Step num="2" title="Initiate Recording">
+    Press your designated recording hotkey (F12) to start recording. Click the entry confirmation button on your screen to officially start the portal run.
+  </Step>
+  <Step num="3" title="Deploy and Upgrade Units">
+    Place your primary defensive units, such as Eternal Sunjin Wu, in strategic positions. Click the auto-upgrade option immediately to ensure your units scale automatically as the waves progress.
+  </Step>
+  <Step num="4" title="Record Victory Delays">
+    Once the final wave is cleared and the victory screen appears, wait. Do not click anything for 20 to 30 seconds. This buffer time compensates for any future loading screen delays.
+  </Step>
+  <Step num="5" title="Re-enter and Stop Recording">
+    Click the portal selection UI, select your desired portal tier, and click the use button. Once the loading screen begins, press your recording hotkey to save the macro.
+  </Step>
+</Steps>
+
+| Step Phase | Action Required | Buffer Time |
+|---|---|---|
+| Phase 1: Spawn | Align camera angle | 2 seconds |
+| Phase 2: Deploy | Place core defense units | 5 seconds |
+| Phase 3: Wait | Do not move mouse cursor | Clear duration |
+| Phase 4: Victory | Wait for rewards screen | 25 seconds |
+| Phase 5: Re-entry | Select portal and restart | 5 seconds |
+
+<Callout type="success" title="Loop Validation">
+Run the recorded macro manually for at least three consecutive loops before leaving your setup unattended. This confirms the delay buffers are long enough.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Units and Progression Goals">
+
+Selecting the correct units determines the success rate of your **anime paradox afk chamber** setup. Because the macro cannot adapt to leaks or unexpected enemy breakthroughs, you must use units that can comfortably solo the portal waves without complex placement patterns.
+
+Eternal Sunjin Wu is currently the premier choice for AFK portal farming. His high base damage, wide area-of-effect attacks, and straightforward upgrade path allow him to clear waves efficiently. Using a single overpowered unit is much safer than relying on a full team, as it minimizes the number of clicks the macro needs to execute.
+
+<Checklist
+  id="afk-chamber-checklist"
+  title="Farming Setup Requirements:"
+  items={[
+    "Obtain Eternal Sunjin Wu or a comparable high-tier DPS unit",
+    "Configure TinyTask hotkeys and enable continuous looping",
+    "Disable camera shake and all graphics effects in-game",
+    "Record a 30-second delay buffer at the end of the run",
+    "Unlock JJK Portal 13 for maximum curse energy and gem yields"
+  ]}
+/>
+
+| Unit Name | Role | AFK Viability Rating | Setup Complexity |
+|---|---|---|---|
+| Eternal Sunjin Wu | Solo Carry | 5/5 | Very Low |
+| Gojo | Crowd Control | 4/5 | Medium |
+| Sukuna | Main DPS | 4/5 | Medium |
+| Yuta | Support | 3/5 | High |
+
+<Callout type="info" title="Resource Allocation">
+Use the curse energy gathered from your AFK sessions to roll for Mahoraga. The gems accumulated can be reinvested into upgrading your active unit roster.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ & Troubleshooting">
+
+<FAQ items={[
+  {
+    question: "Why does my macro miss the portal button after several runs?",
+    answer: "This is usually caused by game lag or loading screen delays. Ensure you have disabled all visual effects and added a 20 to 30-second delay at the end of your recording to compensate for varying load times."
+  },
+  {
+    question: "What is the best portal to farm using the anime paradox afk chamber method?",
+    answer: "JJK Portal 13 is highly recommended. It yields 19000 curse energy and 145 gems per run, and can be completed in approximately 2 minutes with the right units."
+  },
+  {
+    question: "Can I use playback speeds faster than 1x in TinyTask?",
+    answer: "It is not recommended. Higher speeds often cause clicks to register before elements load, breaking the macro loop."
+  },
+  {
+    question: "Do I need multiple units to clear Shibuya portals?",
+    answer: "No, a single powerful unit like Eternal Sunjin Wu is sufficient to clear the waves, making the macro recording process much simpler."
+  }
+]} />
+
+<Callout type="warning" title="Anti-Cheat Warning">
+While macros like TinyTask are widely used for progression, always monitor official game updates and community channels to ensure that automated farming remains compliant with the game's terms of service.
+</Callout>
+
+</Section>

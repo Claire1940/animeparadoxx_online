@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Paradox AFK Chamber : Guide de configuration du farming avec TinyTask",
+  description: "Découvrez comment configurer la chambre AFK d'Anime Paradox en utilisant TinyTask. Optimisez vos réglages, vos unités et vos délais pour maximiser l'énergie occulte.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=AFK+Chamber+Guide",
+  date: "2026-07-21",
+  author: "Équipe Wiki d'Anime Paradox",
+  keywords: "Anime Paradox, AFK Chamber, TinyTask, farming, énergie occulte, JJK portal"
+}
+
+<Callout type="info" title="Guide Rapide">
+- Les configurations de la **chambre afk d'Anime Paradox** reposent sur TinyTask pour automatiser les passages de portails en continu pendant l'absence des joueurs.
+- **Optimisez les paramètres du jeu** en désactivant les effets visuels, les secousses de caméra et les indicateurs de dégâts pour éviter la désynchronisation de la macro.
+- **Implémentez des délais d'enregistrement** de 20 à 30 secondes à la fin de chaque run pour compenser les variations des écrans de chargement.
+- **Sélectionnez des unités puissantes** comme Eternal Sunjin Wu pour nettoyer les vagues de portails rapidement et de manière fiable sans placements complexes.
+- **Maximisez les gains de ressources** en ciblant le Portail JJK 13 pour gagner jusqu'à 19 000 d'énergie occulte par run.
+</Callout>
+
+<Section icon={Map} title="Configuration de la chambre AFK d'Anime Paradox">
+
+Mettre en place une **chambre afk d'Anime Paradox** efficace est la méthode de progression la plus performante pour les joueurs souhaitant accumuler d'énormes quantités de monnaie, d'expérience et de butins de portail de haut niveau sans farming manuel. En utilisant des outils d'automatisation externes comme TinyTask, les joueurs peuvent enregistrer une séquence d'actions qui démarre, joue et redémarre automatiquement les runs de portail. Cela permet un farming continu de jour comme de nuit.
+
+La destination principale pour cette méthode de farming est la carte du portail de Shibuya. Farmer des portails de haut niveau comme le Portail JJK 13 offre des récompenses substantielles, notamment de l'énergie occulte et des gemmes, qui sont essentielles pour débloquer des personnages de premier plan tels que Mahoraga. Pour garantir que la macro fonctionne correctement sans rester bloquée sur les écrans de chargement ou échouer à placer des unités, un calibrage précis de l'outil de macro et des options en jeu est obligatoire.
+
+**Points forts de la vidéo :**
+- Configuration étape par étape du logiciel d'automatisation TinyTask.
+- Configuration des graphismes en jeu et des paramètres de l'interface utilisateur pour éviter la dérive de la macro.
+- Démonstration du placement d'unité avec Eternal Sunjin Wu.
+- Calibrage correct du timing pour les écrans de chargement et la sélection du portail.
+
+<YouTubeEmbed videoId="AcGNjBEk6zc" title="Méthode de farming de portail AFK Anime Paradox" />
+
+| Niveau du Portail | Récompense Énergie Occulte | Récompense Gemmes | Temps Moyen de Complétion |
+|---|---|---|---|
+| Portail JJK 11 | 12000 | 95 | 2 min 30 s |
+| Portail JJK 12 | 15000 | 120 | 2 min 15 s |
+| Portail JJK 13 | 19000 | 145 | 2 min 00 s |
+
+<Callout type="warning" title="Alerte Résolution Système">
+Assurez-vous que votre client Roblox reste en mode fenêtré ou avec une résolution fixe. Changer la taille de la fenêtre après l'enregistrement décalera les coordonnées des boutons, provoquant des clics de la macro dans le vide et brisant la boucle.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Paramètres Macro et Configuration TinyTask">
+
+TinyTask est un utilitaire léger qui enregistre les mouvements de souris, les clics et les entrées au clavier, pour les rejouer en boucle continue. Comme l'outil repose entièrement sur des actions basées sur des coordonnées, il est crucial de minimiser les ralentissements du jeu et les modifications de l'interface utilisateur. Si une notification apparaît ou si une image saute, la macro pourrait cliquer sur la mauvaise zone, mettant fin prématurément au run automatisé.
+
+Avant de commencer le processus d'enregistrement, configurez les paramètres de TinyTask pour garantir la fiabilité. La vitesse de lecture doit rester à la vélocité normale, et les paramètres de boucle doivent être ajustés pour se répéter indéfiniment.
+
+<CardGrid cols={3}>
+  <Card title="Lecture Continue">
+    - **Active les boucles infinies**
+    - Exécute la macro de manière répétée
+    - Essentiel pour le farming nocturne
+  </Card>
+  <Card title="Personnalisation des Raccourcis">
+    - **F12 pour l'enregistrement**
+    - F8 pour la lecture
+    - Empêche les mouvements de souris accidentels
+  </Card>
+  <Card title="Vitesse de Lecture 1x">
+    - **Maintient le timing des entrées**
+    - Évite les sauts d'écrans de chargement
+    - Prévient les problèmes de synchronisation d'interface
+  </Card>
+</CardGrid>
+
+| Paramètre | Réglage Recommandé | Objectif |
+|---|---|---|
+| Vitesse de lecture | Vitesse 1x | Empêche les erreurs d'enregistrement des entrées |
+| Boucle de lecture | Lecture continue | Maintient la macro en marche indéfiniment |
+| Raccourci d'enregistrement | F12 | Lance et arrête la séquence d'enregistrement |
+| Raccourci de lecture | F8 | Démarre la séquence de boucle automatisée |
+
+En plus de configurer le logiciel de macro, les paramètres internes d'Anime Paradox doivent être optimisés. L'encombrement visuel, les chiffres de dégâts et les mouvements de caméra peuvent modifier le positionnement des éléments de l'interface utilisateur ou causer des baisses de performance qui désynchronisent le timing de la macro.
+
+| Nom du Paramètre | Statut | Impact sur la Macro |
+|---|---|---|
+| Effets Visuels | Désactivé | Réduit le lag et maintient les coordonnées de clic des unités |
+| Secousses Caméra | Désactivé | Empêche le déplacement de la caméra pendant les attaques |
+| Auto Skip | Activé | Accélère les transitions entre les vagues |
+| Indicateurs Dégâts | Désactivé | Économise les ressources CPU et évite l'encombrement de l'UI |
+| Étiquettes Unités | Désactivé | Supprime les superpositions de texte qui bloquent les zones de placement |
+
+<Callout type="tip" title="Optimisation des Performances">
+Activez le mode "Low Detail" dans le menu des paramètres. Cela réduit la charge de rendu sur votre carte graphique, minimisant ainsi les risques de chutes de FPS pendant les vagues intenses.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Exécution du Farming de Portail Étape par Étape">
+
+Réussir l'exécution de la macro nécessite une séquence d'enregistrement précise. Toute erreur commise pendant la phase d'enregistrement sera répétée par le logiciel pendant la lecture. Suivez attentivement ces étapes pour établir une boucle fiable.
+
+<Steps>
+  <Step num="1" title="Calibrer l'angle de la caméra">
+    Apparaissez sur la carte de Shibuya et ajustez immédiatement votre caméra pour une vue de dessus, à vol d'oiseau. Cet angle garantit que les zones de placement sont clairement visibles et ne bougent pas lors du déploiement des unités.
+  </Step>
+  <Step num="2" title="Démarrer l'enregistrement">
+    Appuyez sur votre raccourci d'enregistrement désigné (F12) pour commencer. Cliquez sur le bouton de confirmation d'entrée sur votre écran pour lancer officiellement le run de portail.
+  </Step>
+  <Step num="3" title="Déployer et améliorer les unités">
+    Placez vos unités défensives principales, telles qu'Eternal Sunjin Wu, à des positions stratégiques. Cliquez immédiatement sur l'option d'amélioration automatique pour vous assurer que vos unités progressent automatiquement au fil des vagues.
+  </Step>
+  <Step num="4" title="Enregistrer les délais de victoire">
+    Une fois la vague finale terminée et l'écran de victoire affiché, attendez. Ne cliquez sur rien pendant 20 à 30 secondes. Ce temps de réserve compense les futurs délais des écrans de chargement.
+  </Step>
+  <Step num="5" title="Réentrer et arrêter l'enregistrement">
+    Cliquez sur l'interface de sélection de portail, sélectionnez le niveau de portail souhaité et cliquez sur le bouton d'utilisation. Dès que l'écran de chargement commence, appuyez sur votre raccourci d'enregistrement pour sauvegarder la macro.
+  </Step>
+</Steps>
+
+| Phase de l'étape | Action Requise | Temps de réserve |
+|---|---|---|
+| Phase 1 : Apparition | Aligner l'angle de la caméra | 2 secondes |
+| Phase 2 : Déploiement | Placer les unités de défense de base | 5 secondes |
+| Phase 3 : Attente | Ne pas bouger le curseur de la souris | Durée du nettoyage |
+| Phase 4 : Victoire | Attendre l'écran des récompenses | 25 secondes |
+| Phase 5 : Réentrée | Sélectionner le portail et redémarrer | 5 secondes |
+
+<Callout type="success" title="Validation de la Boucle">
+Lancez la macro enregistrée manuellement pendant au moins trois boucles consécutives avant de laisser votre installation sans surveillance. Cela confirme que les délais de réserve sont suffisamment longs.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Meilleures Unités et Objectifs de Progression">
+
+Le choix des bonnes unités détermine le taux de réussite de votre configuration de **chambre afk d'Anime Paradox**. Comme la macro ne peut pas s'adapter aux fuites ou aux percées ennemies inattendues, vous devez utiliser des unités capables de gérer seules les vagues de portails sans schémas de placement complexes.
+
+Eternal Sunjin Wu est actuellement le premier choix pour le farming de portail AFK. Ses dégâts de base élevés, ses larges attaques de zone et son chemin d'amélioration simple lui permettent de nettoyer les vagues efficacement. Utiliser une seule unité surpuissante est bien plus sûr que de compter sur une équipe complète, car cela minimise le nombre de clics que la macro doit exécuter.
+
+<Checklist
+  id="afk-chamber-checklist"
+  title="Prérequis pour la configuration de farming :"
+  items={[
+    "Obtenir Eternal Sunjin Wu ou une unité DPS de haut niveau comparable",
+    "Configurer les raccourcis TinyTask et activer la boucle continue",
+    "Désactiver les secousses de caméra et tous les effets graphiques en jeu",
+    "Enregistrer un délai de réserve de 30 secondes à la fin du run",
+    "Débloquer le Portail JJK 13 pour un maximum d'énergie occulte et de gemmes"
+  ]}
+/>
+
+| Nom de l'Unité | Rôle | Note de Viabilité AFK | Complexité de Configuration |
+|---|---|---|---|
+| Eternal Sunjin Wu | Carry Solo | 5/5 | Très Faible |
+| Gojo | Contrôle de Foule | 4/5 | Moyenne |
+| Sukuna | DPS Principal | 4/5 | Moyenne |
+| Yuta | Soutien | 3/5 | Élevée |
+
+<Callout type="info" title="Allocation des Ressources">
+Utilisez l'énergie occulte accumulée lors de vos sessions AFK pour tenter d'obtenir Mahoraga. Les gemmes accumulées peuvent être réinvesties dans l'amélioration de votre effectif d'unités actives.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ et Dépannage">
+
+<FAQ items={[
+  {
+    question: "Pourquoi ma macro rate-t-elle le bouton du portail après plusieurs runs ?",
+    answer: "C'est généralement causé par un lag du jeu ou des délais d'écran de chargement. Assurez-vous d'avoir désactivé tous les effets visuels et ajouté un délai de 20 à 30 secondes à la fin de votre enregistrement pour compenser les temps de chargement variables."
+  },
+  {
+    question: "Quel est le meilleur portail à farmer avec la méthode de la chambre AFK d'Anime Paradox ?",
+    answer: "Le Portail JJK 13 est fortement recommandé. Il rapporte 19 000 d'énergie occulte et 145 gemmes par run, et peut être terminé en environ 2 minutes avec les bonnes unités."
+  },
+  {
+    question: "Puis-je utiliser des vitesses de lecture supérieures à 1x dans TinyTask ?",
+    answer: "Ce n'est pas recommandé. Des vitesses plus élevées provoquent souvent des clics avant que les éléments ne soient chargés, brisant ainsi la boucle de la macro."
+  },
+  {
+    question: "Ai-je besoin de plusieurs unités pour nettoyer les portails de Shibuya ?",
+    answer: "Non, une seule unité puissante comme Eternal Sunjin Wu est suffisante pour nettoyer les vagues, ce qui simplifie grandement le processus d'enregistrement de la macro."
+  }
+]} />
+
+<Callout type="warning" title="Avertissement Anti-Triche">
+Bien que les macros comme TinyTask soient largement utilisées pour la progression, surveillez toujours les mises à jour officielles du jeu et les canaux communautaires pour vous assurer que le farming automatisé reste conforme aux conditions d'utilisation du jeu.
+</Callout>
+
+</Section>

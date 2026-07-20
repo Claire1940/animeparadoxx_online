@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Boutique de la Saint-Valentin d'Anime Paradox : Guide de l'événement 2026 & Récompenses",
+  description: "Maîtrisez l'événement de la boutique de la Saint-Valentin d'Anime Paradox. Apprenez à farmer des cœurs, débloquer des unités JJK exclusives comme Gojo et Sukuna, et optimiser vos runs de portail.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/e11d48/fff?text=Valentine+Shop+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki d'Anime Paradox"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Boutique de la Saint-Valentin d'Anime Paradox** : Située près du Marchand d'Or ; parlez au PNJ Boa pour accéder à des récompenses exclusives.
+- **Farming de Cœurs** : Les cœurs sont la monnaie principale et s'obtiennent en battant n'importe quel ennemi dans tous les modes de jeu.
+- **Unités Exclusives** : Débloquez de puissantes unités sur le thème de JJK, notamment Gojo, Sukuna et Itadori, via les portails et la boutique.
+- **Avertissement sur la Boutique** : Évitez d'acheter des Gemmes avec des Cœurs pour le moment, car le taux de change n'est pas optimal et est en attente d'une mise à jour d'équilibrage.
+- **Stratégie des Portails** : Utilisez le Recherche de Portail (Portal Finder) sur Discord pour rejoindre des portails JJK de haut niveau (Palier 15) afin d'obtenir un taux de drop de 100 % sur les unités secrètes.
+</Callout>
+
+<Section icon={Map} title="Aperçu de l'événement de la Saint-Valentin et emplacement de la boutique">
+
+La dernière mise à jour JJK a introduit l'événement très attendu de la Saint-Valentin dans le monde d'Anime Paradox. Cet événement mêle des combats intenses à un système de progression saisonnier, permettant aux joueurs de recruter certains des personnages les plus emblématiques de l'univers de Jujutsu Kaisen. L'élément central de cette mise à jour est la boutique à durée limitée, qui propose des matériaux de progression uniques et des unités essentielles pour le contenu de fin de jeu.
+
+Pour trouver la **boutique de la saint-valentin d'anime paradox**, rendez-vous dans la zone centrale du hub principal. Cherchez le PNJ nommé **Boa**, qui se trouve juste à côté du Marchand d'Or. Interagir avec Boa ouvre l'interface de l'événement où vous pouvez dépenser vos Cœurs de la Saint-Valentin accumulés.
+
+**Points clés de la vidéo :**
+- Présentation complète de la mise à jour JJK et des neuf nouvelles unités.
+- Emplacement détaillé du PNJ de la Saint-Valentin (Boa).
+- Stratégie pour farmer efficacement les Cœurs à travers différentes étapes.
+- Guide pour obtenir Gojo et Sukuna via le système de portail.
+
+<YouTubeEmbed videoId="OBCXTUIItSs" title="Guide de mise à jour JJK d'Anime Paradox – Portails secrets, événement de la Saint-Valentin, Énergie maudite & Toutes les unités secrètes" />
+
+<Callout type="tip" title="Conseil d'emplacement">
+Si vous avez du mal à trouver Boa, cherchez les décorations sur le thème rose près du centre du hub. Elle est située juste entre les étals des marchands standard et l'entrée du portail.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Inventaire de la boutique de la Saint-Valentin et farming de monnaie">
+
+La monnaie principale de cet événement est le **Cœur de la Saint-Valentin**. Contrairement aux monnaies de raid spécifiques, les Cœurs peuvent être obtenus de manière universelle. Vous pouvez en gagner en battant des ennemis dans n'importe quel mode de jeu, y compris le mode Histoire, Infini et les Portails. Cela rend le farming relativement simple pour les nouveaux joueurs comme pour les vétérans.
+
+La boutique propose une variété d'objets allant des matériaux d'évolution de base aux unités de premier plan. Cependant, les joueurs doivent prioriser leurs dépenses avec soin pour maximiser le niveau de puissance de leur compte.
+
+| Catégorie d'objet | Récompenses potentielles | Coût en Cœurs | Priorité |
+| :--- | :--- | :--- | :--- |
+| **Unités exclusives** | 3 variantes uniques de la Saint-Valentin | Élevé | Très élevée |
+| **Objets d'évolution** | Doigts maudits, Six Yeux, Têtes de lave | Modéré | Élevée |
+| **Améliorations de stats** | Puces de stat, Suluros | Faible | Moyenne |
+| **Monnaie** | Gemmes (200 Cœurs pour 1 Gemme) | Extrême | Très faible |
+
+<Callout type="warning" title="Évitez l'achat de Gemmes">
+Actuellement, le taux de change pour les Gemmes est de 200 Cœurs pour une seule Gemme. Cela est largement considéré comme un gaspillage de ressources par la communauté. Il est fortement recommandé d'économiser vos Cœurs pour les unités et les matériaux d'évolution jusqu'à ce que les développeurs ajustent ces valeurs.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Acquisition d'unités">
+    Concentrez-vous sur les trois unités exclusives disponibles via Boa. Ce sont des ajouts à durée limitée qui offrent des synergies uniques pour les équipes sur le thème de JJK.
+  </Card>
+  <Card title="Farming de matériaux">
+    La boutique est le moyen le plus fiable d'obtenir des Six Yeux et des Doigts maudits sans dépendre de l'aléatoire (RNG) du stock rotatif de la boutique d'exorcistes.
+  </Card>
+  <Card title="Choix d'activité">
+    Puisque les Cœurs tombent de n'importe quel ennemi, lancer des niveaux du mode Infini de bas niveau avec une forte densité d'ennemis est le moyen le plus rapide d'accumuler de la monnaie.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Nouvelles unités JJK et mécaniques de bannière">
+
+La mise à jour JJK introduit un total de neuf nouvelles unités. Celles-ci sont réparties entre la bannière à durée limitée, le système de portail et l'événement de la Saint-Valentin lui-même. Comprendre où trouver chaque unité est crucial pour compléter votre collection.
+
+La nouvelle bannière est la **Bannière Limitée Chiutu**. Il est vital de ne pas dépenser votre monnaie standard sur la bannière spéciale si vous visez les nouvelles unités Mythiques ou Paradoxe. La bannière Chiutu nécessite une nouvelle monnaie obtenue spécifiquement dans les portails JJK.
+
+| Nom de l'unité | Rareté | Source | Rôle principal |
+| :--- | :--- | :--- | :--- |
+| **Megumi** | Paradoxe | Bannière limitée Chiutu | DPS / Invocateur |
+| **Gojo** | Secret | Portails JJK (Palier 13+) | Support / Étourdissement |
+| **Sukuna** | Secret | Portails JJK (Palier 13+) | Pur DPS |
+| **Itadori** | Secret | Portail JJK Palier 15 | DPS Hybride |
+| **Ghetto** | Mythique | Bannière limitée Chiutu | Contrôle de foule |
+| **Jou** | Mythique | Bannière limitée Chiutu | Dégâts de brûlure |
+
+<Callout type="success" title="Analyse de la méta">
+Gojo est actuellement une unité de soutien "incontournable". Sa capacité lui permet d'étourdir les ennemis pendant 60 secondes. Bien que le temps de recharge soit de 160 secondes, un étourdissement de 60 secondes change complètement la donne dans les runs de mode Infini de haut niveau.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progression des portails et unités secrètes">
+
+Pour débloquer les personnages les plus puissants comme Sukuna et Gojo, vous devez maîtriser le système de portail JJK. Il existe trois façons principales d'acquérir ces portails, bien que certaines méthodes soient nettement plus efficaces que d'autres.
+
+<Steps>
+  <Step num="1" title="Acquisition initiale">
+    Vous pouvez acheter des portails JJK de base dans la boutique d'exorcistes en utilisant la monnaie obtenue grâce aux codes. Les nouveaux joueurs peuvent obtenir jusqu'à 140 000 de monnaie instantanément via les codes actifs, ce qui est suffisant pour acheter 10 portails.
+  </Step>
+  <Step num="2" title="Grimper les paliers">
+    Jouez à travers les portails pour augmenter leur palier. Il y a 50 % de chances de recevoir un portail du palier suivant une fois terminé. Pour atteindre les unités secrètes, vous devez atteindre au moins le Palier 13.
+  </Step>
+  <Step num="3" title="Débloquer les unités secrètes">
+    Une fois que vous avez un portail de Palier 15, le taux de drop pour Itadori devient de 100 %. Pour Gojo et Sukuna, vous devez farmer des portails de Palier 13 et plus.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Stratégie communautaire">
+Le moyen le plus efficace d'atteindre le Palier 15 est d'utiliser le salon "Portal Finder" du Discord officiel. Rejoindre les portails de haut niveau d'autres joueurs permet d'économiser des heures de grind dans les niveaux inférieurs.
+</Callout>
+
+| Palier de portail | Difficulté | Drops notables | Stratégie recommandée |
+| :--- | :--- | :--- | :--- |
+| **Paliers 1 à 5** | Facile | Monnaie de portail de base | En solo avec n'importe quel Mythique |
+| **Paliers 6 à 12** | Modérée | Monnaie supérieure / Évolution | Utiliser des étourdissements et des unités de ralentissement |
+| **Paliers 13 à 15** | Difficile | Gojo, Sukuna, Itadori | Équipe complète ou Paradoxe de premier plan |
+
+</Section>
+
+<Section icon={Shield} title="Conditions d'évolution et boutique d'exorcistes">
+
+Acquérir les unités n'est que la première étape. Pour les rendre viables dans la méta actuelle, vous devez les faire évoluer en utilisant des objets spécifiques trouvés dans la boutique d'exorcistes. Ces objets sont sur le thème de la série JJK et nécessitent un investissement important.
+
+| Objet d'évolution | Unité associée | Coût en boutique |
+| :--- | :--- | :--- |
+| **Doigt maudit** | Sukuna / Itadori | Monnaie élevée |
+| **Six Yeux** | Gojo | Monnaie élevée |
+| **Roue céleste** | Megumi (Paradoxe) | Monnaie extrême |
+| **Tête de lave** | Jou | Monnaie modérée |
+| **Œil de dragon** | Ghetto | Monnaie modérée |
+
+<Callout type="warning" title="Farming d'essences">
+Chaque évolution nécessite également des essences. Si vous en manquez, la **boutique de la saint-valentin d'anime paradox** est une excellente source secondaire pour compléter ce que vous gagnez grâce aux défis quotidiens et au marchand.
+</Callout>
+
+La difficulté de ces étapes de portail est étonnamment gérable. Des joueurs ont rapporté avoir réussi en solo jusqu'au Palier 13 avec des unités Mythiques médiocres comme Blessing Broly. Le principal défi réside dans les bugs actuels de la mise à jour ; évitez d'utiliser des macros pour le moment, car le ciblage des unités peut parfois bugger, entraînant des fuites inattendues d'ennemis.
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle de l'événement et FAQ">
+
+Pour vous assurer de ne manquer aucune récompense à durée limitée, suivez cette liste de contrôle avant la fin de l'événement de la Saint-Valentin.
+
+<Checklist
+  id="valentine-event-goals"
+  title="Priorités de l'événement de la Saint-Valentin :"
+  items={[
+    "Localiser Boa près du Marchand d'Or et ouvrir la boutique de la Saint-Valentin",
+    "Farmer des Cœurs en mode Infini pour acheter les 3 unités exclusives",
+    "Rejoindre le Discord pour trouver un portail JJK de Palier 15 pour Itadori",
+    "Acheter des Six Yeux et des Doigts maudits pour l'évolution de Gojo et Sukuna",
+    "Éviter de dépenser des Cœurs en Gemmes jusqu'à ce que le taux de change soit corrigé"
+  ]}
+/>
+
+<Callout type="info" title="Dernier conseil de pro">
+Concentrez-vous sur Sukuna si vous avez besoin d'une unité de pur DPS, mais donnez la priorité à Gojo si votre équipe manque de contrôle de foule. Avoir les deux facilitera grandement les futurs paliers de portail en solo.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Où se trouve la boutique de la saint-valentin d'anime paradox ?",
+    answer: "On accède à la boutique en parlant au PNJ Boa, qui se trouve dans la zone centrale du hub principal, juste à côté du Marchand d'Or."
+  },
+  {
+    question: "Comment obtenir des Cœurs de la Saint-Valentin rapidement ?",
+    answer: "Les Cœurs tombent sur chaque ennemi que vous tuez. La méthode la plus efficace consiste à lancer des niveaux du mode Infini avec une forte densité d'ennemis, comme Shibuya City."
+  },
+  {
+    question: "Quelle unité JJK devrais-je faire évoluer en priorité ?",
+    answer: "Gojo est la priorité absolue en raison de sa capacité d'étourdissement de 60 secondes, suivi de près par Sukuna pour ses dégâts élevés (DPS)."
+  },
+  {
+    question: "Quel est le meilleur moyen d'obtenir un portail JJK de Palier 15 ?",
+    answer: "Au lieu de grind à partir du Palier 1, rejoignez le Discord officiel d'Anime Paradox et utilisez le salon 'Portal Finder' pour rejoindre les runs de haut niveau d'autres joueurs."
+  }
+]} />
+
+</Section>
