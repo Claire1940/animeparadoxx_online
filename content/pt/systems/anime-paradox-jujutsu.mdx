@@ -1,0 +1,101 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Paradox Jujutsu: Guia Completo para Novos Unidades e Evento de Dia dos Namorados",
+  description: "Descubra como obter todas as novas unidades em Anime Paradox Jujutsu e dicas para o evento de Dia dos Namorados neste guia completo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/059669/fff?text=Anime+Paradox+Jujutsu+Guide",
+  date: "2026-07-24",
+  author: "Equipe de Wiki do Anime Paradox Jujutsu"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: Novas unidades do Anime Paradox Jujutsu
+- **Mecânica-chave**: Evolução e loja de magia
+- **Melhor estratégia**: Fazer farming de energia maldita para portais
+- **Dica crucial**: Complete a nova história para obter o portal JJK
+- **Escolha top**: Foco em Gojo e Sukuna para unidades poderosas
+</Callout>
+
+<Section icon={Map} title="Introdução ao Anime Paradox Jujutsu">
+  Anime Paradox Jujutsu é um jogo cativante que oferece aos jogadores uma experiência única com suas unidades diversificadas e gameplay evoluído. Neste guia, vamos explorar as últimas atualizações, focando em novas unidades e o evento de Dia dos Namorados.
+</Section>
+
+<Section icon={Swords} title="Novas Unidades e Como Obter Elas">
+  <CardGrid cols={3}>
+    <Card title="Hakari">
+      - Disponível no banner temporário de Jujutsu
+      - Evolução: Requer materiais da loja de magia
+    </Card>
+    <Card title="Geto">
+      - Disponível no banner normal
+      - Evolução: Requer materiais da loja de magia
+    </Card>
+    <Card title="Jogo">
+      - Disponível no banner normal
+      - Evolução: Requer materiais da loja de magia
+    </Card>
+    <Card title="Paradox Megumi">
+      - Unidade temporária
+      - Evolução: Requer materiais da loja de magia
+    </Card>
+    <Card title="Unidades do Evento de Dia dos Namorados">
+      - Natsu, Akiko e Oma
+      - Obtenha corações matando inimigos
+    </Card>
+  </CardGrid>
+</Section>
+
+<Section icon={Target} title="Evolução e Loja de Magia">
+  <Steps>
+    <Step num="1" title="Coletar Materiais da Loja de Magia">
+      - Compre materiais de evolução e comida
+      - Rebobine traços e estatísticas
+    </Step>
+    <Step num="2" title="Coletar Energia Maldita">
+      - Complete a nova história para acessar o infinito
+      - Complete desafios para uma chance de 5% de obter um portal
+    </Step>
+    <Step num="3" title="Evoluir Unidades">
+      - Use energia maldita para evoluir unidades
+      - Portais secretos podem cair Gojo ou Itadori
+    </Step>
+  </Steps>
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação do Evento de Dia dos Namorados">
+  <Checklist
+    id="valentines-event"
+    title="Objetivos do Evento de Dia dos Namorados:"
+    items={[
+      "Complete a nova história para obter o portal JJK",
+      "Mate inimigos para coletar corações",
+      "Evolua as unidades do evento de Dia dos Namorados",
+      "Participe do evento de Dia dos Namorados"
+    ]}
+  />
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+  <FAQ items={[
+    {
+      question: "Como eu obtenho energia maldita?",
+      answer: "Colete energia maldita dos portais ou use códigos."
+    },
+    {
+      question: "Posso evoluir qualquer unidade?",
+      answer: "Sim, mas algumas unidades requerem materiais específicos ou energia maldita."
+    },
+    {
+      question: "Há outros eventos programados?",
+      answer: "Fique atento para mais atualizações e eventos futuros."
+    }
+  ]} />
+</Section>

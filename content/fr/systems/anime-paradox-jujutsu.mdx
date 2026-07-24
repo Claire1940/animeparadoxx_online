@@ -1,0 +1,101 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "Anime Paradox Jujutsu: Guide Complet aux Nouvelles Unités et à l'Événement de la Saint-Valentin",
+  description: "Découvrez comment obtenir toutes les nouvelles unités dans Anime Paradox Jujutsu et des conseils pour l'événement de la Saint-Valentin dans ce guide complet.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=Anime+Paradox+Jujutsu+Guide",
+  date: "2026-07-24",
+  author: "Équipe Wiki Anime Paradox"
+};
+
+<Callout type="info" title="Guide Rapide">
+- **Mots-clés principaux** : Nouvelles unités d'Anime Paradox Jujutsu
+- **Mécanisme clé** : Évolution et boutique de sorcellerie
+- **Meilleure stratégie** : Récolter de l'énergie maléfique pour les portails
+- **Conseil crucial** : Terminez la nouvelle histoire pour obtenir le portail JJK
+- **Choix supérieur** : Concentrez-vous sur Gojo et Sukuna pour des unités puissantes
+</Callout>
+
+<Section icon={Map} title="Introduction à Anime Paradox Jujutsu">
+  Anime Paradox Jujutsu est un jeu captivant qui offre aux joueurs une expérience unique avec ses unités diverses et son gameplay évoluant. Dans ce guide, nous plongerons dans les dernières mises à jour, en nous concentrant sur les nouvelles unités et l'événement de la Saint-Valentin.
+</Section>
+
+<Section icon={Swords} title="Nouvelles Unités et Comment Les Obtenir">
+  <CardGrid cols={3}>
+    <Card title="Hakari">
+      - Disponible sur le banner Jujutsu limité dans le temps
+      - Évolution : Nécessite des matériaux de la boutique de sorcellerie
+    </Card>
+    <Card title="Geto">
+      - Disponible sur le banner normal
+      - Évolution : Nécessite des matériaux de la boutique de sorcellerie
+    </Card>
+    <Card title="Jogo">
+      - Disponible sur le banner normal
+      - Évolution : Nécessite des matériaux de la boutique de sorcellerie
+    </Card>
+    <Card title="Paradox Megumi">
+      - Unité limitée dans le temps
+      - Évolution : Nécessite des matériaux de la boutique de sorcellerie
+    </Card>
+    <Card title="Unités de l'Événement de la Saint-Valentin">
+      - Natsu, Akiko et Oma
+      - Obtenir des cœurs en tuant des ennemis
+    </Card>
+  </CardGrid>
+</Section>
+
+<Section icon={Target} title="Évolution et Boutique de Sorcellerie">
+  <Steps>
+    <Step num="1" title="Récupérer les Matériaux de la Boutique de Sorcellerie">
+      - Acheter des matériaux d'évolution et de nourriture
+      - Rejouer les caractéristiques et les statistiques
+    </Step>
+    <Step num="2" title="Récupérer l'Énergie Maléfique">
+      - Terminez la nouvelle histoire pour accéder à l'infini
+      - Terminez les défis pour une chance de 5% d'obtenir un portail
+    </Step>
+    <Step num="3" title="Évoluer les Unités">
+      - Utilisez l'énergie maléfique pour évoluer les unités
+      - Des portails secrets peuvent faire tomber Gojo ou Itadori
+    </Step>
+  </Steps>
+</Section>
+
+<Section icon={Trophy} title="Liste de Contrôle de l'Événement de la Saint-Valentin">
+  <Checklist
+    id="valentines-event"
+    title="Objectifs de l'Événement de la Saint-Valentin :"
+    items={[
+      "Terminez la nouvelle histoire pour obtenir le portail JJK",
+      "Tuez des ennemis pour collecter des cœurs",
+      "Évoluez les unités de l'événement de la Saint-Valentin",
+      "Participez à l'événement de la Saint-Valentin"
+    ]}
+  />
+</Section>
+
+<Section icon={Shield} title="FAQ">
+  <FAQ items={[
+    {
+      question: "Comment puis-je obtenir de l'énergie maléfique ?",
+      answer: "Récupérez l'énergie maléfique des portails ou utilisez des codes."
+    },
+    {
+      question: "Puis-je évoluer n'importe quelle unité ?",
+      answer: "Oui, mais certaines unités nécessitent des matériaux spécifiques ou de l'énergie maléfique."
+    },
+    {
+      question: "Y a-t-il d'autres événements à venir ?",
+      answer: "Restez à l'écoute pour plus de mises à jour et d'événements à venir."
+    }
+  ]} />
+</Section>

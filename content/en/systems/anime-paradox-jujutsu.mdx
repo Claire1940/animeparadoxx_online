@@ -1,0 +1,101 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Paradox Jujutsu: Complete Guide to New Units and Valentine's Event",
+  description: "Discover how to get all the new units in Anime Paradox Jujutsu and tips for the Valentine's event in this comprehensive guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=Anime+Paradox+Jujutsu+Guide",
+  date: "2026-07-24",
+  author: "anime paradox Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: Anime Paradox Jujutsu new units
+- **Key mechanic**: Evolution and sorcery shop
+- **Best strategy**: Farming cursed energy for portals
+- **Critical tip**: Complete new story to get JJK portal
+- **Top choice**: Focus on Gojo and Sukuna for powerful units
+</Callout>
+
+<Section icon={Map} title="Introduction to Anime Paradox Jujutsu">
+  Anime Paradox Jujutsu is a captivating game that offers players a unique experience with its diverse units and evolving gameplay. In this guide, we will delve into the latest updates, focusing on new units and the Valentine's event.
+</Section>
+
+<Section icon={Swords} title="New Units and How to Get Them">
+  <CardGrid cols={3}>
+    <Card title="Hakari">
+      - Available on limited-time Jujutsu banner
+      - Evolution: Requires sorcery shop materials
+    </Card>
+    <Card title="Geto">
+      - Available on normal banner
+      - Evolution: Requires sorcery shop materials
+    </Card>
+    <Card title="Jogo">
+      - Available on normal banner
+      - Evolution: Requires sorcery shop materials
+    </Card>
+    <Card title="Paradox Megumi">
+      - Limited-time unit
+      - Evolution: Requires sorcery shop materials
+    </Card>
+    <Card title="Valentine's Event Units">
+      - Natsu, Akiko, and Oma
+      - Obtain hearts by killing enemies
+    </Card>
+  </CardGrid>
+</Section>
+
+<Section icon={Target} title="Evolution and Sorcery Shop">
+  <Steps>
+    <Step num="1" title="Collect Sorcery Shop Materials">
+      - Purchase evolution materials and food
+      - Reroll traits and stats
+    </Step>
+    <Step num="2" title="Gather Cursed Energy">
+      - Complete new story to access the infinite
+      - Complete challenges for a 5% chance of getting a portal
+    </Step>
+    <Step num="3" title="Evolve Units">
+      - Use cursed energy to evolve units
+      - Secret portals can drop Gojo or Itadori
+    </Step>
+  </Steps>
+</Section>
+
+<Section icon={Trophy} title="Valentine's Event Checklist">
+  <Checklist
+    id="valentines-event"
+    title="Valentine's Event Goals:"
+    items={[
+      "Complete new story for JJK portal",
+      "Kill enemies to collect hearts",
+      "Evolve Valentine's event units",
+      "Participate in the Valentine's event"
+    ]}
+  />
+</Section>
+
+<Section icon={Shield} title="FAQ">
+  <FAQ items={[
+    {
+      question: "How do I get cursed energy?",
+      answer: "Gather cursed energy from portals or use codes."
+    },
+    {
+      question: "Can I evolve any unit?",
+      answer: "Yes, but some units require specific materials or cursed energy."
+    },
+    {
+      question: "Are there any other events coming up?",
+      answer: "Stay tuned for more updates and future events."
+    }
+  ]} />
+</Section>
